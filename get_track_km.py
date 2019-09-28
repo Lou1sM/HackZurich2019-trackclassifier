@@ -39,5 +39,5 @@ for file in os.listdir(directory):
             results[image_name] = 0
         past_coordinates = (latitude, longitude)
 
-with open('track_km.json', 'w') as fp:
+with open('track_km.json', 'w+') as fp:
     json.dump(results, fp)
