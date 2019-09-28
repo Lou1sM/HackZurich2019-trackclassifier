@@ -33,10 +33,10 @@ for file in os.listdir(directory):
         if past_coordinates[0] >= 0:
             distance = geopy.distance.distance((latitude, longitude),
                                                past_coordinates).km
-            results[img] = distance + total_distance
+            results[image_name] = distance + total_distance
             total_distance += distance
         else:
-            results[img] = 0
+            results[image_name] = 0
         past_coordinates = (latitude, longitude)
 
 with open('track_km.json', 'w') as fp:
