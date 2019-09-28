@@ -13,7 +13,7 @@ total_distance = 0
 results = []
 
 for sub_dir in sub_dirs:
-    directory_string = './' + \
+    directory_string = root_dir + \
                         sub_dir
     filelist = glob.glob(os.path.join(directory_string, '*'))
     past_coordinates = (-1, -1)
@@ -40,8 +40,6 @@ for sub_dir in sub_dirs:
                 (string_longitude[1][0] / string_longitude[1][1] +
                     (string_longitude[2][0] / string_longitude[2][1]) /
                     60) / 60
-            print(total_distance)
-            print(latitude, longitude)
             obj = {
                 'image': image_name,
             }
