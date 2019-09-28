@@ -10,16 +10,15 @@ count = 1
 
 for _, dirs, _, in os.walk(root_dir):
     for sub_dir in dirs:
-        filelist = glob.glob(os.path.join(root_dir, '*'))
         directory_string = '/siemens/data/Trackpictures/Trackpictures_HiRes/' + \
                             sub_dir
-        print(directory_string)
-        directory = os.fsencode(directory_string)
-
         past_coordinates = (-1, -1)
 
+        print(directory_string)
         total_distance = 0
         results = {}
+
+        filelist = glob.glob(os.path.join(directory_string, '*'))
         for infile in sorted(filelist):
             image_name = str(infile)
             if image_name.endswith(".JPG"):
@@ -48,5 +47,6 @@ for _, dirs, _, in os.walk(root_dir):
                     results[image_name] = 0
                 past_coordinates = (latitude, longitude)
 
-        with open('track_km +' + count + '.json', 'w+') as fp:
+        with open('track_km +' + str(count) + '.json', 'w+') as fp:
             json.dump(results, fp)
+        count = count + 1
