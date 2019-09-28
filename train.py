@@ -1,3 +1,5 @@
+import json
+import os
 import math
 import numpy as np
 import random
@@ -26,66 +28,104 @@ class CNNClassifier(nn.Module):
         self.pretrained_cnn = models.vgg19(pretrained=True)
         self.avgpool = nn.AdaptiveAvgPool2d((7,7))
         self.classifier = nn.Sequential(
-            #nn.Linear(512 * 7 * 7, 4096),
-            nn.Linear(512 * 7 * 7, 1024),
+            nn.Linear(512 * 7 * 7, 4096),
+            #nn.Linear(512 * 7 * 7, 1024),
             nn.ReLU(True),
             nn.Dropout(),
-            #nn.Linear(4096,1024),
-            #nn.ReLU(True),
-            #nn.Dropout(),
+            nn.Linear(4096,1024),
+            nn.ReLU(True),
+            nn.Dropout(),
             nn.Linear(1024, num_classes),
         )
-        #elif self.cnn_type == "nasnet":
-            #model_name = 'nasnetalarge'
-            #self.cnn = pretrainedmodels.__dict__[model_name](num_classes=1000, pretrained='imagenet')
-
-        #self.resize = nn.Linear(self.hidden_size, ARGS.ind_size+1)
-
-    def cnn_vector(self, input_):
-        x = self.cnn.features(input_)
-        x = self.cnn.avgpool(x)
-        x = x.view(x.size(0), -1)
-        #x = self.cnn.classifier[0](x)
-        #elif self.cnn_type == "nasnet":
-            #x = self.cnn.features(input_)
-            #x = self.cnn.relu(x)
-            #x = self.cnn.avg_pool(x)
-            #x = x.view(x.size(0),-1)
-        return x
 
     def forward(self, input_):
         x = self.pretrained_cnn.features(input_)
+        #print(x.device)
         #print(x.shape)
         x = self.avgpool(x)
         #print(x.shape)
+        #print(x.device)
         x = torch.flatten(x,1)
         #print(x.shape)
+        #print(x.device)
         x = self.classifier(x)
         #print(x.shape)
+        #print(x.device)
 
         return x
       
     
 def train():
     criterion = nn.CrossEntropyLoss() 
-    train_generator = load_data('../data_dir', batch_size=10, shuffle=False) 
-    model = CNNClassifier(4, 'cuda')
-    optimizer = optim.Adam(params=model.parameters(), lr=1e-3, weight_decay=0.1)
-    num_epochs = 100
+    train_generator = load_data('../data_dir', batch_size=6, shuffle=True) 
+    model = CNNClassifier(num_classes=4, device='cuda')
+    model.cuda()
+    earlystopper = EarlyStopper(patience=5)
+    #for param in model.pretrained_cnn.parameters():
+        #param.requires_grad = False
+    optimizer = optim.Adam(params=model.parameters(), lr=1e-6)
+    num_epochs = 1
+    batch_idx = 0
+    save_dict = {'model': model}
+    remembered_accs = []
     for epoch in range(num_epochs):
         print("Epoch:", epoch)
         for x,y in train_generator:
+            batch_idx += 1
+            #print('f', x.device)
             #print(x.shape)
             #print(y.shape)
             pred = model(x)
-            #print(pred)
-            print(y)
+            #print(pred[0,:])
             loss = criterion(pred,y)
-            print(pred)
-            print(y)
-            print(loss)
+            int_pred = torch.argmax(pred, dim=-1)
+            batch_acc = torch.sum(int_pred == y).item()/6
+            remembered_accs.append(batch_acc)
+            #print(y)
+            #print(batch_idx, loss.item())
+            if batch_idx % 10 == 0:
+                chunk_acc = sum(remembered_accs[-10:])/10
+                checkpoint_path = 'checkpoints/{}.pt'.format(int(batch_idx/100))
+                earlystopper(chunk_acc, save_dict, checkpoint_path=checkpoint_path)
+                return checkpoint_path
+                if earlystopper.early_stop:
+                    return checkpoint_path
             loss.backward()
             optimizer.step()
+   
+def test(model, img, label, thresh):
+    a = img.shape[0]
+    b = img.shape[2]
+    img_ohe_pred = torch.tensor([0,0,0,0])
+    for i in range(0, a-256, 256):
+        for j in range(0, b-256, 256):
+            img_patch = img[i:i+256, j:j+256, :]
+            ohe_pred = model(img_patch)
+            pred = np.where(ohe_pred==1)[0][0]
+            img_ohe_pred += ohe_pred
+            print(i,j,pred)
+    object_preds = img_ohe_pred[:-1]
+    object_confidence = torch.max(object_preds)
+    if object_confidence > thresh:
+        img_pred = torch.argmax(object_preds)
+    else:
+        img_pred = 3
+    return img_pred == label
+
+
+def dev_id_from_img_path(img_file_name, annot_data):
+    img_id_list = [img['id'] for img in annot_data['images'] if img['file_name'].split('/')[1]  == img_file_name]
+    if len(img_id_list) == 0:
+        return 3
+    elif len(img_id_list)==1:
+        img_id = img_id_list[0]
+        dev_id_list = [annot['category_id'] for annot in annot_data['annotations'] if annot['image_id'] == img_id]
+        assert(len(dev_id_list) >= 1)
+    if len(dev_id_list) > 1:
+        return None
+    else:
+        return dev_id_list[0]
+
     
    
 if __name__ == "__main__":
@@ -95,7 +135,32 @@ if __name__ == "__main__":
     #test_img_window = test_img[:256, :256, :].transpose(0,2)
     #test_img_window = test_img_window.unsqueeze(0)
     #print(test_img_window.shape)
-    train()
+    best_checkpoint_path = train()
+    model = torch.load(best_checkpoint_path)
+
+    #img_paths = [os.path.join('test_imgs', fname) for fname in os.listdir('test_imgs')]
+    with open('COCO.json') as f:
+        annot_data = json.load(f)
+    imgs = [(np.asarray(Image.open(os.path.join('test_imgs', img_file_name))), dev_id_from_img_path(img_file_name, annot_data)) for img_file_name in os.listdir('test_imgs')]
+    print(type(imgs))
+    print(imgs)
+    print([img[1] for img in imgs])
+    imgs = list(filter(lambda img: img[1] != None, imgs))
+
+    best_thresh_acc = 0
+    best_thresh = -1
+    thresh_results = []
+    for thresh in range(20):
+        for img, label in imgs:
+            new_result = test(model, img, label, thresh)
+            thresh_results.append(new_result)
+        thresh_acc = sum(thresh_results)/len(thresh_results)
+        if thresh_acc > best_thresh_acc:
+            best_thresh_acc = thresh_acc
+            best_thresh = thresh
+    print('Best thresh:', best_thresh)
+    print('Best thresh acc:', best_thresh_acc)
+    
     
     #model = CNNClassifier(4, 'cuda')
     #prediction = model(test_img_window)

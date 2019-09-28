@@ -1,3 +1,4 @@
 COCO.json
 data_dir/*
 __pycache__/*
+checkponts/*
