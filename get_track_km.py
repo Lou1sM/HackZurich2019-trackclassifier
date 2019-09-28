@@ -1,18 +1,21 @@
 import os
+import glob
 import json
 import PIL.ExifTags
 import PIL.Image as pil
 import geopy.distance
 
-directory = os.fsencode('.')
+directory_string = '/siemens/data/Trackpictures/Trackpictures_HiRes/010_-_Klosters_Platz_-_Landquart/'
+directory = os.fsencode(directory_string)
 
 past_coordinates = (-1, -1)
 
 total_distance = 0
 results = {}
 
-for file in os.listdir(directory):
-    image_name = os.fsdecode(file)
+filelist = glob.glob(os.path.join(directory_string, '*'))
+for infile in sorted(filelist):
+    image_name = str(infile)
     if image_name.endswith(".JPG"):
         img = pil.open(image_name)
         exif = {
