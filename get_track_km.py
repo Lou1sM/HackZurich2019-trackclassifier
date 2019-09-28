@@ -1,4 +1,5 @@
 import os
+import json
 import PIL.ExifTags
 import PIL.Image as pil
 import geopy.distance
@@ -6,6 +7,9 @@ import geopy.distance
 directory = os.fsencode('.')
 
 past_coordinates = (-1, -1)
+
+total_distance = 0
+results = {}
 
 for file in os.listdir(directory):
     image_name = os.fsdecode(file)
@@ -29,5 +33,11 @@ for file in os.listdir(directory):
         if past_coordinates[0] >= 0:
             distance = geopy.distance.distance((latitude, longitude),
                                                past_coordinates).km
-            print(distance)
+            results[img] = distance + total_distance
+            total_distance += distance
+        else:
+            results[img] = 0
         past_coordinates = (latitude, longitude)
+
+with open('track_km.json', 'w') as fp:
+    json.dump(results, fp)
