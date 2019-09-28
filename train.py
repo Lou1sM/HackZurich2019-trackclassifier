@@ -132,6 +132,8 @@ def dev_id_from_img_path(img_file_name, annot_data):
 def annotate_new_img(model, img_file_path, thresh=1):
     model.batch_size = 1
     img = torch.tensor(np.asarray(Image.open(img_file_path))).float().transpose(0,2).unsqueeze(0).cuda()
+    print(img_file_path)
+    img = img[:,:,1000:-1000,750:-750]
     a = img.shape[2]
     b = img.shape[3]
     print(a,b)
@@ -141,8 +143,12 @@ def annotate_new_img(model, img_file_path, thresh=1):
             #pred = model(img_patch).cpu().detach().numpy()
             pred = model(img_patch)
             pred = torch.argmax(pred)
-            if pred <= 3:
-                return list(np.eye(4)[pred])
+            if pred < 3:
+                if torch.max(pred) > 0.4:
+                    print('in')
+                    return list(np.eye(4)[pred])
+                else:
+                    print('out')
             #ohe_pred = np.eye(4)[pred]
             #img_ohe_pred += ohe_pred
     #object_preds = img_ohe_pred[:-1]
@@ -163,17 +169,24 @@ if __name__ == "__main__":
     #test_img_window = test_img[:256, :256, :].transpose(0,2)
     #test_img_window = test_img_window.unsqueeze(0)
     #print(test_img_window.shape)
-    best_checkpoint_path = train()
-    model = torch.load(best_checkpoint_path)['model']
+    #best_checkpoint_path = train()
+    #model = torch.load(best_checkpoint_path)['model']
+    model = torch.load('checkpoints/38.pt')['model']
     model.cuda()
 
     #img_paths = [os.path.join('test_imgs', fname) for fname in os.listdir('test_imgs')]
     with open('COCO.json') as f:
         annot_data = json.load(f)
-    imgs = [(np.asarray(Image.open(os.path.join('test_imgs', img_file_name))), dev_id_from_img_path(img_file_name, annot_data)) for img_file_name in os.listdir('test_imgs')]
-    imgs = list(filter(lambda img: img[1] != None, imgs))
+    #imgs = [(np.asarray(Image.open(os.path.join('test_imgs', img_file_name))), dev_id_from_img_path(img_file_name, annot_data)) for img_file_name in os.listdir('test_imgs')]
+    #imgs = list(filter(lambda img: img[1] != None, imgs))
 
-    unannotated_imgs = [os.path.join('test_imgs', img_file_name) for img_file_name in os.listdir('test_imgs')]
+    #unannotated_imgs = [os.path.join('test_imgs', img_file_name) for img_file_name in os.listdir('test_imgs')]
+    unannotated_imgs = [os.path.join('Trackpictures_HiRes', '010_-_Klosters_Platz_-_Landquart', img_file_name) for img_file_name in os.listdir('Trackpictures_HiRes/010_-_Klosters_Platz_-_Landquart')]
+    json_list = []
+    for img_file_name in unannotated_imgs:
+        annotation = annotate_new_img(model, os.path.abspath(img_file_name))
+        json_list.append({'name': os.path.abspath(img_file_name), 'object': annotation})
+        print(len(json_list))
     annotated_imgs = [{'name': os.path.abspath(img_file_name), 'object' : annotate_new_img(model, os.path.abspath(img_file_name))} for img_file_name in unannotated_imgs]  
 
     with open('annotated.json', 'w') as f:
