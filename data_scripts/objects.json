@@ -1,0 +1,767 @@
+[
+ {
+        "id":"B7", 
+        "type":"main signal", 
+        "additional information":"track 2", 
+        "relativ position":"0.034 km", 
+        "location":"Landquart", 
+        "location number":49600, 
+        "location abreviation":"LQ"
+    }, 
+    {
+        "id":"B8", 
+        "type":"main signal", 
+        "additional information":"track 1", 
+        "relativ position":"0.034 km", 
+        "location":"Landquart", 
+        "location number":49600, 
+        "location abreviation":"LQ"
+    }, 
+    {
+        "id":"B6", 
+        "type":"main signal", 
+        "additional information":"track 3", 
+        "relativ position":"0.059 km", 
+        "location":"Landquart", 
+        "location number":49600, 
+        "location abreviation":"LQ"
+    }, 
+    {
+        "id":"W6", 
+        "type":"turnout engine", 
+        "additional information":"track 15", 
+        "relativ position":"0.082 km", 
+        "location":"Landquart", 
+        "location number":49600, 
+        "location abreviation":"LQ"
+    }, 
+    {
+        "id":"B5", 
+        "type":"main signal", 
+        "additional information":"track 4", 
+        "relativ position":"0.100 km", 
+        "location":"Landquart", 
+        "location number":49600, 
+        "location abreviation":"LQ"
+    }, 
+    {
+        "id":"W5", 
+        "type":"turnout engine", 
+        "additional information":"track 13", 
+        "relativ position":"0.106 km", 
+        "location":"Landquart", 
+        "location number":49600, 
+        "location abreviation":"LQ"
+    }, 
+    {
+        "id":"BUe 0.107", 
+        "type":"railway crossing", 
+        "additional information":"", 
+        "relativ position":"0.107 km", 
+        "location":"Landquart", 
+        "location number":49600, 
+        "location abreviation":"LQ"
+    }, 
+    {
+        "id":"W4", 
+        "type":"turnout engine", 
+        "additional information":"", 
+        "relativ position":"0.148 km", 
+        "location":"Landquart", 
+        "location number":49600, 
+        "location abreviation":"LQ"
+    }, 
+    {
+        "id":"C*", 
+        "type":"distant signal", 
+        "additional information":"", 
+        "relativ position":"0.620 km", 
+        "location":"Landquart", 
+        "location number":49600, 
+        "location abreviation":"LQ"
+    }, 
+    {
+        "id":"A", 
+        "type":"main signal", 
+        "additional information":"", 
+        "relativ position":"0.620 km", 
+        "location":"Landquart", 
+        "location number":49600, 
+        "location abreviation":"LQ"
+    }, 
+    {
+        "id":"BG 09997 - 1", 
+        "type":"balise", 
+        "additional information":"", 
+        "relativ position":"0.978 km", 
+        "location":"Malans", 
+        "location number":49202, 
+        "location abreviation":"MALA"
+    }, 
+    {
+        "id":"BG 09997 - 2", 
+        "type":"balise", 
+        "additional information":"", 
+        "relativ position":"0.978 km", 
+        "location":"Malans", 
+        "location number":49202, 
+        "location abreviation":"MALA"
+    }, 
+    {
+        "id":"BG 08000 - 1", 
+        "type":"balise", 
+        "additional information":"", 
+        "relativ position":"1.028 km", 
+        "location":"Malans", 
+        "location number":49202, 
+        "location abreviation":"MALA"
+    }, 
+    {
+        "id":"BG 08000 - 2", 
+        "type":"balise", 
+        "additional information":"", 
+        "relativ position":"1.028 km", 
+        "location":"Malans", 
+        "location number":49202, 
+        "location abreviation":"MALA"
+    }, 
+    {
+        "id":"A*", 
+        "type":"distant signal", 
+        "additional information":"", 
+        "relativ position":"1.030 km", 
+        "location":"Malans", 
+        "location number":49202, 
+        "location abreviation":"MALA"
+    }, 
+    {
+        "id":"A*", 
+        "type":"distant signal", 
+        "additional information":"", 
+        "relativ position":"1.360 km", 
+        "location":"LQ", 
+        "location number":49600, 
+        "location abreviation":"LQ"
+    }, 
+    {
+        "id":"BUe 1.37", 
+        "type":"railway crossing", 
+        "additional information":"Pumpihuesli", 
+        "relativ position":"1.376 km", 
+        "location":"Malans", 
+        "location number":49202, 
+        "location abreviation":"MALA"
+    }, 
+    {
+        "id":"BG 08001 - 1", 
+        "type":"balise", 
+        "additional information":"", 
+        "relativ position":"1.653 km", 
+        "location":"Malans", 
+        "location number":49202, 
+        "location abreviation":"MALA"
+    }, 
+    {
+        "id":"BG 08001 - 2", 
+        "type":"balise", 
+        "additional information":"", 
+        "relativ position":"1.653 km", 
+        "location":"Malans", 
+        "location number":49202, 
+        "location abreviation":"MALA"
+    }, 
+    {
+        "id":"A ", 
+        "type":"main signal", 
+        "additional information":"", 
+        "relativ position":"1.657 km", 
+        "location":"Malans", 
+        "location number":49202, 
+        "location abreviation":"MALA"
+    }, 
+    {
+        "id":"C*", 
+        "type":"distant signal", 
+        "additional information":"", 
+        "relativ position":"1.657 km", 
+        "location":"Malans", 
+        "location number":49202, 
+        "location abreviation":"MALA"
+    }, 
+    {
+        "id":"W1", 
+        "type":"turnout engine", 
+        "additional information":"", 
+        "relativ position":"1.983 km", 
+        "location":"Malans", 
+        "location number":49202, 
+        "location abreviation":"MALA"
+    }, 
+    {
+        "id":"B1", 
+        "type":"main signal", 
+        "additional information":"track 1", 
+        "relativ position":"2.055 km", 
+        "location":"Malans", 
+        "location number":49202, 
+        "location abreviation":"MALA"
+    }, 
+    {
+        "id":"B2", 
+        "type":"main signal", 
+        "additional information":"track 2", 
+        "relativ position":"2.055 km", 
+        "location":"Malans", 
+        "location number":49202, 
+        "location abreviation":"MALA"
+    }, 
+    {
+        "id":"BG 08002 - 1", 
+        "type":"balise", 
+        "additional information":"track 1", 
+        "relativ position":"2.059 km", 
+        "location":"Malans", 
+        "location number":49202, 
+        "location abreviation":"MALA"
+    }, 
+    {
+        "id":"BG 08002 - 2", 
+        "type":"balise", 
+        "additional information":"track 1", 
+        "relativ position":"2.059 km", 
+        "location":"Malans", 
+        "location number":49202, 
+        "location abreviation":"MALA"
+    }, 
+    {
+        "id":"BG 08003 - 1", 
+        "type":"balise", 
+        "additional information":"track 2", 
+        "relativ position":"2.059 km", 
+        "location":"Malans", 
+        "location number":49202, 
+        "location abreviation":"MALA"
+    }, 
+    {
+        "id":"BG 08003 - 2", 
+        "type":"balise", 
+        "additional information":"track 2", 
+        "relativ position":"2.059 km", 
+        "location":"Malans", 
+        "location number":49202, 
+        "location abreviation":"MALA"
+    }, 
+    {
+        "id":"Malans", 
+        "type":"train station", 
+        "additional information":"", 
+        "relativ position":"2.167 km", 
+        "location":"Malans", 
+        "location number":49202, 
+        "location abreviation":"MALA"
+    }, 
+    {
+        "id":"Bue 2.23 - 1", 
+        "type":"railway crossing", 
+        "additional information":"track 1, Gemeindestrasse", 
+        "relativ position":"2.236 km", 
+        "location":"Malans", 
+        "location number":49202, 
+        "location abreviation":"MALA"
+    }, 
+    {
+        "id":"Bue 2.23 - 2", 
+        "type":"railway crossing", 
+        "additional information":"track 2, Gemeindestrasse", 
+        "relativ position":"2.236 km", 
+        "location":"Malans", 
+        "location number":49202, 
+        "location abreviation":"MALA"
+    }, 
+    {
+        "id":"BG 08004 - 1", 
+        "type":"balise", 
+        "additional information":"track 1", 
+        "relativ position":"2.261 km", 
+        "location":"Malans", 
+        "location number":49202, 
+        "location abreviation":"MALA"
+    }, 
+    {
+        "id":"BG 08004 - 2", 
+        "type":"balise", 
+        "additional information":"track 1", 
+        "relativ position":"2.261 km", 
+        "location":"Malans", 
+        "location number":49202, 
+        "location abreviation":"MALA"
+    }, 
+    {
+        "id":"BG 08005 - 1", 
+        "type":"balise", 
+        "additional information":"track 2", 
+        "relativ position":"2.261 km", 
+        "location":"Malans", 
+        "location number":49202, 
+        "location abreviation":"MALA"
+    }, 
+    {
+        "id":"BG 08005 - 2", 
+        "type":"balise", 
+        "additional information":"track 2", 
+        "relativ position":"2.261 km", 
+        "location":"Malans", 
+        "location number":49202, 
+        "location abreviation":"MALA"
+    }, 
+    {
+        "id":"C1", 
+        "type":"main signal", 
+        "additional information":"track 1", 
+        "relativ position":"2.265 km", 
+        "location":"Malans", 
+        "location number":49202, 
+        "location abreviation":"MALA"
+    }, 
+    {
+        "id":"C2", 
+        "type":"main signal", 
+        "additional information":"track 2", 
+        "relativ position":"2.265 km", 
+        "location":"Malans", 
+        "location number":49202, 
+        "location abreviation":"MALA"
+    }, 
+    {
+        "id":"W5", 
+        "type":"turnout engine", 
+        "additional information":"", 
+        "relativ position":"2.338 km", 
+        "location":"Malans", 
+        "location number":49202, 
+        "location abreviation":"MALA"
+    }, 
+    {
+        "id":"BUe 2.48", 
+        "type":"railway crossing", 
+        "additional information":"Stampfackerstrasse", 
+        "relativ position":"2.488 km", 
+        "location":"Malans", 
+        "location number":49202, 
+        "location abreviation":"MALA"
+    }, 
+    {
+        "id":"D", 
+        "type":"main signal", 
+        "additional information":"", 
+        "relativ position":"2.668 km", 
+        "location":"Malans", 
+        "location number":49202, 
+        "location abreviation":"MALA"
+    }, 
+    {
+        "id":"B*", 
+        "type":"distant signal", 
+        "additional information":"", 
+        "relativ position":"2.668 km", 
+        "location":"Malans", 
+        "location number":49202, 
+        "location abreviation":"MALA"
+    }, 
+    {
+        "id":"BG 08006 - 1", 
+        "type":"balise", 
+        "additional information":"", 
+        "relativ position":"2.673 km", 
+        "location":"Malans", 
+        "location number":49202, 
+        "location abreviation":"MALA"
+    }, 
+    {
+        "id":"BG 08006 - 2", 
+        "type":"balise", 
+        "additional information":"", 
+        "relativ position":"2.673 km", 
+        "location":"Malans", 
+        "location number":49202, 
+        "location abreviation":"MALA"
+    }, 
+    {
+        "id":"D*", 
+        "type":"distant signal", 
+        "additional information":"", 
+        "relativ position":"3.290 km", 
+        "location":"Malans", 
+        "location number":49202, 
+        "location abreviation":"MALA"
+    }, 
+    {
+        "id":"BG 08007 - 1", 
+        "type":"balise", 
+        "additional information":"", 
+        "relativ position":"3.295 km", 
+        "location":"Malans", 
+        "location number":49202, 
+        "location abreviation":"MALA"
+    }, 
+    {
+        "id":"BG 08007 - 2", 
+        "type":"balise", 
+        "additional information":"", 
+        "relativ position":"3.295 km", 
+        "location":"Malans", 
+        "location number":49202, 
+        "location abreviation":"MALA"
+    }, 
+    {
+        "id":"BG 08008 - 1", 
+        "type":"balise", 
+        "additional information":"", 
+        "relativ position":"3.329 km", 
+        "location":"Malans Alte Saege", 
+        "location number":49203, 
+        "location abreviation":"SAGE"
+    }, 
+    {
+        "id":"BG 08008 - 2", 
+        "type":"balise", 
+        "additional information":"", 
+        "relativ position":"3.329 km", 
+        "location":"Malans Alte Saege", 
+        "location number":49203, 
+        "location abreviation":"SAGE"
+    }, 
+    {
+        "id":"E*", 
+        "type":"distant signal", 
+        "additional information":"", 
+        "relativ position":"3.333 km", 
+        "location":"Malans Alte Saege", 
+        "location number":49203, 
+        "location abreviation":"SAGE"
+    }, 
+    {
+        "id":"BUe 3.38", 
+        "type":"railway crossing", 
+        "additional information":"", 
+        "relativ position":"3.380 km", 
+        "location":"Malans Alte Saege", 
+        "location number":49203, 
+        "location abreviation":"SAGE"
+    }, 
+    {
+        "id":"BG 08009 - 1", 
+        "type":"balise", 
+        "additional information":"", 
+        "relativ position":"3.947 km", 
+        "location":"Malans Alte Saege", 
+        "location number":49203, 
+        "location abreviation":"SAGE"
+    }, 
+    {
+        "id":"BG 08009 - 2", 
+        "type":"balise", 
+        "additional information":"", 
+        "relativ position":"3.947 km", 
+        "location":"Malans Alte Saege", 
+        "location number":49203, 
+        "location abreviation":"SAGE"
+    }, 
+    {
+        "id":"E", 
+        "type":"main signal", 
+        "additional information":"", 
+        "relativ position":"3.952 km", 
+        "location":"Malans Alte Saege", 
+        "location number":49203, 
+        "location abreviation":"SAGE"
+    }, 
+    {
+        "id":"BUe 4.20", 
+        "type":"railway crossing", 
+        "additional information":"", 
+        "relativ position":"4.202 km", 
+        "location":"Malans Alte Saege", 
+        "location number":49203, 
+        "location abreviation":"SAGE"
+    }, 
+    {
+        "id":"F", 
+        "type":"main signal", 
+        "additional information":"", 
+        "relativ position":"4.225 km", 
+        "location":"Malans Alte Saege", 
+        "location number":49203, 
+        "location abreviation":"SAGE"
+    }, 
+    {
+        "id":"BG 08010 - 1", 
+        "type":"balise", 
+        "additional information":"", 
+        "relativ position":"4.229 km", 
+        "location":"Malans Alte Saege", 
+        "location number":49203, 
+        "location abreviation":"SAGE"
+    }, 
+    {
+        "id":"BG 08010 - 2", 
+        "type":"balise", 
+        "additional information":"", 
+        "relativ position":"4.229 km", 
+        "location":"Malans Alte Saege", 
+        "location number":49203, 
+        "location abreviation":"SAGE"
+    }, 
+    {
+        "id":"BG 08069 - 1", 
+        "type":"balise", 
+        "additional information":"", 
+        "relativ position":"4.360 km", 
+        "location":"Malans Alte Saege", 
+        "location number":49203, 
+        "location abreviation":"SAGE"
+    }, 
+    {
+        "id":"BG 08069 - 2", 
+        "type":"balise", 
+        "additional information":"", 
+        "relativ position":"4.360 km", 
+        "location":"Malans Alte Saege", 
+        "location number":49203, 
+        "location abreviation":"SAGE"
+    }, 
+    {
+        "id":"Klus-Tunnel - 1", 
+        "type":"tunnel portal", 
+        "additional information":"", 
+        "relativ position":"4.750 km", 
+        "location":"Malans Alte Saege", 
+        "location number":49203, 
+        "location abreviation":"SAGE"
+    }, 
+    {
+        "id":"F*", 
+        "type":"distant signal", 
+        "additional information":"", 
+        "relativ position":"5.036 km", 
+        "location":"Malans Alte Saege", 
+        "location number":49203, 
+        "location abreviation":"SAGE"
+    }, 
+    {
+        "id":"BG 08011 - 1", 
+        "type":"balise", 
+        "additional information":"", 
+        "relativ position":"5.040 km", 
+        "location":"Malans Alte Saege", 
+        "location number":49203, 
+        "location abreviation":"SAGE"
+    }, 
+    {
+        "id":"BG 08011 - 2", 
+        "type":"balise", 
+        "additional information":"", 
+        "relativ position":"5.040 km", 
+        "location":"Malans Alte Saege", 
+        "location number":49203, 
+        "location abreviation":"SAGE"
+    }, 
+    {
+        "id":"BG 08012 - 1", 
+        "type":"balise", 
+        "additional information":"", 
+        "relativ position":"5.231 km", 
+        "location":"Gruesch", 
+        "location number":49208, 
+        "location abreviation":"GRUS"
+    }, 
+    {
+        "id":"BG 08012 - 2", 
+        "type":"balise", 
+        "additional information":"", 
+        "relativ position":"5.231 km", 
+        "location":"Gruesch", 
+        "location number":49208, 
+        "location abreviation":"GRUS"
+    }, 
+    {
+        "id":"G*", 
+        "type":"distant signal", 
+        "additional information":"", 
+        "relativ position":"5.235 km", 
+        "location":"Gruesch", 
+        "location number":49208, 
+        "location abreviation":"GRUS"
+    }, 
+    {
+        "id":"Klus-Tunnel - 2", 
+        "type":"tunnel portal", 
+        "additional information":"", 
+        "relativ position":"5.768 km", 
+        "location":"Gruesch", 
+        "location number":49208, 
+        "location abreviation":"GRUS"
+    }, 
+    {
+        "id":"BG 08013 - 1", 
+        "type":"balise", 
+        "additional information":"", 
+        "relativ position":"5.983 km", 
+        "location":"Gruesch", 
+        "location number":49208, 
+        "location abreviation":"GRUS"
+    }, 
+    {
+        "id":"BG 08013 - 2", 
+        "type":"balise", 
+        "additional information":"", 
+        "relativ position":"5.983 km", 
+        "location":"Gruesch", 
+        "location number":49208, 
+        "location abreviation":"GRUS"
+    }, 
+    {
+        "id":"G", 
+        "type":"main signal", 
+        "additional information":"", 
+        "relativ position":"5.988 km", 
+        "location":"Gruesch", 
+        "location number":49208, 
+        "location abreviation":"GRUS"
+    }, 
+    {
+        "id":"H", 
+        "type":"main signal", 
+        "additional information":"", 
+        "relativ position":"6.011 km", 
+        "location":"Gruesch", 
+        "location number":49208, 
+        "location abreviation":"GRUS"
+    }, 
+    {
+        "id":"BG 08014 - 1", 
+        "type":"balise", 
+        "additional information":"", 
+        "relativ position":"6.015 km", 
+        "location":"Gruesch", 
+        "location number":49208, 
+        "location abreviation":"GRUS"
+    }, 
+    {
+        "id":"BG 08014 - 2", 
+        "type":"balise", 
+        "additional information":"", 
+        "relativ position":"6.015 km", 
+        "location":"Gruesch", 
+        "location number":49208, 
+        "location abreviation":"GRUS"
+    }, 
+    {
+        "id":"PO", 
+        "type":"position offset", 
+        "additional information":"-28m", 
+        "relativ position":"6.100 km", 
+        "location":"Gruesch", 
+        "location number":49208, 
+        "location abreviation":"GRUS"
+    }, 
+    {
+        "id":"H*", 
+        "type":"distant signal", 
+        "additional information":"", 
+        "relativ position":"6.650 km", 
+        "location":"Gruesch", 
+        "location number":49208, 
+        "location abreviation":"GRUS"
+    }, 
+    {
+        "id":"BG 08015 - 1", 
+        "type":"balise", 
+        "additional information":"", 
+        "relativ position":"6.654 km", 
+        "location":"Gruesch", 
+        "location number":49208, 
+        "location abreviation":"GRUS"
+    }, 
+    {
+        "id":"BG 08015 - 2", 
+        "type":"balise", 
+        "additional information":"", 
+        "relativ position":"6.654 km", 
+        "location":"Gruesch", 
+        "location number":49208, 
+        "location abreviation":"GRUS"
+    }, 
+    {
+        "id":"Seewis-Pardisla", 
+        "type":"train station", 
+        "additional information":"", 
+        "relativ position":"6.735 km", 
+        "location":"Gruesch", 
+        "location number":49208, 
+        "location abreviation":"GRUS"
+    }, 
+    {
+        "id":"BG 08016 - 1", 
+        "type":"balise", 
+        "additional information":"", 
+        "relativ position":"6.855 km", 
+        "location":"Gruesch", 
+        "location number":49208, 
+        "location abreviation":"GRUS"
+    }, 
+    {
+        "id":"BG 08016 - 2", 
+        "type":"balise", 
+        "additional information":"", 
+        "relativ position":"6.855 km", 
+        "location":"Gruesch", 
+        "location number":49208, 
+        "location abreviation":"GRUS"
+    }, 
+    {
+        "id":"A*", 
+        "type":"distant signal", 
+        "additional information":"", 
+        "relativ position":"6.860 km", 
+        "location":"Gruesch", 
+        "location number":49208, 
+        "location abreviation":"GRUS"
+    }, 
+    {
+        "id":"BG 08017 - 1", 
+        "type":"balise", 
+        "additional information":"", 
+        "relativ position":"7.446 km", 
+        "location":"Gruesch", 
+        "location number":49208, 
+        "location abreviation":"GRUS"
+    }, 
+    {
+        "id":"BG 08017 - 2", 
+        "type":"balise", 
+        "additional information":"", 
+        "relativ position":"7.446 km", 
+        "location":"Gruesch", 
+        "location number":49208, 
+        "location abreviation":"GRUS"
+    }, 
+    {
+        "id":"A", 
+        "type":"main signal", 
+        "additional information":"", 
+        "relativ position":"7.450 km", 
+        "location":"Gruesch", 
+        "location number":49208, 
+        "location abreviation":"GRUS"
+    }, 
+    {
+        "id":"C*", 
+        "type":"distant signal", 
+        "additional information":"", 
+        "relativ position":"7.450 km", 
+        "location":"Gruesch", 
+        "location number":49208, 
+        "location abreviation":"GRUS"
+    }
+]

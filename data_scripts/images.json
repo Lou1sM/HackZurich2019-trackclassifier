@@ -1,0 +1,18 @@
+[
+    {
+	"name": "dog",
+	"objects": [1, 0, 1, 0]
+    },
+    {
+	"name": "cat",
+	"objects": [1, 0, 0, 1]
+    },
+    {
+	"name": "catto",
+	"objects": [0, 0, 0, 0]
+    },
+    {
+	"name": "rat",
+	"objects": [1, 1, 1, 0]
+    }
+]

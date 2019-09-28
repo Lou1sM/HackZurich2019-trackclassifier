@@ -1,0 +1,24 @@
+[
+    {
+	"image": "dog",
+	"relative_position": 1.23,
+	"coordinates": [231, 111]
+    },
+
+    {
+	"image": "cat",
+	"relative_position": 52,
+	"coordinates": [231.11, 111.22]
+    },
+
+    {
+	"image": "rat",
+	"relative_position": 12,
+	"coordinates": [12, 13.43]
+    },
+    {
+	"image": "catto",
+	"relative_position": 11,
+	"coordinates": [12, 12.43]
+    }
+]
