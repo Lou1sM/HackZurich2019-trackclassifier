@@ -1,0 +1,5600 @@
+[
+    {
+        "id":"B7", 
+        "type":"main signal", 
+        "additional information":"track 2", 
+        "relativ position":"0.034 km", 
+        "location":"Landquart", 
+        "location number":49600, 
+        "location abreviation":"LQ"
+    }, 
+    {
+        "id":"B8", 
+        "type":"main signal", 
+        "additional information":"track 1", 
+        "relativ position":"0.034 km", 
+        "location":"Landquart", 
+        "location number":49600, 
+        "location abreviation":"LQ"
+    }, 
+    {
+        "id":"B6", 
+        "type":"main signal", 
+        "additional information":"track 3", 
+        "relativ position":"0.059 km", 
+        "location":"Landquart", 
+        "location number":49600, 
+        "location abreviation":"LQ"
+    }, 
+    {
+        "id":"W6", 
+        "type":"turnout engine", 
+        "additional information":"track 15", 
+        "relativ position":"0.082 km", 
+        "location":"Landquart", 
+        "location number":49600, 
+        "location abreviation":"LQ"
+    }, 
+    {
+        "id":"B5", 
+        "type":"main signal", 
+        "additional information":"track 4", 
+        "relativ position":"0.100 km", 
+        "location":"Landquart", 
+        "location number":49600, 
+        "location abreviation":"LQ"
+    }, 
+    {
+        "id":"W5", 
+        "type":"turnout engine", 
+        "additional information":"track 13", 
+        "relativ position":"0.106 km", 
+        "location":"Landquart", 
+        "location number":49600, 
+        "location abreviation":"LQ"
+    }, 
+    {
+        "id":"BUe 0.107", 
+        "type":"railway crossing", 
+        "additional information":"", 
+        "relativ position":"0.107 km", 
+        "location":"Landquart", 
+        "location number":49600, 
+        "location abreviation":"LQ"
+    }, 
+    {
+        "id":"W4", 
+        "type":"turnout engine", 
+        "additional information":"", 
+        "relativ position":"0.148 km", 
+        "location":"Landquart", 
+        "location number":49600, 
+        "location abreviation":"LQ"
+    }, 
+    {
+        "id":"C*", 
+        "type":"distant signal", 
+        "additional information":"", 
+        "relativ position":"0.620 km", 
+        "location":"Landquart", 
+        "location number":49600, 
+        "location abreviation":"LQ"
+    }, 
+    {
+        "id":"A", 
+        "type":"main signal", 
+        "additional information":"", 
+        "relativ position":"0.620 km", 
+        "location":"Landquart", 
+        "location number":49600, 
+        "location abreviation":"LQ"
+    }, 
+    {
+        "id":"BG 09997 - 1", 
+        "type":"balise", 
+        "additional information":"", 
+        "relativ position":"0.978 km", 
+        "location":"Malans", 
+        "location number":49202, 
+        "location abreviation":"MALA"
+    }, 
+    {
+        "id":"BG 09997 - 2", 
+        "type":"balise", 
+        "additional information":"", 
+        "relativ position":"0.978 km", 
+        "location":"Malans", 
+        "location number":49202, 
+        "location abreviation":"MALA"
+    }, 
+    {
+        "id":"BG 08000 - 1", 
+        "type":"balise", 
+        "additional information":"", 
+        "relativ position":"1.028 km", 
+        "location":"Malans", 
+        "location number":49202, 
+        "location abreviation":"MALA"
+    }, 
+    {
+        "id":"BG 08000 - 2", 
+        "type":"balise", 
+        "additional information":"", 
+        "relativ position":"1.028 km", 
+        "location":"Malans", 
+        "location number":49202, 
+        "location abreviation":"MALA"
+    }, 
+    {
+        "id":"A*", 
+        "type":"distant signal", 
+        "additional information":"", 
+        "relativ position":"1.030 km", 
+        "location":"Malans", 
+        "location number":49202, 
+        "location abreviation":"MALA"
+    }, 
+    {
+        "id":"A*", 
+        "type":"distant signal", 
+        "additional information":"", 
+        "relativ position":"1.360 km", 
+        "location":"LQ", 
+        "location number":49600, 
+        "location abreviation":"LQ"
+    }, 
+    {
+        "id":"BUe 1.37", 
+        "type":"railway crossing", 
+        "additional information":"Pumpihuesli", 
+        "relativ position":"1.376 km", 
+        "location":"Malans", 
+        "location number":49202, 
+        "location abreviation":"MALA"
+    }, 
+    {
+        "id":"BG 08001 - 1", 
+        "type":"balise", 
+        "additional information":"", 
+        "relativ position":"1.653 km", 
+        "location":"Malans", 
+        "location number":49202, 
+        "location abreviation":"MALA"
+    }, 
+    {
+        "id":"BG 08001 - 2", 
+        "type":"balise", 
+        "additional information":"", 
+        "relativ position":"1.653 km", 
+        "location":"Malans", 
+        "location number":49202, 
+        "location abreviation":"MALA"
+    }, 
+    {
+        "id":"A ", 
+        "type":"main signal", 
+        "additional information":"", 
+        "relativ position":"1.657 km", 
+        "location":"Malans", 
+        "location number":49202, 
+        "location abreviation":"MALA"
+    }, 
+    {
+        "id":"C*", 
+        "type":"distant signal", 
+        "additional information":"", 
+        "relativ position":"1.657 km", 
+        "location":"Malans", 
+        "location number":49202, 
+        "location abreviation":"MALA"
+    }, 
+    {
+        "id":"W1", 
+        "type":"turnout engine", 
+        "additional information":"", 
+        "relativ position":"1.983 km", 
+        "location":"Malans", 
+        "location number":49202, 
+        "location abreviation":"MALA"
+    }, 
+    {
+        "id":"B1", 
+        "type":"main signal", 
+        "additional information":"track 1", 
+        "relativ position":"2.055 km", 
+        "location":"Malans", 
+        "location number":49202, 
+        "location abreviation":"MALA"
+    }, 
+    {
+        "id":"B2", 
+        "type":"main signal", 
+        "additional information":"track 2", 
+        "relativ position":"2.055 km", 
+        "location":"Malans", 
+        "location number":49202, 
+        "location abreviation":"MALA"
+    }, 
+    {
+        "id":"BG 08002 - 1", 
+        "type":"balise", 
+        "additional information":"track 1", 
+        "relativ position":"2.059 km", 
+        "location":"Malans", 
+        "location number":49202, 
+        "location abreviation":"MALA"
+    }, 
+    {
+        "id":"BG 08002 - 2", 
+        "type":"balise", 
+        "additional information":"track 1", 
+        "relativ position":"2.059 km", 
+        "location":"Malans", 
+        "location number":49202, 
+        "location abreviation":"MALA"
+    }, 
+    {
+        "id":"BG 08003 - 1", 
+        "type":"balise", 
+        "additional information":"track 2", 
+        "relativ position":"2.059 km", 
+        "location":"Malans", 
+        "location number":49202, 
+        "location abreviation":"MALA"
+    }, 
+    {
+        "id":"BG 08003 - 2", 
+        "type":"balise", 
+        "additional information":"track 2", 
+        "relativ position":"2.059 km", 
+        "location":"Malans", 
+        "location number":49202, 
+        "location abreviation":"MALA"
+    }, 
+    {
+        "id":"Malans", 
+        "type":"train station", 
+        "additional information":"", 
+        "relativ position":"2.167 km", 
+        "location":"Malans", 
+        "location number":49202, 
+        "location abreviation":"MALA"
+    }, 
+    {
+        "id":"Bue 2.23 - 1", 
+        "type":"railway crossing", 
+        "additional information":"track 1, Gemeindestrasse", 
+        "relativ position":"2.236 km", 
+        "location":"Malans", 
+        "location number":49202, 
+        "location abreviation":"MALA"
+    }, 
+    {
+        "id":"Bue 2.23 - 2", 
+        "type":"railway crossing", 
+        "additional information":"track 2, Gemeindestrasse", 
+        "relativ position":"2.236 km", 
+        "location":"Malans", 
+        "location number":49202, 
+        "location abreviation":"MALA"
+    }, 
+    {
+        "id":"BG 08004 - 1", 
+        "type":"balise", 
+        "additional information":"track 1", 
+        "relativ position":"2.261 km", 
+        "location":"Malans", 
+        "location number":49202, 
+        "location abreviation":"MALA"
+    }, 
+    {
+        "id":"BG 08004 - 2", 
+        "type":"balise", 
+        "additional information":"track 1", 
+        "relativ position":"2.261 km", 
+        "location":"Malans", 
+        "location number":49202, 
+        "location abreviation":"MALA"
+    }, 
+    {
+        "id":"BG 08005 - 1", 
+        "type":"balise", 
+        "additional information":"track 2", 
+        "relativ position":"2.261 km", 
+        "location":"Malans", 
+        "location number":49202, 
+        "location abreviation":"MALA"
+    }, 
+    {
+        "id":"BG 08005 - 2", 
+        "type":"balise", 
+        "additional information":"track 2", 
+        "relativ position":"2.261 km", 
+        "location":"Malans", 
+        "location number":49202, 
+        "location abreviation":"MALA"
+    }, 
+    {
+        "id":"C1", 
+        "type":"main signal", 
+        "additional information":"track 1", 
+        "relativ position":"2.265 km", 
+        "location":"Malans", 
+        "location number":49202, 
+        "location abreviation":"MALA"
+    }, 
+    {
+        "id":"C2", 
+        "type":"main signal", 
+        "additional information":"track 2", 
+        "relativ position":"2.265 km", 
+        "location":"Malans", 
+        "location number":49202, 
+        "location abreviation":"MALA"
+    }, 
+    {
+        "id":"W5", 
+        "type":"turnout engine", 
+        "additional information":"", 
+        "relativ position":"2.338 km", 
+        "location":"Malans", 
+        "location number":49202, 
+        "location abreviation":"MALA"
+    }, 
+    {
+        "id":"BUe 2.48", 
+        "type":"railway crossing", 
+        "additional information":"Stampfackerstrasse", 
+        "relativ position":"2.488 km", 
+        "location":"Malans", 
+        "location number":49202, 
+        "location abreviation":"MALA"
+    }, 
+    {
+        "id":"D", 
+        "type":"main signal", 
+        "additional information":"", 
+        "relativ position":"2.668 km", 
+        "location":"Malans", 
+        "location number":49202, 
+        "location abreviation":"MALA"
+    }, 
+    {
+        "id":"B*", 
+        "type":"distant signal", 
+        "additional information":"", 
+        "relativ position":"2.668 km", 
+        "location":"Malans", 
+        "location number":49202, 
+        "location abreviation":"MALA"
+    }, 
+    {
+        "id":"BG 08006 - 1", 
+        "type":"balise", 
+        "additional information":"", 
+        "relativ position":"2.673 km", 
+        "location":"Malans", 
+        "location number":49202, 
+        "location abreviation":"MALA"
+    }, 
+    {
+        "id":"BG 08006 - 2", 
+        "type":"balise", 
+        "additional information":"", 
+        "relativ position":"2.673 km", 
+        "location":"Malans", 
+        "location number":49202, 
+        "location abreviation":"MALA"
+    }, 
+    {
+        "id":"D*", 
+        "type":"distant signal", 
+        "additional information":"", 
+        "relativ position":"3.290 km", 
+        "location":"Malans", 
+        "location number":49202, 
+        "location abreviation":"MALA"
+    }, 
+    {
+        "id":"BG 08007 - 1", 
+        "type":"balise", 
+        "additional information":"", 
+        "relativ position":"3.295 km", 
+        "location":"Malans", 
+        "location number":49202, 
+        "location abreviation":"MALA"
+    }, 
+    {
+        "id":"BG 08007 - 2", 
+        "type":"balise", 
+        "additional information":"", 
+        "relativ position":"3.295 km", 
+        "location":"Malans", 
+        "location number":49202, 
+        "location abreviation":"MALA"
+    }, 
+    {
+        "id":"BG 08008 - 1", 
+        "type":"balise", 
+        "additional information":"", 
+        "relativ position":"3.329 km", 
+        "location":"Malans Alte Saege", 
+        "location number":49203, 
+        "location abreviation":"SAGE"
+    }, 
+    {
+        "id":"BG 08008 - 2", 
+        "type":"balise", 
+        "additional information":"", 
+        "relativ position":"3.329 km", 
+        "location":"Malans Alte Saege", 
+        "location number":49203, 
+        "location abreviation":"SAGE"
+    }, 
+    {
+        "id":"E*", 
+        "type":"distant signal", 
+        "additional information":"", 
+        "relativ position":"3.333 km", 
+        "location":"Malans Alte Saege", 
+        "location number":49203, 
+        "location abreviation":"SAGE"
+    }, 
+    {
+        "id":"BUe 3.38", 
+        "type":"railway crossing", 
+        "additional information":"", 
+        "relativ position":"3.380 km", 
+        "location":"Malans Alte Saege", 
+        "location number":49203, 
+        "location abreviation":"SAGE"
+    }, 
+    {
+        "id":"BG 08009 - 1", 
+        "type":"balise", 
+        "additional information":"", 
+        "relativ position":"3.947 km", 
+        "location":"Malans Alte Saege", 
+        "location number":49203, 
+        "location abreviation":"SAGE"
+    }, 
+    {
+        "id":"BG 08009 - 2", 
+        "type":"balise", 
+        "additional information":"", 
+        "relativ position":"3.947 km", 
+        "location":"Malans Alte Saege", 
+        "location number":49203, 
+        "location abreviation":"SAGE"
+    }, 
+    {
+        "id":"E", 
+        "type":"main signal", 
+        "additional information":"", 
+        "relativ position":"3.952 km", 
+        "location":"Malans Alte Saege", 
+        "location number":49203, 
+        "location abreviation":"SAGE"
+    }, 
+    {
+        "id":"BUe 4.20", 
+        "type":"railway crossing", 
+        "additional information":"", 
+        "relativ position":"4.202 km", 
+        "location":"Malans Alte Saege", 
+        "location number":49203, 
+        "location abreviation":"SAGE"
+    }, 
+    {
+        "id":"F", 
+        "type":"main signal", 
+        "additional information":"", 
+        "relativ position":"4.225 km", 
+        "location":"Malans Alte Saege", 
+        "location number":49203, 
+        "location abreviation":"SAGE"
+    }, 
+    {
+        "id":"BG 08010 - 1", 
+        "type":"balise", 
+        "additional information":"", 
+        "relativ position":"4.229 km", 
+        "location":"Malans Alte Saege", 
+        "location number":49203, 
+        "location abreviation":"SAGE"
+    }, 
+    {
+        "id":"BG 08010 - 2", 
+        "type":"balise", 
+        "additional information":"", 
+        "relativ position":"4.229 km", 
+        "location":"Malans Alte Saege", 
+        "location number":49203, 
+        "location abreviation":"SAGE"
+    }, 
+    {
+        "id":"BG 08069 - 1", 
+        "type":"balise", 
+        "additional information":"", 
+        "relativ position":"4.360 km", 
+        "location":"Malans Alte Saege", 
+        "location number":49203, 
+        "location abreviation":"SAGE"
+    }, 
+    {
+        "id":"BG 08069 - 2", 
+        "type":"balise", 
+        "additional information":"", 
+        "relativ position":"4.360 km", 
+        "location":"Malans Alte Saege", 
+        "location number":49203, 
+        "location abreviation":"SAGE"
+    }, 
+    {
+        "id":"Klus-Tunnel - 1", 
+        "type":"tunnel portal", 
+        "additional information":"", 
+        "relativ position":"4.750 km", 
+        "location":"Malans Alte Saege", 
+        "location number":49203, 
+        "location abreviation":"SAGE"
+    }, 
+    {
+        "id":"F*", 
+        "type":"distant signal", 
+        "additional information":"", 
+        "relativ position":"5.036 km", 
+        "location":"Malans Alte Saege", 
+        "location number":49203, 
+        "location abreviation":"SAGE"
+    }, 
+    {
+        "id":"BG 08011 - 1", 
+        "type":"balise", 
+        "additional information":"", 
+        "relativ position":"5.040 km", 
+        "location":"Malans Alte Saege", 
+        "location number":49203, 
+        "location abreviation":"SAGE"
+    }, 
+    {
+        "id":"BG 08011 - 2", 
+        "type":"balise", 
+        "additional information":"", 
+        "relativ position":"5.040 km", 
+        "location":"Malans Alte Saege", 
+        "location number":49203, 
+        "location abreviation":"SAGE"
+    }, 
+    {
+        "id":"BG 08012 - 1", 
+        "type":"balise", 
+        "additional information":"", 
+        "relativ position":"5.231 km", 
+        "location":"Gruesch", 
+        "location number":49208, 
+        "location abreviation":"GRUS"
+    }, 
+    {
+        "id":"BG 08012 - 2", 
+        "type":"balise", 
+        "additional information":"", 
+        "relativ position":"5.231 km", 
+        "location":"Gruesch", 
+        "location number":49208, 
+        "location abreviation":"GRUS"
+    }, 
+    {
+        "id":"G*", 
+        "type":"distant signal", 
+        "additional information":"", 
+        "relativ position":"5.235 km", 
+        "location":"Gruesch", 
+        "location number":49208, 
+        "location abreviation":"GRUS"
+    }, 
+    {
+        "id":"Klus-Tunnel - 2", 
+        "type":"tunnel portal", 
+        "additional information":"", 
+        "relativ position":"5.768 km", 
+        "location":"Gruesch", 
+        "location number":49208, 
+        "location abreviation":"GRUS"
+    }, 
+    {
+        "id":"BG 08013 - 1", 
+        "type":"balise", 
+        "additional information":"", 
+        "relativ position":"5.983 km", 
+        "location":"Gruesch", 
+        "location number":49208, 
+        "location abreviation":"GRUS"
+    }, 
+    {
+        "id":"BG 08013 - 2", 
+        "type":"balise", 
+        "additional information":"", 
+        "relativ position":"5.983 km", 
+        "location":"Gruesch", 
+        "location number":49208, 
+        "location abreviation":"GRUS"
+    }, 
+    {
+        "id":"G", 
+        "type":"main signal", 
+        "additional information":"", 
+        "relativ position":"5.988 km", 
+        "location":"Gruesch", 
+        "location number":49208, 
+        "location abreviation":"GRUS"
+    }, 
+    {
+        "id":"H", 
+        "type":"main signal", 
+        "additional information":"", 
+        "relativ position":"6.011 km", 
+        "location":"Gruesch", 
+        "location number":49208, 
+        "location abreviation":"GRUS"
+    }, 
+    {
+        "id":"BG 08014 - 1", 
+        "type":"balise", 
+        "additional information":"", 
+        "relativ position":"6.015 km", 
+        "location":"Gruesch", 
+        "location number":49208, 
+        "location abreviation":"GRUS"
+    }, 
+    {
+        "id":"BG 08014 - 2", 
+        "type":"balise", 
+        "additional information":"", 
+        "relativ position":"6.015 km", 
+        "location":"Gruesch", 
+        "location number":49208, 
+        "location abreviation":"GRUS"
+    }, 
+    {
+        "id":"PO", 
+        "type":"position offset", 
+        "additional information":"-28m", 
+        "relativ position":"6.100 km", 
+        "location":"Gruesch", 
+        "location number":49208, 
+        "location abreviation":"GRUS"
+    }, 
+    {
+        "id":"H*", 
+        "type":"distant signal", 
+        "additional information":"", 
+        "relativ position":"6.650 km", 
+        "location":"Gruesch", 
+        "location number":49208, 
+        "location abreviation":"GRUS"
+    }, 
+    {
+        "id":"BG 08015 - 1", 
+        "type":"balise", 
+        "additional information":"", 
+        "relativ position":"6.654 km", 
+        "location":"Gruesch", 
+        "location number":49208, 
+        "location abreviation":"GRUS"
+    }, 
+    {
+        "id":"BG 08015 - 2", 
+        "type":"balise", 
+        "additional information":"", 
+        "relativ position":"6.654 km", 
+        "location":"Gruesch", 
+        "location number":49208, 
+        "location abreviation":"GRUS"
+    }, 
+    {
+        "id":"Seewis-Pardisla", 
+        "type":"train station", 
+        "additional information":"", 
+        "relativ position":"6.735 km", 
+        "location":"Gruesch", 
+        "location number":49208, 
+        "location abreviation":"GRUS"
+    }, 
+    {
+        "id":"BG 08016 - 1", 
+        "type":"balise", 
+        "additional information":"", 
+        "relativ position":"6.855 km", 
+        "location":"Gruesch", 
+        "location number":49208, 
+        "location abreviation":"GRUS"
+    }, 
+    {
+        "id":"BG 08016 - 2", 
+        "type":"balise", 
+        "additional information":"", 
+        "relativ position":"6.855 km", 
+        "location":"Gruesch", 
+        "location number":49208, 
+        "location abreviation":"GRUS"
+    }, 
+    {
+        "id":"A*", 
+        "type":"distant signal", 
+        "additional information":"", 
+        "relativ position":"6.860 km", 
+        "location":"Gruesch", 
+        "location number":49208, 
+        "location abreviation":"GRUS"
+    }, 
+    {
+        "id":"BG 08017 - 1", 
+        "type":"balise", 
+        "additional information":"", 
+        "relativ position":"7.446 km", 
+        "location":"Gruesch", 
+        "location number":49208, 
+        "location abreviation":"GRUS"
+    }, 
+    {
+        "id":"BG 08017 - 2", 
+        "type":"balise", 
+        "additional information":"", 
+        "relativ position":"7.446 km", 
+        "location":"Gruesch", 
+        "location number":49208, 
+        "location abreviation":"GRUS"
+    }, 
+    {
+        "id":"A", 
+        "type":"main signal", 
+        "additional information":"", 
+        "relativ position":"7.450 km", 
+        "location":"Gruesch", 
+        "location number":49208, 
+        "location abreviation":"GRUS"
+    }, 
+    {
+        "id":"C*", 
+        "type":"distant signal", 
+        "additional information":"", 
+        "relativ position":"7.450 km", 
+        "location":"Gruesch", 
+        "location number":49208, 
+        "location abreviation":"GRUS"
+    }, 
+    {
+        "id":"BUe 7.61", 
+        "type":"railway crossing", 
+        "additional information":"Schmitten", 
+        "relativ position":"7.610 km", 
+        "location":"Gruesch", 
+        "location number":49208, 
+        "location abreviation":"GRUS"
+    }, 
+    {
+        "id":"W1", 
+        "type":"turnout engine", 
+        "additional information":"", 
+        "relativ position":"7.659 km", 
+        "location":"Gruesch", 
+        "location number":49208, 
+        "location abreviation":"GRUS"
+    }, 
+    {
+        "id":"B", 
+        "type":"main signal", 
+        "additional information":"", 
+        "relativ position":"7.690 km", 
+        "location":"Gruesch", 
+        "location number":49208, 
+        "location abreviation":"GRUS"
+    }, 
+    {
+        "id":"BG 08018 - 1", 
+        "type":"balise", 
+        "additional information":"track 1", 
+        "relativ position":"7.717 km", 
+        "location":"Gruesch", 
+        "location number":49208, 
+        "location abreviation":"GRUS"
+    }, 
+    {
+        "id":"BG 08018 - 2", 
+        "type":"balise", 
+        "additional information":"track 1", 
+        "relativ position":"7.717 km", 
+        "location":"Gruesch", 
+        "location number":49208, 
+        "location abreviation":"GRUS"
+    }, 
+    {
+        "id":"BG 08019 - 1", 
+        "type":"balise", 
+        "additional information":"track 2", 
+        "relativ position":"7.717 km", 
+        "location":"Gruesch", 
+        "location number":49208, 
+        "location abreviation":"GRUS"
+    }, 
+    {
+        "id":"BG 08019 - 2", 
+        "type":"balise", 
+        "additional information":"track 2", 
+        "relativ position":"7.717 km", 
+        "location":"Gruesch", 
+        "location number":49208, 
+        "location abreviation":"GRUS"
+    }, 
+    {
+        "id":"B**1", 
+        "type":"distant signal", 
+        "additional information":"track 1", 
+        "relativ position":"7.780 km", 
+        "location":"Gruesch", 
+        "location number":49208, 
+        "location abreviation":"GRUS"
+    }, 
+    {
+        "id":"B**2", 
+        "type":"distant signal", 
+        "additional information":"track 2", 
+        "relativ position":"7.780 km", 
+        "location":"Gruesch", 
+        "location number":49208, 
+        "location abreviation":"GRUS"
+    }, 
+    {
+        "id":"Gruesch", 
+        "type":"train station", 
+        "additional information":"", 
+        "relativ position":"7.909 km", 
+        "location":"Gruesch", 
+        "location number":49208, 
+        "location abreviation":"GRUS"
+    }, 
+    {
+        "id":"BUe 7.950 - 1", 
+        "type":"railway crossing", 
+        "additional information":"track 1, Bahnhofstrasse", 
+        "relativ position":"7.950 km", 
+        "location":"Gruesch", 
+        "location number":49208, 
+        "location abreviation":"GRUS"
+    }, 
+    {
+        "id":"BUe 7.950 - 2", 
+        "type":"railway crossing", 
+        "additional information":"track 2, Bahnhofstrasse", 
+        "relativ position":"7.950 km", 
+        "location":"Gruesch", 
+        "location number":49208, 
+        "location abreviation":"GRUS"
+    }, 
+    {
+        "id":"W3", 
+        "type":"turnout engine", 
+        "additional information":"track 2", 
+        "relativ position":"7.950 km", 
+        "location":"Gruesch", 
+        "location number":49208, 
+        "location abreviation":"GRUS"
+    }, 
+    {
+        "id":"BG 08024 - 1", 
+        "type":"balise", 
+        "additional information":"track 1", 
+        "relativ position":"7.985 km", 
+        "location":"Gruesch", 
+        "location number":49208, 
+        "location abreviation":"GRUS"
+    }, 
+    {
+        "id":"BG 08024 - 2", 
+        "type":"balise", 
+        "additional information":"track 1", 
+        "relativ position":"7.985 km", 
+        "location":"Gruesch", 
+        "location number":49208, 
+        "location abreviation":"GRUS"
+    }, 
+    {
+        "id":"BG 08025 - 1", 
+        "type":"balise", 
+        "additional information":"track 2", 
+        "relativ position":"7.985 km", 
+        "location":"Gruesch", 
+        "location number":49208, 
+        "location abreviation":"GRUS"
+    }, 
+    {
+        "id":"BG 08025 - 2", 
+        "type":"balise", 
+        "additional information":"track 2", 
+        "relativ position":"7.985 km", 
+        "location":"Gruesch", 
+        "location number":49208, 
+        "location abreviation":"GRUS"
+    }, 
+    {
+        "id":"C", 
+        "type":"main signal", 
+        "additional information":"", 
+        "relativ position":"8.010 km", 
+        "location":"Gruesch", 
+        "location number":49208, 
+        "location abreviation":"GRUS"
+    }, 
+    {
+        "id":"A*", 
+        "type":"distant signal", 
+        "additional information":"", 
+        "relativ position":"8.010 km", 
+        "location":"Gruesch", 
+        "location number":49208, 
+        "location abreviation":"GRUS"
+    }, 
+    {
+        "id":"BUe 8.03", 
+        "type":"railway crossing", 
+        "additional information":"", 
+        "relativ position":"8.033 km", 
+        "location":"Gruesch", 
+        "location number":49208, 
+        "location abreviation":"GRUS"
+    }, 
+    {
+        "id":"BUe 8.04", 
+        "type":"railway crossing", 
+        "additional information":"", 
+        "relativ position":"8.044 km", 
+        "location":"Gruesch", 
+        "location number":49208, 
+        "location abreviation":"GRUS"
+    }, 
+    {
+        "id":"W4", 
+        "type":"turnout engine", 
+        "additional information":"", 
+        "relativ position":"8.059 km", 
+        "location":"Gruesch", 
+        "location number":49208, 
+        "location abreviation":"GRUS"
+    }, 
+    {
+        "id":"D", 
+        "type":"main signal", 
+        "additional information":"", 
+        "relativ position":"8.286 km", 
+        "location":"Gruesch", 
+        "location number":49208, 
+        "location abreviation":"GRUS"
+    }, 
+    {
+        "id":"B*", 
+        "type":"distant signal", 
+        "additional information":"", 
+        "relativ position":"8.286 km", 
+        "location":"Gruesch", 
+        "location number":49208, 
+        "location abreviation":"GRUS"
+    }, 
+    {
+        "id":"BG 08026 - 1", 
+        "type":"balise", 
+        "additional information":"", 
+        "relativ position":"8.290 km", 
+        "location":"Gruesch", 
+        "location number":49208, 
+        "location abreviation":"GRUS"
+    }, 
+    {
+        "id":"BG 08026 - 2", 
+        "type":"balise", 
+        "additional information":"", 
+        "relativ position":"8.290 km", 
+        "location":"Gruesch", 
+        "location number":49208, 
+        "location abreviation":"GRUS"
+    }, 
+    {
+        "id":"D**", 
+        "type":"distant signal", 
+        "additional information":"", 
+        "relativ position":"8.423 km", 
+        "location":"Gruesch", 
+        "location number":49208, 
+        "location abreviation":"GRUS"
+    }, 
+    {
+        "id":"A**", 
+        "type":"distant signal", 
+        "additional information":"", 
+        "relativ position":"8.423 km", 
+        "location":"Schiers", 
+        "location number":49211, 
+        "location abreviation":"SCRS"
+    }, 
+    {
+        "id":"BG 08028 - 1", 
+        "type":"balise", 
+        "additional information":"", 
+        "relativ position":"8.647 km", 
+        "location":"Schiers", 
+        "location number":49211, 
+        "location abreviation":"SCRS"
+    }, 
+    {
+        "id":"BG 08028 - 2", 
+        "type":"balise", 
+        "additional information":"", 
+        "relativ position":"8.647 km", 
+        "location":"Schiers", 
+        "location number":49211, 
+        "location abreviation":"SCRS"
+    }, 
+    {
+        "id":"A", 
+        "type":"main signal", 
+        "additional information":"", 
+        "relativ position":"8.651 km", 
+        "location":"Schiers", 
+        "location number":49211, 
+        "location abreviation":"SCRS"
+    }, 
+    {
+        "id":"D*", 
+        "type":"distant signal", 
+        "additional information":"", 
+        "relativ position":"8.900 km", 
+        "location":"Gruesch", 
+        "location number":49208, 
+        "location abreviation":"GRUS"
+    }, 
+    {
+        "id":"BG 08027 - 1", 
+        "type":"balise", 
+        "additional information":"", 
+        "relativ position":"8.904 km", 
+        "location":"Gruesch", 
+        "location number":49208, 
+        "location abreviation":"GRUS"
+    }, 
+    {
+        "id":"BG 08027 - 2", 
+        "type":"balise", 
+        "additional information":"", 
+        "relativ position":"8.904 km", 
+        "location":"Gruesch", 
+        "location number":49208, 
+        "location abreviation":"GRUS"
+    }, 
+    {
+        "id":"W101", 
+        "type":"turnout engine", 
+        "additional information":"", 
+        "relativ position":"8.905 km", 
+        "location":"Gruesch", 
+        "location number":49208, 
+        "location abreviation":"GRUS"
+    }, 
+    {
+        "id":"B12", 
+        "type":"main signal", 
+        "additional information":"track 2", 
+        "relativ position":"9.097 km", 
+        "location":"Schiers", 
+        "location number":49211, 
+        "location abreviation":"SCRS"
+    }, 
+    {
+        "id":"B13", 
+        "type":"main signal", 
+        "additional information":"track 3", 
+        "relativ position":"9.097 km", 
+        "location":"Schiers", 
+        "location number":49211, 
+        "location abreviation":"SCRS"
+    }, 
+    {
+        "id":"BG 08029 - 1", 
+        "type":"balise", 
+        "additional information":"track 2", 
+        "relativ position":"9.102 km", 
+        "location":"Schiers", 
+        "location number":49211, 
+        "location abreviation":"SCRS"
+    }, 
+    {
+        "id":"BG 08029 - 2", 
+        "type":"balise", 
+        "additional information":"track 2", 
+        "relativ position":"9.102 km", 
+        "location":"Schiers", 
+        "location number":49211, 
+        "location abreviation":"SCRS"
+    }, 
+    {
+        "id":"BG 08030 - 1", 
+        "type":"balise", 
+        "additional information":"track 3", 
+        "relativ position":"9.102 km", 
+        "location":"Schiers", 
+        "location number":49211, 
+        "location abreviation":"SCRS"
+    }, 
+    {
+        "id":"BG 08030 - 2", 
+        "type":"balise", 
+        "additional information":"track 3", 
+        "relativ position":"9.102 km", 
+        "location":"Schiers", 
+        "location number":49211, 
+        "location abreviation":"SCRS"
+    }, 
+    {
+        "id":"BG 08031 - 1", 
+        "type":"balise", 
+        "additional information":"track 2", 
+        "relativ position":"9.796 km", 
+        "location":"Schiers", 
+        "location number":49211, 
+        "location abreviation":"SCRS"
+    }, 
+    {
+        "id":"BG 08031 - 2", 
+        "type":"balise", 
+        "additional information":"track 2", 
+        "relativ position":"9.796 km", 
+        "location":"Schiers", 
+        "location number":49211, 
+        "location abreviation":"SCRS"
+    }, 
+    {
+        "id":"BG 08032 - 1", 
+        "type":"balise", 
+        "additional information":"track 3", 
+        "relativ position":"9.796 km", 
+        "location":"Schiers", 
+        "location number":49211, 
+        "location abreviation":"SCRS"
+    }, 
+    {
+        "id":"BG 08032 - 2", 
+        "type":"balise", 
+        "additional information":"track 3", 
+        "relativ position":"9.796 km", 
+        "location":"Schiers", 
+        "location number":49211, 
+        "location abreviation":"SCRS"
+    }, 
+    {
+        "id":"C*12", 
+        "type":"distant signal", 
+        "additional information":"track 2", 
+        "relativ position":"9.800 km", 
+        "location":"Schiers", 
+        "location number":49211, 
+        "location abreviation":"SCRS"
+    }, 
+    {
+        "id":"C*13", 
+        "type":"distant signal", 
+        "additional information":"track 3", 
+        "relativ position":"9.800 km", 
+        "location":"Schiers", 
+        "location number":49211, 
+        "location abreviation":"SCRS"
+    }, 
+    {
+        "id":"B*12", 
+        "type":"distant signal", 
+        "additional information":"track 2", 
+        "relativ position":"10.167 km", 
+        "location":"Schiers", 
+        "location number":49211, 
+        "location abreviation":"SCRS"
+    }, 
+    {
+        "id":"B*13", 
+        "type":"distant signal", 
+        "additional information":"track 3", 
+        "relativ position":"10.167 km", 
+        "location":"Schiers", 
+        "location number":49211, 
+        "location abreviation":"SCRS"
+    }, 
+    {
+        "id":"BG 08033 - 1", 
+        "type":"balise", 
+        "additional information":"track 2", 
+        "relativ position":"10.171 km", 
+        "location":"Schiers", 
+        "location number":49211, 
+        "location abreviation":"SCRS"
+    }, 
+    {
+        "id":"BG 08033 - 2", 
+        "type":"balise", 
+        "additional information":"track 2", 
+        "relativ position":"10.171 km", 
+        "location":"Schiers", 
+        "location number":49211, 
+        "location abreviation":"SCRS"
+    }, 
+    {
+        "id":"BG 08034 - 1", 
+        "type":"balise", 
+        "additional information":"track 3", 
+        "relativ position":"10.171 km", 
+        "location":"Schiers", 
+        "location number":49211, 
+        "location abreviation":"SCRS"
+    }, 
+    {
+        "id":"BG 08034 - 2", 
+        "type":"balise", 
+        "additional information":"track 3", 
+        "relativ position":"10.171 km", 
+        "location":"Schiers", 
+        "location number":49211, 
+        "location abreviation":"SCRS"
+    }, 
+    {
+        "id":"BG 08035 - 1", 
+        "type":"balise", 
+        "additional information":"track 2", 
+        "relativ position":"10.675 km", 
+        "location":"Schiers", 
+        "location number":49211, 
+        "location abreviation":"SCRS"
+    }, 
+    {
+        "id":"BG 08035 - 2", 
+        "type":"balise", 
+        "additional information":"track 2", 
+        "relativ position":"10.675 km", 
+        "location":"Schiers", 
+        "location number":49211, 
+        "location abreviation":"SCRS"
+    }, 
+    {
+        "id":"BG 08036 - 1", 
+        "type":"balise", 
+        "additional information":"track 3", 
+        "relativ position":"10.675 km", 
+        "location":"Schiers", 
+        "location number":49211, 
+        "location abreviation":"SCRS"
+    }, 
+    {
+        "id":"BG 08036 - 2", 
+        "type":"balise", 
+        "additional information":"track 3", 
+        "relativ position":"10.675 km", 
+        "location":"Schiers", 
+        "location number":49211, 
+        "location abreviation":"SCRS"
+    }, 
+    {
+        "id":"C12", 
+        "type":"main signal", 
+        "additional information":"track 2", 
+        "relativ position":"10.680 km", 
+        "location":"Schiers", 
+        "location number":49211, 
+        "location abreviation":"SCRS"
+    }, 
+    {
+        "id":"E*12", 
+        "type":"distant signal", 
+        "additional information":"track 2", 
+        "relativ position":"10.680 km", 
+        "location":"Schiers", 
+        "location number":49211, 
+        "location abreviation":"SCRS"
+    }, 
+    {
+        "id":"C13", 
+        "type":"main signal", 
+        "additional information":"track 3", 
+        "relativ position":"10.680 km", 
+        "location":"Schiers", 
+        "location number":49211, 
+        "location abreviation":"SCRS"
+    }, 
+    {
+        "id":"E*13", 
+        "type":"distant signal", 
+        "additional information":"track 3", 
+        "relativ position":"10.680 km", 
+        "location":"Schiers", 
+        "location number":49211, 
+        "location abreviation":"SCRS"
+    }, 
+    {
+        "id":"W2", 
+        "type":"turnout engine", 
+        "additional information":"track 2", 
+        "relativ position":"10.904 km", 
+        "location":"Schiers", 
+        "location number":49211, 
+        "location abreviation":"SCRS"
+    }, 
+    {
+        "id":"W3", 
+        "type":"turnout engine", 
+        "additional information":"track 3", 
+        "relativ position":"11.007 km", 
+        "location":"Schiers", 
+        "location number":49211, 
+        "location abreviation":"SCRS"
+    }, 
+    {
+        "id":"W4", 
+        "type":"turnout engine", 
+        "additional information":"track 3", 
+        "relativ position":"11.204 km", 
+        "location":"Schiers", 
+        "location number":49211, 
+        "location abreviation":"SCRS"
+    }, 
+    {
+        "id":"W5", 
+        "type":"turnout engine", 
+        "additional information":"track 2", 
+        "relativ position":"11.317 km", 
+        "location":"Schiers", 
+        "location number":49211, 
+        "location abreviation":"SCRS"
+    }, 
+    {
+        "id":"D3", 
+        "type":"main signal", 
+        "additional information":"track 3", 
+        "relativ position":"11.324 km", 
+        "location":"Schiers", 
+        "location number":49211, 
+        "location abreviation":"SCRS"
+    }, 
+    {
+        "id":"W6", 
+        "type":"turnout engine", 
+        "additional information":"track 2", 
+        "relativ position":"11.327 km", 
+        "location":"Schiers", 
+        "location number":49211, 
+        "location abreviation":"SCRS"
+    }, 
+    {
+        "id":"BG 08039 - 1", 
+        "type":"balise", 
+        "additional information":"track 3", 
+        "relativ position":"11.329 km", 
+        "location":"Schiers", 
+        "location number":49211, 
+        "location abreviation":"SCRS"
+    }, 
+    {
+        "id":"BG 08039 - 2", 
+        "type":"balise", 
+        "additional information":"track 3", 
+        "relativ position":"11.329 km", 
+        "location":"Schiers", 
+        "location number":49211, 
+        "location abreviation":"SCRS"
+    }, 
+    {
+        "id":"D1", 
+        "type":"main signal", 
+        "additional information":"track 1", 
+        "relativ position":"11.383 km", 
+        "location":"Schiers", 
+        "location number":49211, 
+        "location abreviation":"SCRS"
+    }, 
+    {
+        "id":"D2", 
+        "type":"main signal", 
+        "additional information":"track 2", 
+        "relativ position":"11.383 km", 
+        "location":"Schiers", 
+        "location number":49211, 
+        "location abreviation":"SCRS"
+    }, 
+    {
+        "id":"BG 08037 - 1", 
+        "type":"balise", 
+        "additional information":"track 1", 
+        "relativ position":"11.388 km", 
+        "location":"Schiers", 
+        "location number":49211, 
+        "location abreviation":"SCRS"
+    }, 
+    {
+        "id":"BG 08037 - 2", 
+        "type":"balise", 
+        "additional information":"track 1", 
+        "relativ position":"11.388 km", 
+        "location":"Schiers", 
+        "location number":49211, 
+        "location abreviation":"SCRS"
+    }, 
+    {
+        "id":"BG 08038 - 1", 
+        "type":"balise", 
+        "additional information":"track 2", 
+        "relativ position":"11.388 km", 
+        "location":"Schiers", 
+        "location number":49211, 
+        "location abreviation":"SCRS"
+    }, 
+    {
+        "id":"BG 08038 - 2", 
+        "type":"balise", 
+        "additional information":"track 2", 
+        "relativ position":"11.388 km", 
+        "location":"Schiers", 
+        "location number":49211, 
+        "location abreviation":"SCRS"
+    }, 
+    {
+        "id":"Schiers", 
+        "type":"train station", 
+        "additional information":"", 
+        "relativ position":"11.438 km", 
+        "location":"Schiers", 
+        "location number":49211, 
+        "location abreviation":"SCRS"
+    }, 
+    {
+        "id":"W7", 
+        "type":"turnout engine", 
+        "additional information":"track 3", 
+        "relativ position":"11.476 km", 
+        "location":"Schiers", 
+        "location number":49211, 
+        "location abreviation":"SCRS"
+    }, 
+    {
+        "id":"E1", 
+        "type":"main signal", 
+        "additional information":"track 1", 
+        "relativ position":"11.496 km", 
+        "location":"Schiers", 
+        "location number":49211, 
+        "location abreviation":"SCRS"
+    }, 
+    {
+        "id":"BG 08040 - 1", 
+        "type":"balise", 
+        "additional information":"track 2", 
+        "relativ position":"11.615 km", 
+        "location":"Schiers", 
+        "location number":49211, 
+        "location abreviation":"SCRS"
+    }, 
+    {
+        "id":"BG 08040 - 2", 
+        "type":"balise", 
+        "additional information":"track 2", 
+        "relativ position":"11.615 km", 
+        "location":"Schiers", 
+        "location number":49211, 
+        "location abreviation":"SCRS"
+    }, 
+    {
+        "id":"BG 08041 - 1", 
+        "type":"balise", 
+        "additional information":"track 3", 
+        "relativ position":"11.615 km", 
+        "location":"Schiers", 
+        "location number":49211, 
+        "location abreviation":"SCRS"
+    }, 
+    {
+        "id":"BG 08041 - 2", 
+        "type":"balise", 
+        "additional information":"track 3", 
+        "relativ position":"11.615 km", 
+        "location":"Schiers", 
+        "location number":49211, 
+        "location abreviation":"SCRS"
+    }, 
+    {
+        "id":"E2", 
+        "type":"main signal", 
+        "additional information":"track 2", 
+        "relativ position":"11.620 km", 
+        "location":"Schiers", 
+        "location number":49211, 
+        "location abreviation":"SCRS"
+    }, 
+    {
+        "id":"E3", 
+        "type":"main signal", 
+        "additional information":"track 3", 
+        "relativ position":"11.620 km", 
+        "location":"Schiers", 
+        "location number":49211, 
+        "location abreviation":"SCRS"
+    }, 
+    {
+        "id":"PO", 
+        "type":"position offset", 
+        "additional information":"-14m", 
+        "relativ position":"11.800 km", 
+        "location":"Schiers", 
+        "location number":49211, 
+        "location abreviation":"SCRS"
+    }, 
+    {
+        "id":"BUe 11.80 - 1", 
+        "type":"railway crossing", 
+        "additional information":"track 2", 
+        "relativ position":"11.807 km", 
+        "location":"Schiers", 
+        "location number":49211, 
+        "location abreviation":"SCRS"
+    }, 
+    {
+        "id":"BUe 11.80 - 2", 
+        "type":"railway crossing", 
+        "additional information":"track 3", 
+        "relativ position":"11.807 km", 
+        "location":"Schiers", 
+        "location number":49211, 
+        "location abreviation":"SCRS"
+    }, 
+    {
+        "id":"F42", 
+        "type":"main signal", 
+        "additional information":"track 2", 
+        "relativ position":"11.998 km", 
+        "location":"Schiers", 
+        "location number":49211, 
+        "location abreviation":"SCRS"
+    }, 
+    {
+        "id":"D*42", 
+        "type":"distant signal", 
+        "additional information":"track 2", 
+        "relativ position":"11.998 km", 
+        "location":"Schiers", 
+        "location number":49211, 
+        "location abreviation":"SCRS"
+    }, 
+    {
+        "id":"F43", 
+        "type":"main signal", 
+        "additional information":"track 3", 
+        "relativ position":"11.998 km", 
+        "location":"Schiers", 
+        "location number":49211, 
+        "location abreviation":"SCRS"
+    }, 
+    {
+        "id":"D*43", 
+        "type":"distant signal", 
+        "additional information":"track 3", 
+        "relativ position":"11.998 km", 
+        "location":"Schiers", 
+        "location number":49211, 
+        "location abreviation":"SCRS"
+    }, 
+    {
+        "id":"BG 08042 - 1", 
+        "type":"balise", 
+        "additional information":"track 2", 
+        "relativ position":"12.003 km", 
+        "location":"Schiers", 
+        "location number":49211, 
+        "location abreviation":"SCRS"
+    }, 
+    {
+        "id":"BG 08042 - 2", 
+        "type":"balise", 
+        "additional information":"track 2", 
+        "relativ position":"12.003 km", 
+        "location":"Schiers", 
+        "location number":49211, 
+        "location abreviation":"SCRS"
+    }, 
+    {
+        "id":"BG 08043 - 1", 
+        "type":"balise", 
+        "additional information":"track 3", 
+        "relativ position":"12.003 km", 
+        "location":"Schiers", 
+        "location number":49211, 
+        "location abreviation":"SCRS"
+    }, 
+    {
+        "id":"BG 08043 - 2", 
+        "type":"balise", 
+        "additional information":"track 3", 
+        "relativ position":"12.003 km", 
+        "location":"Schiers", 
+        "location number":49211, 
+        "location abreviation":"SCRS"
+    }, 
+    {
+        "id":"BG 08044 - 1", 
+        "type":"balise", 
+        "additional information":"track 2", 
+        "relativ position":"12.168 km", 
+        "location":"Schiers", 
+        "location number":49211, 
+        "location abreviation":"SCRS"
+    }, 
+    {
+        "id":"BG 08044 - 2", 
+        "type":"balise", 
+        "additional information":"track 2", 
+        "relativ position":"12.168 km", 
+        "location":"Schiers", 
+        "location number":49211, 
+        "location abreviation":"SCRS"
+    }, 
+    {
+        "id":"BG 08045 - 1", 
+        "type":"balise", 
+        "additional information":"track 3", 
+        "relativ position":"12.168 km", 
+        "location":"Schiers", 
+        "location number":49211, 
+        "location abreviation":"SCRS"
+    }, 
+    {
+        "id":"BG 08045 - 2", 
+        "type":"balise", 
+        "additional information":"track 3", 
+        "relativ position":"12.168 km", 
+        "location":"Schiers", 
+        "location number":49211, 
+        "location abreviation":"SCRS"
+    }, 
+    {
+        "id":"G*42", 
+        "type":"distant signal", 
+        "additional information":"track 2", 
+        "relativ position":"12.173 km", 
+        "location":"Schiers", 
+        "location number":49211, 
+        "location abreviation":"SCRS"
+    }, 
+    {
+        "id":"G*43", 
+        "type":"distant signal", 
+        "additional information":"track 3", 
+        "relativ position":"12.173 km", 
+        "location":"Schiers", 
+        "location number":49211, 
+        "location abreviation":"SCRS"
+    }, 
+    {
+        "id":"BG 08046 - 1", 
+        "type":"balise", 
+        "additional information":"track 2", 
+        "relativ position":"12.619 km", 
+        "location":"Schiers", 
+        "location number":49211, 
+        "location abreviation":"SCRS"
+    }, 
+    {
+        "id":"BG 08046 - 2", 
+        "type":"balise", 
+        "additional information":"track 2", 
+        "relativ position":"12.619 km", 
+        "location":"Schiers", 
+        "location number":49211, 
+        "location abreviation":"SCRS"
+    }, 
+    {
+        "id":"BG 08047 - 1", 
+        "type":"balise", 
+        "additional information":"track 3", 
+        "relativ position":"12.619 km", 
+        "location":"Schiers", 
+        "location number":49211, 
+        "location abreviation":"SCRS"
+    }, 
+    {
+        "id":"BG 08047 - 2", 
+        "type":"balise", 
+        "additional information":"track 3", 
+        "relativ position":"12.619 km", 
+        "location":"Schiers", 
+        "location number":49211, 
+        "location abreviation":"SCRS"
+    }, 
+    {
+        "id":"G42", 
+        "type":"main signal", 
+        "additional information":"track 2", 
+        "relativ position":"12.623 km", 
+        "location":"Schiers", 
+        "location number":49211, 
+        "location abreviation":"SCRS"
+    }, 
+    {
+        "id":"G43", 
+        "type":"main signal", 
+        "additional information":"track 3", 
+        "relativ position":"12.623 km", 
+        "location":"Schiers", 
+        "location number":49211, 
+        "location abreviation":"SCRS"
+    }, 
+    {
+        "id":"F*", 
+        "type":"distant signal", 
+        "additional information":"", 
+        "relativ position":"12.812 km", 
+        "location":"Schiers", 
+        "location number":49211, 
+        "location abreviation":"SCRS"
+    }, 
+    {
+        "id":"W101", 
+        "type":"turnout engine", 
+        "additional information":"", 
+        "relativ position":"12.814 km", 
+        "location":"Schiers", 
+        "location number":49211, 
+        "location abreviation":"SCRS"
+    }, 
+    {
+        "id":"BG 08048 - 1", 
+        "type":"balise", 
+        "additional information":"", 
+        "relativ position":"12.817 km", 
+        "location":"Schiers", 
+        "location number":49211, 
+        "location abreviation":"SCRS"
+    }, 
+    {
+        "id":"BG 08048 - 2", 
+        "type":"balise", 
+        "additional information":"", 
+        "relativ position":"12.817 km", 
+        "location":"Schiers", 
+        "location number":49211, 
+        "location abreviation":"SCRS"
+    }, 
+    {
+        "id":"BUe 12.99", 
+        "type":"railway crossing", 
+        "additional information":"", 
+        "relativ position":"12.995 km", 
+        "location":"Schiers", 
+        "location number":49211, 
+        "location abreviation":"SCRS"
+    }, 
+    {
+        "id":"BUe 13.11", 
+        "type":"railway crossing", 
+        "additional information":"", 
+        "relativ position":"13.110 km", 
+        "location":"Schiers", 
+        "location number":49211, 
+        "location abreviation":"SCRS"
+    }, 
+    {
+        "id":"H", 
+        "type":"main signal", 
+        "additional information":"", 
+        "relativ position":"13.155 km", 
+        "location":"Schiers", 
+        "location number":49211, 
+        "location abreviation":"SCRS"
+    }, 
+    {
+        "id":"BG 08049 - 1", 
+        "type":"balise", 
+        "additional information":"", 
+        "relativ position":"13.160 km", 
+        "location":"Schiers", 
+        "location number":49211, 
+        "location abreviation":"SCRS"
+    }, 
+    {
+        "id":"BG 08049 - 2", 
+        "type":"balise", 
+        "additional information":"", 
+        "relativ position":"13.160 km", 
+        "location":"Schiers", 
+        "location number":49211, 
+        "location abreviation":"SCRS"
+    }, 
+    {
+        "id":"Fuchsenwinkel-Tunnel 1", 
+        "type":"tunnel portal", 
+        "additional information":"", 
+        "relativ position":"13.185 km", 
+        "location":"Schiers", 
+        "location number":49211, 
+        "location abreviation":"SCRS"
+    }, 
+    {
+        "id":"BG 08020 - 1", 
+        "type":"balise", 
+        "additional information":"", 
+        "relativ position":"13.305 km", 
+        "location":"Schiers", 
+        "location number":49211, 
+        "location abreviation":"SCRS"
+    }, 
+    {
+        "id":"BG 08020 - 2", 
+        "type":"balise", 
+        "additional information":"", 
+        "relativ position":"13.305 km", 
+        "location":"Schiers", 
+        "location number":49211, 
+        "location abreviation":"SCRS"
+    }, 
+    {
+        "id":"BG 08051 - 1", 
+        "type":"balise", 
+        "additional information":"", 
+        "relativ position":"13.474 km", 
+        "location":"Fuchsenwinkel", 
+        "location number":16001, 
+        "location abreviation":"FUWI"
+    }, 
+    {
+        "id":"BG 08051 - 2", 
+        "type":"balise", 
+        "additional information":"", 
+        "relativ position":"13.474 km", 
+        "location":"Fuchsenwinkel", 
+        "location number":16001, 
+        "location abreviation":"FUWI"
+    }, 
+    {
+        "id":"A*", 
+        "type":"distant signal", 
+        "additional information":"", 
+        "relativ position":"13.480 km", 
+        "location":"Fuchsenwinkel", 
+        "location number":16001, 
+        "location abreviation":"FUWI"
+    }, 
+    {
+        "id":"Fuchsenwinkel-Tunnel 2", 
+        "type":"tunnel portal", 
+        "additional information":"", 
+        "relativ position":"13.970 km", 
+        "location":"Fuchsenwinkel", 
+        "location number":16001, 
+        "location abreviation":"FUWI"
+    }, 
+    {
+        "id":"H*", 
+        "type":"distant signal", 
+        "additional information":"", 
+        "relativ position":"14.007 km", 
+        "location":"Schiers", 
+        "location number":49211, 
+        "location abreviation":"SCRS"
+    }, 
+    {
+        "id":"BG 08050 - 1", 
+        "type":"balise", 
+        "additional information":"", 
+        "relativ position":"14.011 km", 
+        "location":"Schiers", 
+        "location number":49211, 
+        "location abreviation":"SCRS"
+    }, 
+    {
+        "id":"BG 08050 - 2", 
+        "type":"balise", 
+        "additional information":"", 
+        "relativ position":"14.011 km", 
+        "location":"Schiers", 
+        "location number":49211, 
+        "location abreviation":"SCRS"
+    }, 
+    {
+        "id":"BG 08052 - 1", 
+        "type":"balise", 
+        "additional information":"", 
+        "relativ position":"14.083 km", 
+        "location":"Fuchsenwinkel", 
+        "location number":16001, 
+        "location abreviation":"FUWI"
+    }, 
+    {
+        "id":"BG 08052 - 2", 
+        "type":"balise", 
+        "additional information":"", 
+        "relativ position":"14.083 km", 
+        "location":"Fuchsenwinkel", 
+        "location number":16001, 
+        "location abreviation":"FUWI"
+    }, 
+    {
+        "id":"A", 
+        "type":"main signal", 
+        "additional information":"", 
+        "relativ position":"14.089 km", 
+        "location":"Fuchsenwinkel", 
+        "location number":16001, 
+        "location abreviation":"FUWI"
+    }, 
+    {
+        "id":"C*", 
+        "type":"distant signal", 
+        "additional information":"", 
+        "relativ position":"14.089 km", 
+        "location":"Fuchsenwinkel", 
+        "location number":16001, 
+        "location abreviation":"FUWI"
+    }, 
+    {
+        "id":"PO", 
+        "type":"position offset", 
+        "additional information":"-109m", 
+        "relativ position":"14.200 km", 
+        "location":"Fuchsenwinkel", 
+        "location number":16001, 
+        "location abreviation":"FUWI"
+    }, 
+    {
+        "id":"W1", 
+        "type":"turnout engine", 
+        "additional information":"", 
+        "relativ position":"14.376 km", 
+        "location":"Fuchsenwinkel", 
+        "location number":16001, 
+        "location abreviation":"FUWI"
+    }, 
+    {
+        "id":"B1", 
+        "type":"main signal", 
+        "additional information":"track 1", 
+        "relativ position":"14.507 km", 
+        "location":"Fuchsenwinkel", 
+        "location number":16001, 
+        "location abreviation":"FUWI"
+    }, 
+    {
+        "id":"B2", 
+        "type":"main signal", 
+        "additional information":"track 2", 
+        "relativ position":"14.507 km", 
+        "location":"Fuchsenwinkel", 
+        "location number":16001, 
+        "location abreviation":"FUWI"
+    }, 
+    {
+        "id":"BG 08053 - 1", 
+        "type":"balise", 
+        "additional information":"track 1", 
+        "relativ position":"14.512 km", 
+        "location":"Fuchsenwinkel", 
+        "location number":16001, 
+        "location abreviation":"FUWI"
+    }, 
+    {
+        "id":"BG 08053 - 2", 
+        "type":"balise", 
+        "additional information":"track 1", 
+        "relativ position":"14.512 km", 
+        "location":"Fuchsenwinkel", 
+        "location number":16001, 
+        "location abreviation":"FUWI"
+    }, 
+    {
+        "id":"BG 08054 - 1", 
+        "type":"balise", 
+        "additional information":"track 2", 
+        "relativ position":"14.512 km", 
+        "location":"Fuchsenwinkel", 
+        "location number":16001, 
+        "location abreviation":"FUWI"
+    }, 
+    {
+        "id":"BG 08054 - 2", 
+        "type":"balise", 
+        "additional information":"track 2", 
+        "relativ position":"14.512 km", 
+        "location":"Fuchsenwinkel", 
+        "location number":16001, 
+        "location abreviation":"FUWI"
+    }, 
+    {
+        "id":"PO", 
+        "type":"position offset", 
+        "additional information":"-8m, track 1", 
+        "relativ position":"14.698 km", 
+        "location":"Fuchsenwinkel", 
+        "location number":16001, 
+        "location abreviation":"FUWI"
+    }, 
+    {
+        "id":"BG 08055 - 1", 
+        "type":"balise", 
+        "additional information":"track 1", 
+        "relativ position":"14.885 km", 
+        "location":"Fuchsenwinkel", 
+        "location number":16001, 
+        "location abreviation":"FUWI"
+    }, 
+    {
+        "id":"BG 08055 - 2", 
+        "type":"balise", 
+        "additional information":"track 1", 
+        "relativ position":"14.885 km", 
+        "location":"Fuchsenwinkel", 
+        "location number":16001, 
+        "location abreviation":"FUWI"
+    }, 
+    {
+        "id":"BG 08056 - 1", 
+        "type":"balise", 
+        "additional information":"track 2", 
+        "relativ position":"14.885 km", 
+        "location":"Fuchsenwinkel", 
+        "location number":16001, 
+        "location abreviation":"FUWI"
+    }, 
+    {
+        "id":"BG 08056 - 2", 
+        "type":"balise", 
+        "additional information":"track 2", 
+        "relativ position":"14.885 km", 
+        "location":"Fuchsenwinkel", 
+        "location number":16001, 
+        "location abreviation":"FUWI"
+    }, 
+    {
+        "id":"C1", 
+        "type":"main signal", 
+        "additional information":"track 1", 
+        "relativ position":"14.890 km", 
+        "location":"Fuchsenwinkel", 
+        "location number":16001, 
+        "location abreviation":"FUWI"
+    }, 
+    {
+        "id":"C2", 
+        "type":"main signal", 
+        "additional information":"track 2", 
+        "relativ position":"14.890 km", 
+        "location":"Fuchsenwinkel", 
+        "location number":16001, 
+        "location abreviation":"FUWI"
+    }, 
+    {
+        "id":"W2", 
+        "type":"turnout engine", 
+        "additional information":"", 
+        "relativ position":"15.025 km", 
+        "location":"Fuchsenwinkel", 
+        "location number":16001, 
+        "location abreviation":"FUWI"
+    }, 
+    {
+        "id":"D", 
+        "type":"main signal", 
+        "additional information":"", 
+        "relativ position":"15.283 km", 
+        "location":"Fuchsenwinkel", 
+        "location number":16001, 
+        "location abreviation":"FUWI"
+    }, 
+    {
+        "id":"B*", 
+        "type":"distant signal", 
+        "additional information":"", 
+        "relativ position":"15.283 km", 
+        "location":"Fuchsenwinkel", 
+        "location number":16001, 
+        "location abreviation":"FUWI"
+    }, 
+    {
+        "id":"BG 08057 - 1", 
+        "type":"balise", 
+        "additional information":"", 
+        "relativ position":"15.288 km", 
+        "location":"Fuchsenwinkel", 
+        "location number":16001, 
+        "location abreviation":"FUWI"
+    }, 
+    {
+        "id":"BG 08057 - 2", 
+        "type":"balise", 
+        "additional information":"", 
+        "relativ position":"15.288 km", 
+        "location":"Fuchsenwinkel", 
+        "location number":16001, 
+        "location abreviation":"FUWI"
+    }, 
+    {
+        "id":"Furna", 
+        "type":"train station", 
+        "additional information":"", 
+        "relativ position":"15.294 km", 
+        "location":"Fuchsenwinkel", 
+        "location number":16001, 
+        "location abreviation":"FUWI"
+    }, 
+    {
+        "id":"W4", 
+        "type":"turnout engine", 
+        "additional information":"", 
+        "relativ position":"15.403 km", 
+        "location":"Fuchsenwinkel", 
+        "location number":16001, 
+        "location abreviation":"FUWI"
+    }, 
+    {
+        "id":"BG 08059 - 1", 
+        "type":"balise", 
+        "additional information":"", 
+        "relativ position":"15.596 km", 
+        "location":"Jenaz", 
+        "location number":49217, 
+        "location abreviation":"JAZ"
+    }, 
+    {
+        "id":"BG 08059 - 2", 
+        "type":"balise", 
+        "additional information":"", 
+        "relativ position":"15.596 km", 
+        "location":"Jenaz", 
+        "location number":49217, 
+        "location abreviation":"JAZ"
+    }, 
+    {
+        "id":"A3", 
+        "type":"distant signal", 
+        "additional information":"", 
+        "relativ position":"15.600 km", 
+        "location":"Jenaz", 
+        "location number":49217, 
+        "location abreviation":"JAZ"
+    }, 
+    {
+        "id":"D*", 
+        "type":"distant signal", 
+        "additional information":"", 
+        "relativ position":"15.938 km", 
+        "location":"Fuchsenwinkel", 
+        "location number":16001, 
+        "location abreviation":"FUWI"
+    }, 
+    {
+        "id":"BG 08060 - 1", 
+        "type":"balise", 
+        "additional information":"", 
+        "relativ position":"15.942 km", 
+        "location":"Fuchsenwinkel", 
+        "location number":16001, 
+        "location abreviation":"FUWI"
+    }, 
+    {
+        "id":"BG 08060 - 2", 
+        "type":"balise", 
+        "additional information":"", 
+        "relativ position":"15.942 km", 
+        "location":"Fuchsenwinkel", 
+        "location number":16001, 
+        "location abreviation":"FUWI"
+    }, 
+    {
+        "id":"BG 08060 - 1", 
+        "type":"balise", 
+        "additional information":"", 
+        "relativ position":"16.246 km", 
+        "location":"Jenaz", 
+        "location number":49217, 
+        "location abreviation":"JAZ"
+    }, 
+    {
+        "id":"BG 08060 - 2", 
+        "type":"balise", 
+        "additional information":"", 
+        "relativ position":"16.246 km", 
+        "location":"Jenaz", 
+        "location number":49217, 
+        "location abreviation":"JAZ"
+    }, 
+    {
+        "id":"A", 
+        "type":"main signal", 
+        "additional information":"", 
+        "relativ position":"16.250 km", 
+        "location":"Jenaz", 
+        "location number":49217, 
+        "location abreviation":"JAZ"
+    }, 
+    {
+        "id":"C*", 
+        "type":"distant signal", 
+        "additional information":"", 
+        "relativ position":"16.250 km", 
+        "location":"Jenaz", 
+        "location number":49217, 
+        "location abreviation":"JAZ"
+    }, 
+    {
+        "id":"W1", 
+        "type":"turnout engine", 
+        "additional information":"", 
+        "relativ position":"16.451 km", 
+        "location":"Jenaz", 
+        "location number":49217, 
+        "location abreviation":"JAZ"
+    }, 
+    {
+        "id":"B", 
+        "type":"main signal", 
+        "additional information":"track 2 & 3", 
+        "relativ position":"16.490 km", 
+        "location":"Jenaz", 
+        "location number":49217, 
+        "location abreviation":"JAZ"
+    }, 
+    {
+        "id":"BG 08061 - 1", 
+        "type":"balise", 
+        "additional information":"track 3", 
+        "relativ position":"16.534 km", 
+        "location":"Jenaz", 
+        "location number":49217, 
+        "location abreviation":"JAZ"
+    }, 
+    {
+        "id":"BG 08061 - 2", 
+        "type":"balise", 
+        "additional information":"track 3", 
+        "relativ position":"16.534 km", 
+        "location":"Jenaz", 
+        "location number":49217, 
+        "location abreviation":"JAZ"
+    }, 
+    {
+        "id":"BG 08062 - 1", 
+        "type":"balise", 
+        "additional information":"track 2", 
+        "relativ position":"16.534 km", 
+        "location":"Jenaz", 
+        "location number":49217, 
+        "location abreviation":"JAZ"
+    }, 
+    {
+        "id":"BG 08062 - 2", 
+        "type":"balise", 
+        "additional information":"track 2", 
+        "relativ position":"16.534 km", 
+        "location":"Jenaz", 
+        "location number":49217, 
+        "location abreviation":"JAZ"
+    }, 
+    {
+        "id":"B**3", 
+        "type":"distant signal", 
+        "additional information":"track 3", 
+        "relativ position":"16.594 km", 
+        "location":"Jenaz", 
+        "location number":49217, 
+        "location abreviation":"JAZ"
+    }, 
+    {
+        "id":"B**2", 
+        "type":"distant signal", 
+        "additional information":"track 2", 
+        "relativ position":"16.594 km", 
+        "location":"Jenaz", 
+        "location number":49217, 
+        "location abreviation":"JAZ"
+    }, 
+    {
+        "id":"Jenaz", 
+        "type":"train station", 
+        "additional information":"", 
+        "relativ position":"16.648 km", 
+        "location":"Jenaz", 
+        "location number":49217, 
+        "location abreviation":"JAZ"
+    }, 
+    {
+        "id":"W6", 
+        "type":"turnout engine", 
+        "additional information":"track 2", 
+        "relativ position":"16.804 km", 
+        "location":"Jenaz", 
+        "location number":49217, 
+        "location abreviation":"JAZ"
+    }, 
+    {
+        "id":"BG 08063 - 1", 
+        "type":"balise", 
+        "additional information":"track 3", 
+        "relativ position":"16.826 km", 
+        "location":"Jenaz", 
+        "location number":49217, 
+        "location abreviation":"JAZ"
+    }, 
+    {
+        "id":"BG 08063 - 2", 
+        "type":"balise", 
+        "additional information":"track 3", 
+        "relativ position":"16.826 km", 
+        "location":"Jenaz", 
+        "location number":49217, 
+        "location abreviation":"JAZ"
+    }, 
+    {
+        "id":"BG 08064 - 1", 
+        "type":"balise", 
+        "additional information":"track 2", 
+        "relativ position":"16.826 km", 
+        "location":"Jenaz", 
+        "location number":49217, 
+        "location abreviation":"JAZ"
+    }, 
+    {
+        "id":"BG 08064 - 2", 
+        "type":"balise", 
+        "additional information":"track 2", 
+        "relativ position":"16.826 km", 
+        "location":"Jenaz", 
+        "location number":49217, 
+        "location abreviation":"JAZ"
+    }, 
+    {
+        "id":"C", 
+        "type":"main signal", 
+        "additional information":"track 2 & 3", 
+        "relativ position":"16.856 km", 
+        "location":"Jenaz", 
+        "location number":49217, 
+        "location abreviation":"JAZ"
+    }, 
+    {
+        "id":"W7", 
+        "type":"turnout engine", 
+        "additional information":"track 3", 
+        "relativ position":"16.887 km", 
+        "location":"Jenaz", 
+        "location number":49217, 
+        "location abreviation":"JAZ"
+    }, 
+    {
+        "id":"BG 08067 - 1", 
+        "type":"balise", 
+        "additional information":"", 
+        "relativ position":"17.028 km", 
+        "location":"Fideris", 
+        "location number":49218, 
+        "location abreviation":"FID"
+    }, 
+    {
+        "id":"BG 08067 - 2", 
+        "type":"balise", 
+        "additional information":"", 
+        "relativ position":"17.028 km", 
+        "location":"Fideris", 
+        "location number":49218, 
+        "location abreviation":"FID"
+    }, 
+    {
+        "id":"A*", 
+        "type":"distant signal", 
+        "additional information":"", 
+        "relativ position":"17.031 km", 
+        "location":"Fideris", 
+        "location number":49218, 
+        "location abreviation":"FID"
+    }, 
+    {
+        "id":"D", 
+        "type":"main signal", 
+        "additional information":"", 
+        "relativ position":"17.086 km", 
+        "location":"Jenaz", 
+        "location number":49217, 
+        "location abreviation":"JAZ"
+    }, 
+    {
+        "id":"B*", 
+        "type":"distant signal", 
+        "additional information":"", 
+        "relativ position":"17.086 km", 
+        "location":"Jenaz", 
+        "location number":49217, 
+        "location abreviation":"JAZ"
+    }, 
+    {
+        "id":"BG 08065 - 1", 
+        "type":"balise", 
+        "additional information":"", 
+        "relativ position":"17.089 km", 
+        "location":"Jenaz", 
+        "location number":49217, 
+        "location abreviation":"JAZ"
+    }, 
+    {
+        "id":"BG 08065 - 2", 
+        "type":"balise", 
+        "additional information":"", 
+        "relativ position":"17.089 km", 
+        "location":"Jenaz", 
+        "location number":49217, 
+        "location abreviation":"JAZ"
+    }, 
+    {
+        "id":"BG 08068 - 1", 
+        "type":"balise", 
+        "additional information":"", 
+        "relativ position":"17.632 km", 
+        "location":"Fideris", 
+        "location number":49218, 
+        "location abreviation":"FID"
+    }, 
+    {
+        "id":"BG 08068 - 2", 
+        "type":"balise", 
+        "additional information":"", 
+        "relativ position":"17.632 km", 
+        "location":"Fideris", 
+        "location number":49218, 
+        "location abreviation":"FID"
+    }, 
+    {
+        "id":"A", 
+        "type":"main signal", 
+        "additional information":"", 
+        "relativ position":"17.637 km", 
+        "location":"Fideris", 
+        "location number":49218, 
+        "location abreviation":"FID"
+    }, 
+    {
+        "id":"E*", 
+        "type":"distant signal", 
+        "additional information":"", 
+        "relativ position":"17.637 km", 
+        "location":"Fideris", 
+        "location number":49218, 
+        "location abreviation":"FID"
+    }, 
+    {
+        "id":"D*", 
+        "type":"distant signal", 
+        "additional information":"", 
+        "relativ position":"17.769 km", 
+        "location":"Jenaz", 
+        "location number":49217, 
+        "location abreviation":"JAZ"
+    }, 
+    {
+        "id":"BG 08066 - 1", 
+        "type":"balise", 
+        "additional information":"", 
+        "relativ position":"17.774 km", 
+        "location":"Jenaz", 
+        "location number":49217, 
+        "location abreviation":"JAZ"
+    }, 
+    {
+        "id":"BG 08066 - 2", 
+        "type":"balise", 
+        "additional information":"", 
+        "relativ position":"17.774 km", 
+        "location":"Jenaz", 
+        "location number":49217, 
+        "location abreviation":"JAZ"
+    }, 
+    {
+        "id":"BUe 17.90", 
+        "type":"railway crossing", 
+        "additional information":"", 
+        "relativ position":"17.905 km", 
+        "location":"Fideris", 
+        "location number":49218, 
+        "location abreviation":"FID"
+    }, 
+    {
+        "id":"W4", 
+        "type":"turnout engine", 
+        "additional information":"", 
+        "relativ position":"17.908 km", 
+        "location":"Fideris", 
+        "location number":49218, 
+        "location abreviation":"FID"
+    }, 
+    {
+        "id":"B", 
+        "type":"main signal", 
+        "additional information":"", 
+        "relativ position":"17.914 km", 
+        "location":"Fideris", 
+        "location number":49218, 
+        "location abreviation":"FID"
+    }, 
+    {
+        "id":"BG 08160 - 1", 
+        "type":"balise", 
+        "additional information":"track 3", 
+        "relativ position":"17.950 km", 
+        "location":"Fideris", 
+        "location number":49218, 
+        "location abreviation":"FID"
+    }, 
+    {
+        "id":"BG 08160 - 2", 
+        "type":"balise", 
+        "additional information":"track 3", 
+        "relativ position":"17.950 km", 
+        "location":"Fideris", 
+        "location number":49218, 
+        "location abreviation":"FID"
+    }, 
+    {
+        "id":"W5", 
+        "type":"turnout engine", 
+        "additional information":"track 2", 
+        "relativ position":"18.075 km", 
+        "location":"Fideris", 
+        "location number":49218, 
+        "location abreviation":"FID"
+    }, 
+    {
+        "id":"D", 
+        "type":"main signal", 
+        "additional information":"track 1 & 2", 
+        "relativ position":"18.100 km", 
+        "location":"Fideris", 
+        "location number":49218, 
+        "location abreviation":"FID"
+    }, 
+    {
+        "id":"BG 08070 - 1", 
+        "type":"balise", 
+        "additional information":"track 2", 
+        "relativ position":"18.128 km", 
+        "location":"Fideris", 
+        "location number":49218, 
+        "location abreviation":"FID"
+    }, 
+    {
+        "id":"BG 08070 - 2", 
+        "type":"balise", 
+        "additional information":"track 2", 
+        "relativ position":"18.128 km", 
+        "location":"Fideris", 
+        "location number":49218, 
+        "location abreviation":"FID"
+    }, 
+    {
+        "id":"BG 08071 - 1", 
+        "type":"balise", 
+        "additional information":"track 1", 
+        "relativ position":"18.128 km", 
+        "location":"Fideris", 
+        "location number":49218, 
+        "location abreviation":"FID"
+    }, 
+    {
+        "id":"BG 08071 - 2", 
+        "type":"balise", 
+        "additional information":"track 1", 
+        "relativ position":"18.128 km", 
+        "location":"Fideris", 
+        "location number":49218, 
+        "location abreviation":"FID"
+    }, 
+    {
+        "id":"BG 08161 - 1", 
+        "type":"balise", 
+        "additional information":"track 3", 
+        "relativ position":"18.143 km", 
+        "location":"Fideris", 
+        "location number":49218, 
+        "location abreviation":"FID"
+    }, 
+    {
+        "id":"BG 08161 - 2", 
+        "type":"balise", 
+        "additional information":"track 3", 
+        "relativ position":"18.143 km", 
+        "location":"Fideris", 
+        "location number":49218, 
+        "location abreviation":"FID"
+    }, 
+    {
+        "id":"W6", 
+        "type":"turnout engine", 
+        "additional information":"track 2", 
+        "relativ position":"18.172 km", 
+        "location":"Fideris", 
+        "location number":49218, 
+        "location abreviation":"FID"
+    }, 
+    {
+        "id":"Fideris", 
+        "type":"train station", 
+        "additional information":"", 
+        "relativ position":"18.250 km", 
+        "location":"Fideris", 
+        "location number":49218, 
+        "location abreviation":"FID"
+    }, 
+    {
+        "id":"BG 08072 - 1", 
+        "type":"balise", 
+        "additional information":"track 2", 
+        "relativ position":"18.368 km", 
+        "location":"Fideris", 
+        "location number":49218, 
+        "location abreviation":"FID"
+    }, 
+    {
+        "id":"BG 08072 - 2", 
+        "type":"balise", 
+        "additional information":"track 2", 
+        "relativ position":"18.368 km", 
+        "location":"Fideris", 
+        "location number":49218, 
+        "location abreviation":"FID"
+    }, 
+    {
+        "id":"BG 08073 - 1", 
+        "type":"balise", 
+        "additional information":"track 1", 
+        "relativ position":"18.368 km", 
+        "location":"Fideris", 
+        "location number":49218, 
+        "location abreviation":"FID"
+    }, 
+    {
+        "id":"BG 08073 - 2", 
+        "type":"balise", 
+        "additional information":"track 1", 
+        "relativ position":"18.368 km", 
+        "location":"Fideris", 
+        "location number":49218, 
+        "location abreviation":"FID"
+    }, 
+    {
+        "id":"E", 
+        "type":"main signal", 
+        "additional information":"track 1 & 2", 
+        "relativ position":"18.372 km", 
+        "location":"Fideris", 
+        "location number":49218, 
+        "location abreviation":"FID"
+    }, 
+    {
+        "id":"W8", 
+        "type":"turnout engine", 
+        "additional information":"", 
+        "relativ position":"18.414 km", 
+        "location":"Fideris", 
+        "location number":49218, 
+        "location abreviation":"FID"
+    }, 
+    {
+        "id":"F", 
+        "type":"main signal", 
+        "additional information":"", 
+        "relativ position":"18.621 km", 
+        "location":"Fideris", 
+        "location number":49218, 
+        "location abreviation":"FID"
+    }, 
+    {
+        "id":"D*", 
+        "type":"distant signal", 
+        "additional information":"", 
+        "relativ position":"18.621 km", 
+        "location":"Fideris", 
+        "location number":49218, 
+        "location abreviation":"FID"
+    }, 
+    {
+        "id":"BG 08074 - 1", 
+        "type":"balise", 
+        "additional information":"", 
+        "relativ position":"18.625 km", 
+        "location":"Fideris", 
+        "location number":49218, 
+        "location abreviation":"FID"
+    }, 
+    {
+        "id":"BG 08074 - 2", 
+        "type":"balise", 
+        "additional information":"", 
+        "relativ position":"18.625 km", 
+        "location":"Fideris", 
+        "location number":49218, 
+        "location abreviation":"FID"
+    }, 
+    {
+        "id":"F*", 
+        "type":"distant signal", 
+        "additional information":"", 
+        "relativ position":"19.075 km", 
+        "location":"Fideris", 
+        "location number":49218, 
+        "location abreviation":"FID"
+    }, 
+    {
+        "id":"BG 08075- 1", 
+        "type":"balise", 
+        "additional information":"", 
+        "relativ position":"19.079 km", 
+        "location":"Fideris", 
+        "location number":49218, 
+        "location abreviation":"FID"
+    }, 
+    {
+        "id":"BG 08075 - 2", 
+        "type":"balise", 
+        "additional information":"", 
+        "relativ position":"19.079 km", 
+        "location":"Fideris", 
+        "location number":49218, 
+        "location abreviation":"FID"
+    }, 
+    {
+        "id":"BG 08076 - 1", 
+        "type":"balise", 
+        "additional information":"", 
+        "relativ position":"19.163 km", 
+        "location":"Fideris", 
+        "location number":49218, 
+        "location abreviation":"FID"
+    }, 
+    {
+        "id":"BG 08076 - 2", 
+        "type":"balise", 
+        "additional information":"", 
+        "relativ position":"19.163 km", 
+        "location":"Fideris", 
+        "location number":49218, 
+        "location abreviation":"FID"
+    }, 
+    {
+        "id":"L*", 
+        "type":"distant signal", 
+        "additional information":"", 
+        "relativ position":"19.167 km", 
+        "location":"Fideris", 
+        "location number":49218, 
+        "location abreviation":"FID"
+    }, 
+    {
+        "id":"BG 08077 - 1", 
+        "type":"balise", 
+        "additional information":"", 
+        "relativ position":"19.560 km", 
+        "location":"Fideris", 
+        "location number":49218, 
+        "location abreviation":"FID"
+    }, 
+    {
+        "id":"BG 08077 - 2", 
+        "type":"balise", 
+        "additional information":"", 
+        "relativ position":"19.560 km", 
+        "location":"Fideris", 
+        "location number":49218, 
+        "location abreviation":"FID"
+    }, 
+    {
+        "id":"L", 
+        "type":"main signal", 
+        "additional information":"", 
+        "relativ position":"19.564 km", 
+        "location":"Fideris", 
+        "location number":49218, 
+        "location abreviation":"FID"
+    }, 
+    {
+        "id":"M", 
+        "type":"main signal", 
+        "additional information":"", 
+        "relativ position":"19.647 km", 
+        "location":"Fideris", 
+        "location number":49218, 
+        "location abreviation":"FID"
+    }, 
+    {
+        "id":"BG 08078 - 1", 
+        "type":"balise", 
+        "additional information":"", 
+        "relativ position":"19.651 km", 
+        "location":"Fideris", 
+        "location number":49218, 
+        "location abreviation":"FID"
+    }, 
+    {
+        "id":"BG 08078 - 2", 
+        "type":"balise", 
+        "additional information":"", 
+        "relativ position":"19.651 km", 
+        "location":"Fideris", 
+        "location number":49218, 
+        "location abreviation":"FID"
+    }, 
+    {
+        "id":"BG 08080 - 1", 
+        "type":"balise", 
+        "additional information":"", 
+        "relativ position":"19.789 km", 
+        "location":"Kueblis", 
+        "location number":49221, 
+        "location abreviation":"KUEB"
+    }, 
+    {
+        "id":"BG 08080 - 2", 
+        "type":"balise", 
+        "additional information":"", 
+        "relativ position":"19.789 km", 
+        "location":"Kueblis", 
+        "location number":49221, 
+        "location abreviation":"KUEB"
+    }, 
+    {
+        "id":"A*", 
+        "type":"distant signal", 
+        "additional information":"", 
+        "relativ position":"19.793 km", 
+        "location":"Kueblis", 
+        "location number":49221, 
+        "location abreviation":"KUEB"
+    }, 
+    {
+        "id":"BG 08081 - 1", 
+        "type":"balise", 
+        "additional information":"", 
+        "relativ position":"20.236 km", 
+        "location":"Kueblis", 
+        "location number":49221, 
+        "location abreviation":"KUEB"
+    }, 
+    {
+        "id":"BG 08081 - 2", 
+        "type":"balise", 
+        "additional information":"", 
+        "relativ position":"20.236 km", 
+        "location":"Kueblis", 
+        "location number":49221, 
+        "location abreviation":"KUEB"
+    }, 
+    {
+        "id":"A", 
+        "type":"main signal", 
+        "additional information":"", 
+        "relativ position":"20.240 km", 
+        "location":"Kueblis", 
+        "location number":49221, 
+        "location abreviation":"KUEB"
+    }, 
+    {
+        "id":"C*", 
+        "type":"distant signal", 
+        "additional information":"", 
+        "relativ position":"20.240 km", 
+        "location":"Kueblis", 
+        "location number":49221, 
+        "location abreviation":"KUEB"
+    }, 
+    {
+        "id":"M*", 
+        "type":"distant signal", 
+        "additional information":"", 
+        "relativ position":"20.333 km", 
+        "location":"Fideris", 
+        "location number":49218, 
+        "location abreviation":"FID"
+    }, 
+    {
+        "id":"BG 08079 - 1", 
+        "type":"balise", 
+        "additional information":"", 
+        "relativ position":"20.337 km", 
+        "location":"Fideris", 
+        "location number":49218, 
+        "location abreviation":"FID"
+    }, 
+    {
+        "id":"BG 08079 - 2", 
+        "type":"balise", 
+        "additional information":"", 
+        "relativ position":"20.337 km", 
+        "location":"Fideris", 
+        "location number":49218, 
+        "location abreviation":"FID"
+    }, 
+    {
+        "id":"PO", 
+        "type":"position offset", 
+        "additional information":"-12m", 
+        "relativ position":"20.600 km", 
+        "location":"Kueblis", 
+        "location number":49221, 
+        "location abreviation":"KUEB"
+    }, 
+    {
+        "id":"W1", 
+        "type":"turnout engine", 
+        "additional information":"", 
+        "relativ position":"20.625 km", 
+        "location":"Kueblis", 
+        "location number":49221, 
+        "location abreviation":"KUEB"
+    }, 
+    {
+        "id":"B22", 
+        "type":"main signal", 
+        "additional information":"track 2", 
+        "relativ position":"20.805 km", 
+        "location":"Kueblis", 
+        "location number":49221, 
+        "location abreviation":"KUEB"
+    }, 
+    {
+        "id":"B21", 
+        "type":"main signal", 
+        "additional information":"track 1", 
+        "relativ position":"20.805 km", 
+        "location":"Kueblis", 
+        "location number":49221, 
+        "location abreviation":"KUEB"
+    }, 
+    {
+        "id":"BG 08083 - 1", 
+        "type":"balise", 
+        "additional information":"track 2", 
+        "relativ position":"20.809 km", 
+        "location":"Kueblis", 
+        "location number":49221, 
+        "location abreviation":"KUEB"
+    }, 
+    {
+        "id":"BG 08083 - 2", 
+        "type":"balise", 
+        "additional information":"track 2", 
+        "relativ position":"20.809 km", 
+        "location":"Kueblis", 
+        "location number":49221, 
+        "location abreviation":"KUEB"
+    }, 
+    {
+        "id":"BG 08082 - 1", 
+        "type":"balise", 
+        "additional information":"track 1", 
+        "relativ position":"20.809 km", 
+        "location":"Kueblis", 
+        "location number":49221, 
+        "location abreviation":"KUEB"
+    }, 
+    {
+        "id":"BG 08082 - 2", 
+        "type":"balise", 
+        "additional information":"track 1", 
+        "relativ position":"20.809 km", 
+        "location":"Kueblis", 
+        "location number":49221, 
+        "location abreviation":"KUEB"
+    }, 
+    {
+        "id":"BG 08085 - 1", 
+        "type":"balise", 
+        "additional information":"track 2", 
+        "relativ position":"21.102 km", 
+        "location":"Kueblis", 
+        "location number":49221, 
+        "location abreviation":"KUEB"
+    }, 
+    {
+        "id":"BG 08085 - 2", 
+        "type":"balise", 
+        "additional information":"track 2", 
+        "relativ position":"21.102 km", 
+        "location":"Kueblis", 
+        "location number":49221, 
+        "location abreviation":"KUEB"
+    }, 
+    {
+        "id":"BG 08084 - 1", 
+        "type":"balise", 
+        "additional information":"track 1", 
+        "relativ position":"21.102 km", 
+        "location":"Kueblis", 
+        "location number":49221, 
+        "location abreviation":"KUEB"
+    }, 
+    {
+        "id":"BG 08084 - 2", 
+        "type":"balise", 
+        "additional information":"track 1", 
+        "relativ position":"21.102 km", 
+        "location":"Kueblis", 
+        "location number":49221, 
+        "location abreviation":"KUEB"
+    }, 
+    {
+        "id":"C22", 
+        "type":"main signal", 
+        "additional information":"track 2", 
+        "relativ position":"21.106 km", 
+        "location":"Kueblis", 
+        "location number":49221, 
+        "location abreviation":"KUEB"
+    }, 
+    {
+        "id":"E*22", 
+        "type":"distant signal", 
+        "additional information":"track 2", 
+        "relativ position":"21.106 km", 
+        "location":"Kueblis", 
+        "location number":49221, 
+        "location abreviation":"KUEB"
+    }, 
+    {
+        "id":"C21", 
+        "type":"main signal", 
+        "additional information":"track 1", 
+        "relativ position":"21.106 km", 
+        "location":"Kueblis", 
+        "location number":49221, 
+        "location abreviation":"KUEB"
+    }, 
+    {
+        "id":"E*21", 
+        "type":"distant signal", 
+        "additional information":"track 1", 
+        "relativ position":"21.106 km", 
+        "location":"Kueblis", 
+        "location number":49221, 
+        "location abreviation":"KUEB"
+    }, 
+    {
+        "id":"B**32", 
+        "type":"distant signal", 
+        "additional information":"track 2", 
+        "relativ position":"21.116 km", 
+        "location":"Kueblis", 
+        "location number":49221, 
+        "location abreviation":"KUEB"
+    }, 
+    {
+        "id":"B**31", 
+        "type":"distant signal", 
+        "additional information":"track 1", 
+        "relativ position":"21.116 km", 
+        "location":"Kueblis", 
+        "location number":49221, 
+        "location abreviation":"KUEB"
+    }, 
+    {
+        "id":"W4", 
+        "type":"turnout engine", 
+        "additional information":"track 2", 
+        "relativ position":"21.236 km", 
+        "location":"Kueblis", 
+        "location number":49221, 
+        "location abreviation":"KUEB"
+    }, 
+    {
+        "id":"D1", 
+        "type":"main signal", 
+        "additional information":"track 1", 
+        "relativ position":"21.275 km", 
+        "location":"Kueblis", 
+        "location number":49221, 
+        "location abreviation":"KUEB"
+    }, 
+    {
+        "id":"BG 08086 - 1", 
+        "type":"balise", 
+        "additional information":"track 1", 
+        "relativ position":"21.278 km", 
+        "location":"Kueblis", 
+        "location number":49221, 
+        "location abreviation":"KUEB"
+    }, 
+    {
+        "id":"BG 08086 - 2", 
+        "type":"balise", 
+        "additional information":"track 1", 
+        "relativ position":"21.278 km", 
+        "location":"Kueblis", 
+        "location number":49221, 
+        "location abreviation":"KUEB"
+    }, 
+    {
+        "id":"D43", 
+        "type":"main signal", 
+        "additional information":"track 3", 
+        "relativ position":"21.282 km", 
+        "location":"Kueblis", 
+        "location number":49221, 
+        "location abreviation":"KUEB"
+    }, 
+    {
+        "id":"D2", 
+        "type":"main signal", 
+        "additional information":"track 2", 
+        "relativ position":"21.282 km", 
+        "location":"Kueblis", 
+        "location number":49221, 
+        "location abreviation":"KUEB"
+    }, 
+    {
+        "id":"BG 08088 - 1", 
+        "type":"balise", 
+        "additional information":"track 3", 
+        "relativ position":"21.286 km", 
+        "location":"Kueblis", 
+        "location number":49221, 
+        "location abreviation":"KUEB"
+    }, 
+    {
+        "id":"BG 08088 - 2", 
+        "type":"balise", 
+        "additional information":"track 3", 
+        "relativ position":"21.286 km", 
+        "location":"Kueblis", 
+        "location number":49221, 
+        "location abreviation":"KUEB"
+    }, 
+    {
+        "id":"BG 08087 - 1", 
+        "type":"balise", 
+        "additional information":"track 2", 
+        "relativ position":"21.286 km", 
+        "location":"Kueblis", 
+        "location number":49221, 
+        "location abreviation":"KUEB"
+    }, 
+    {
+        "id":"BG 08087 - 2", 
+        "type":"balise", 
+        "additional information":"track 2", 
+        "relativ position":"21.286 km", 
+        "location":"Kueblis", 
+        "location number":49221, 
+        "location abreviation":"KUEB"
+    }, 
+    {
+        "id":"W5", 
+        "type":"turnout engine", 
+        "additional information":"track 3", 
+        "relativ position":"21.376 km", 
+        "location":"Kueblis", 
+        "location number":49221, 
+        "location abreviation":"KUEB"
+    }, 
+    {
+        "id":"Kueblis", 
+        "type":"train station", 
+        "additional information":"", 
+        "relativ position":"21.436 km", 
+        "location":"Kueblis", 
+        "location number":49221, 
+        "location abreviation":"KUEB"
+    }, 
+    {
+        "id":"BG 08089 - 1", 
+        "type":"balise", 
+        "additional information":"track 1", 
+        "relativ position":"21.552 km", 
+        "location":"Kueblis", 
+        "location number":49221, 
+        "location abreviation":"KUEB"
+    }, 
+    {
+        "id":"BG 08089 - 2", 
+        "type":"balise", 
+        "additional information":"track 1", 
+        "relativ position":"21.552 km", 
+        "location":"Kueblis", 
+        "location number":49221, 
+        "location abreviation":"KUEB"
+    }, 
+    {
+        "id":"BG 08090 - 1", 
+        "type":"balise", 
+        "additional information":"track 2", 
+        "relativ position":"21.552 km", 
+        "location":"Kueblis", 
+        "location number":49221, 
+        "location abreviation":"KUEB"
+    }, 
+    {
+        "id":"BG 08090 - 2", 
+        "type":"balise", 
+        "additional information":"track 2", 
+        "relativ position":"21.552 km", 
+        "location":"Kueblis", 
+        "location number":49221, 
+        "location abreviation":"KUEB"
+    }, 
+    {
+        "id":"E1", 
+        "type":"main signal", 
+        "additional information":"track 1", 
+        "relativ position":"21.556 km", 
+        "location":"Kueblis", 
+        "location number":49221, 
+        "location abreviation":"KUEB"
+    }, 
+    {
+        "id":"E2", 
+        "type":"main signal", 
+        "additional information":"track 2", 
+        "relativ position":"21.556 km", 
+        "location":"Kueblis", 
+        "location number":49221, 
+        "location abreviation":"KUEB"
+    }, 
+    {
+        "id":"BG 08091 - 1", 
+        "type":"balise", 
+        "additional information":"track 3", 
+        "relativ position":"21.562 km", 
+        "location":"Kueblis", 
+        "location number":49221, 
+        "location abreviation":"KUEB"
+    }, 
+    {
+        "id":"BG 08091 - 2", 
+        "type":"balise", 
+        "additional information":"track 3", 
+        "relativ position":"21.562 km", 
+        "location":"Kueblis", 
+        "location number":49221, 
+        "location abreviation":"KUEB"
+    }, 
+    {
+        "id":"E3", 
+        "type":"main signal", 
+        "additional information":"track 3", 
+        "relativ position":"21.566 km", 
+        "location":"Kueblis", 
+        "location number":49221, 
+        "location abreviation":"KUEB"
+    }, 
+    {
+        "id":"W6", 
+        "type":"turnout engine", 
+        "additional information":"track 2", 
+        "relativ position":"21.611 km", 
+        "location":"Kueblis", 
+        "location number":49221, 
+        "location abreviation":"KUEB"
+    }, 
+    {
+        "id":"W11", 
+        "type":"turnout engine", 
+        "additional information":"", 
+        "relativ position":"21.646 km", 
+        "location":"Kueblis", 
+        "location number":49221, 
+        "location abreviation":"KUEB"
+    }, 
+    {
+        "id":"F", 
+        "type":"main signal", 
+        "additional information":"", 
+        "relativ position":"21.810 km", 
+        "location":"Kueblis", 
+        "location number":49221, 
+        "location abreviation":"KUEB"
+    }, 
+    {
+        "id":"D*", 
+        "type":"distant signal", 
+        "additional information":"", 
+        "relativ position":"21.810 km", 
+        "location":"Kueblis", 
+        "location number":49221, 
+        "location abreviation":"KUEB"
+    }, 
+    {
+        "id":"BG 08092 - 1", 
+        "type":"balise", 
+        "additional information":"", 
+        "relativ position":"21.815 km", 
+        "location":"Kueblis", 
+        "location number":49221, 
+        "location abreviation":"KUEB"
+    }, 
+    {
+        "id":"BG 08092 - 2", 
+        "type":"balise", 
+        "additional information":"", 
+        "relativ position":"21.815 km", 
+        "location":"Kueblis", 
+        "location number":49221, 
+        "location abreviation":"KUEB"
+    }, 
+    {
+        "id":"BG 08094 - 1", 
+        "type":"balise", 
+        "additional information":"", 
+        "relativ position":"22.167 km", 
+        "location":"Capaels", 
+        "location number":49223, 
+        "location abreviation":"CAPA"
+    }, 
+    {
+        "id":"BG 08094 - 2", 
+        "type":"balise", 
+        "additional information":"", 
+        "relativ position":"22.167 km", 
+        "location":"Capaels", 
+        "location number":49223, 
+        "location abreviation":"CAPA"
+    }, 
+    {
+        "id":"G*", 
+        "type":"distant signal", 
+        "additional information":"", 
+        "relativ position":"22.171 km", 
+        "location":"Capaels", 
+        "location number":49223, 
+        "location abreviation":"CAPA"
+    }, 
+    {
+        "id":"F*", 
+        "type":"distant signal", 
+        "additional information":"", 
+        "relativ position":"22.178 km", 
+        "location":"Kueblis", 
+        "location number":49221, 
+        "location abreviation":"KUEB"
+    }, 
+    {
+        "id":"BG 08093 - 1", 
+        "type":"balise", 
+        "additional information":"", 
+        "relativ position":"22.182 km", 
+        "location":"Kueblis", 
+        "location number":49221, 
+        "location abreviation":"KUEB"
+    }, 
+    {
+        "id":"BG 08093 - 2", 
+        "type":"balise", 
+        "additional information":"", 
+        "relativ position":"22.182 km", 
+        "location":"Kueblis", 
+        "location number":49221, 
+        "location abreviation":"KUEB"
+    }, 
+    {
+        "id":"BG 08095 - 1", 
+        "type":"balise", 
+        "additional information":"", 
+        "relativ position":"22.473 km", 
+        "location":"Capaels", 
+        "location number":49223, 
+        "location abreviation":"CAPA"
+    }, 
+    {
+        "id":"BG 08095 - 2", 
+        "type":"balise", 
+        "additional information":"", 
+        "relativ position":"22.473 km", 
+        "location":"Capaels", 
+        "location number":49223, 
+        "location abreviation":"CAPA"
+    }, 
+    {
+        "id":"G", 
+        "type":"main signal", 
+        "additional information":"", 
+        "relativ position":"22.477 km", 
+        "location":"Capaels", 
+        "location number":49223, 
+        "location abreviation":"CAPA"
+    }, 
+    {
+        "id":"J*", 
+        "type":"distant signal", 
+        "additional information":"", 
+        "relativ position":"22.477 km", 
+        "location":"Capaels", 
+        "location number":49223, 
+        "location abreviation":"CAPA"
+    }, 
+    {
+        "id":"PO", 
+        "type":"position offset", 
+        "additional information":"+10m", 
+        "relativ position":"22.500 km", 
+        "location":"Capaels", 
+        "location number":49223, 
+        "location abreviation":"CAPA"
+    }, 
+    {
+        "id":"W21", 
+        "type":"turnout engine", 
+        "additional information":"", 
+        "relativ position":"22.536 km", 
+        "location":"Capaels", 
+        "location number":49223, 
+        "location abreviation":"CAPA"
+    }, 
+    {
+        "id":"H81", 
+        "type":"main signal", 
+        "additional information":"track 1", 
+        "relativ position":"22.662 km", 
+        "location":"Capaels", 
+        "location number":49223, 
+        "location abreviation":"CAPA"
+    }, 
+    {
+        "id":"H82", 
+        "type":"main signal", 
+        "additional information":"track 2", 
+        "relativ position":"22.662 km", 
+        "location":"Capaels", 
+        "location number":49223, 
+        "location abreviation":"CAPA"
+    }, 
+    {
+        "id":"BG 08097 - 1", 
+        "type":"balise", 
+        "additional information":"track 2", 
+        "relativ position":"22.666 km", 
+        "location":"Capaels", 
+        "location number":49223, 
+        "location abreviation":"CAPA"
+    }, 
+    {
+        "id":"BG 08097 - 2", 
+        "type":"balise", 
+        "additional information":"track 2", 
+        "relativ position":"22.666 km", 
+        "location":"Capaels", 
+        "location number":49223, 
+        "location abreviation":"CAPA"
+    }, 
+    {
+        "id":"BG 08096 - 1", 
+        "type":"balise", 
+        "additional information":"track 1", 
+        "relativ position":"22.666 km", 
+        "location":"Capaels", 
+        "location number":49223, 
+        "location abreviation":"CAPA"
+    }, 
+    {
+        "id":"BG 08096 - 2", 
+        "type":"balise", 
+        "additional information":"track 1", 
+        "relativ position":"22.666 km", 
+        "location":"Capaels", 
+        "location number":49223, 
+        "location abreviation":"CAPA"
+    }, 
+    {
+        "id":"H**82", 
+        "type":"distant signal", 
+        "additional information":"track 2", 
+        "relativ position":"22.772 km", 
+        "location":"Capaels", 
+        "location number":49223, 
+        "location abreviation":"CAPA"
+    }, 
+    {
+        "id":"H**81", 
+        "type":"distant signal", 
+        "additional information":"track 1", 
+        "relativ position":"22.772 km", 
+        "location":"Capaels", 
+        "location number":49223, 
+        "location abreviation":"CAPA"
+    }, 
+    {
+        "id":"BG 08023 - 1", 
+        "type":"balise", 
+        "additional information":"track 2", 
+        "relativ position":"22.994 km", 
+        "location":"Capaels", 
+        "location number":49223, 
+        "location abreviation":"CAPA"
+    }, 
+    {
+        "id":"BG 08023 - 2", 
+        "type":"balise", 
+        "additional information":"track 2", 
+        "relativ position":"22.994 km", 
+        "location":"Capaels", 
+        "location number":49223, 
+        "location abreviation":"CAPA"
+    }, 
+    {
+        "id":"BG 08022 - 1", 
+        "type":"balise", 
+        "additional information":"track 1", 
+        "relativ position":"22.994 km", 
+        "location":"Capaels", 
+        "location number":49223, 
+        "location abreviation":"CAPA"
+    }, 
+    {
+        "id":"BG 08022 - 2", 
+        "type":"balise", 
+        "additional information":"track 1", 
+        "relativ position":"22.994 km", 
+        "location":"Capaels", 
+        "location number":49223, 
+        "location abreviation":"CAPA"
+    }, 
+    {
+        "id":"J**82", 
+        "type":"distant signal", 
+        "additional information":"track 2", 
+        "relativ position":"23.062 km", 
+        "location":"Capaels", 
+        "location number":49223, 
+        "location abreviation":"CAPA"
+    }, 
+    {
+        "id":"J**81", 
+        "type":"distant signal", 
+        "additional information":"track 1", 
+        "relativ position":"23.062 km", 
+        "location":"Capaels", 
+        "location number":49223, 
+        "location abreviation":"CAPA"
+    }, 
+    {
+        "id":"BG 08099 - 1", 
+        "type":"balise", 
+        "additional information":"track 2", 
+        "relativ position":"23.194 km", 
+        "location":"Capaels", 
+        "location number":49223, 
+        "location abreviation":"CAPA"
+    }, 
+    {
+        "id":"BG 08099 - 2", 
+        "type":"balise", 
+        "additional information":"track 2", 
+        "relativ position":"23.194 km", 
+        "location":"Capaels", 
+        "location number":49223, 
+        "location abreviation":"CAPA"
+    }, 
+    {
+        "id":"BG 08098 - 1", 
+        "type":"balise", 
+        "additional information":"track 1", 
+        "relativ position":"23.194 km", 
+        "location":"Capaels", 
+        "location number":49223, 
+        "location abreviation":"CAPA"
+    }, 
+    {
+        "id":"BG 08098 - 2", 
+        "type":"balise", 
+        "additional information":"track 1", 
+        "relativ position":"23.194 km", 
+        "location":"Capaels", 
+        "location number":49223, 
+        "location abreviation":"CAPA"
+    }, 
+    {
+        "id":"J82", 
+        "type":"main signal", 
+        "additional information":"track 2", 
+        "relativ position":"23.198 km", 
+        "location":"Capaels", 
+        "location number":49223, 
+        "location abreviation":"CAPA"
+    }, 
+    {
+        "id":"J81", 
+        "type":"main signal", 
+        "additional information":"track 1", 
+        "relativ position":"23.198 km", 
+        "location":"Capaels", 
+        "location number":49223, 
+        "location abreviation":"CAPA"
+    }, 
+    {
+        "id":"W22", 
+        "type":"turnout engine", 
+        "additional information":"", 
+        "relativ position":"23.297 km", 
+        "location":"Capaels", 
+        "location number":49223, 
+        "location abreviation":"CAPA"
+    }, 
+    {
+        "id":"K", 
+        "type":"main signal", 
+        "additional information":"", 
+        "relativ position":"23.396 km", 
+        "location":"Capaels", 
+        "location number":49223, 
+        "location abreviation":"CAPA"
+    }, 
+    {
+        "id":"H*", 
+        "type":"distant signal", 
+        "additional information":"", 
+        "relativ position":"23.396 km", 
+        "location":"Capaels", 
+        "location number":49223, 
+        "location abreviation":"CAPA"
+    }, 
+    {
+        "id":"BG 08100 - 1", 
+        "type":"balise", 
+        "additional information":"", 
+        "relativ position":"23.400 km", 
+        "location":"Capaels", 
+        "location number":49223, 
+        "location abreviation":"CAPA"
+    }, 
+    {
+        "id":"BG 08100 - 2", 
+        "type":"balise", 
+        "additional information":"", 
+        "relativ position":"23.400 km", 
+        "location":"Capaels", 
+        "location number":49223, 
+        "location abreviation":"CAPA"
+    }, 
+    {
+        "id":"BG 08102 - 1", 
+        "type":"balise", 
+        "additional information":"", 
+        "relativ position":"23.824 km", 
+        "location":"Saas", 
+        "location number":49225, 
+        "location abreviation":"SAAS"
+    }, 
+    {
+        "id":"BG 08102 - 2", 
+        "type":"balise", 
+        "additional information":"", 
+        "relativ position":"23.824 km", 
+        "location":"Saas", 
+        "location number":49225, 
+        "location abreviation":"SAAS"
+    }, 
+    {
+        "id":"A*", 
+        "type":"distant signal", 
+        "additional information":"", 
+        "relativ position":"23.830 km", 
+        "location":"Saas", 
+        "location number":49225, 
+        "location abreviation":"SAAS"
+    }, 
+    {
+        "id":"K*", 
+        "type":"distant signal", 
+        "additional information":"", 
+        "relativ position":"23.837 km", 
+        "location":"Capaels", 
+        "location number":49223, 
+        "location abreviation":"CAPA"
+    }, 
+    {
+        "id":"BG 08101 - 1", 
+        "type":"balise", 
+        "additional information":"", 
+        "relativ position":"23.841 km", 
+        "location":"Capaels", 
+        "location number":49223, 
+        "location abreviation":"CAPA"
+    }, 
+    {
+        "id":"BG 08101 - 2", 
+        "type":"balise", 
+        "additional information":"", 
+        "relativ position":"23.841 km", 
+        "location":"Capaels", 
+        "location number":49223, 
+        "location abreviation":"CAPA"
+    }, 
+    {
+        "id":"BG 08103 - 1", 
+        "type":"balise", 
+        "additional information":"", 
+        "relativ position":"24.166 km", 
+        "location":"Saas", 
+        "location number":49225, 
+        "location abreviation":"SAAS"
+    }, 
+    {
+        "id":"BG 08103 - 2", 
+        "type":"balise", 
+        "additional information":"", 
+        "relativ position":"24.166 km", 
+        "location":"Saas", 
+        "location number":49225, 
+        "location abreviation":"SAAS"
+    }, 
+    {
+        "id":"A", 
+        "type":"main signal", 
+        "additional information":"", 
+        "relativ position":"24.171 km", 
+        "location":"Saas", 
+        "location number":49225, 
+        "location abreviation":"SAAS"
+    }, 
+    {
+        "id":"C*", 
+        "type":"distant signal", 
+        "additional information":"", 
+        "relativ position":"24.171 km", 
+        "location":"Saas", 
+        "location number":49225, 
+        "location abreviation":"SAAS"
+    }, 
+    {
+        "id":"PO", 
+        "type":"position offset", 
+        "additional information":"-7m", 
+        "relativ position":"24.400 km", 
+        "location":"Saas", 
+        "location number":49225, 
+        "location abreviation":"SAAS"
+    }, 
+    {
+        "id":"B", 
+        "type":"main signal", 
+        "additional information":"", 
+        "relativ position":"24.520 km", 
+        "location":"Saas", 
+        "location number":49225, 
+        "location abreviation":"SAAS"
+    }, 
+    {
+        "id":"W1", 
+        "type":"turnout engine", 
+        "additional information":"", 
+        "relativ position":"24.526 km", 
+        "location":"Saas", 
+        "location number":49225, 
+        "location abreviation":"SAAS"
+    }, 
+    {
+        "id":"BG 08105 - 1", 
+        "type":"balise", 
+        "additional information":"track 2", 
+        "relativ position":"24.565 km", 
+        "location":"Saas", 
+        "location number":49225, 
+        "location abreviation":"SAAS"
+    }, 
+    {
+        "id":"BG 08105 - 2", 
+        "type":"balise", 
+        "additional information":"track 2", 
+        "relativ position":"24.565 km", 
+        "location":"Saas", 
+        "location number":49225, 
+        "location abreviation":"SAAS"
+    }, 
+    {
+        "id":"BG 08104 - 1", 
+        "type":"balise", 
+        "additional information":"track 1", 
+        "relativ position":"24.568 km", 
+        "location":"Saas", 
+        "location number":49225, 
+        "location abreviation":"SAAS"
+    }, 
+    {
+        "id":"BG 08104 - 2", 
+        "type":"balise", 
+        "additional information":"track 1", 
+        "relativ position":"24.568 km", 
+        "location":"Saas", 
+        "location number":49225, 
+        "location abreviation":"SAAS"
+    }, 
+    {
+        "id":"Saas", 
+        "type":"train station", 
+        "additional information":"", 
+        "relativ position":"24.609 km", 
+        "location":"Saas", 
+        "location number":49225, 
+        "location abreviation":"SAAS"
+    }, 
+    {
+        "id":"C**1", 
+        "type":"distant signal", 
+        "additional information":"track 1", 
+        "relativ position":"24.702 km", 
+        "location":"Saas", 
+        "location number":49225, 
+        "location abreviation":"SAAS"
+    }, 
+    {
+        "id":"C**2", 
+        "type":"distant signal", 
+        "additional information":"track 2", 
+        "relativ position":"24.702 km", 
+        "location":"Saas", 
+        "location number":49225, 
+        "location abreviation":"SAAS"
+    }, 
+    {
+        "id":"BG 08107 - 1", 
+        "type":"balise", 
+        "additional information":"track 2", 
+        "relativ position":"24.789 km", 
+        "location":"Saas", 
+        "location number":49225, 
+        "location abreviation":"SAAS"
+    }, 
+    {
+        "id":"BG 08107 - 2", 
+        "type":"balise", 
+        "additional information":"track 2", 
+        "relativ position":"24.789 km", 
+        "location":"Saas", 
+        "location number":49225, 
+        "location abreviation":"SAAS"
+    }, 
+    {
+        "id":"BG 08106 - 1", 
+        "type":"balise", 
+        "additional information":"track 1", 
+        "relativ position":"24.789 km", 
+        "location":"Saas", 
+        "location number":49225, 
+        "location abreviation":"SAAS"
+    }, 
+    {
+        "id":"BG 08106 - 2", 
+        "type":"balise", 
+        "additional information":"track 1", 
+        "relativ position":"24.789 km", 
+        "location":"Saas", 
+        "location number":49225, 
+        "location abreviation":"SAAS"
+    }, 
+    {
+        "id":"C", 
+        "type":"main signal", 
+        "additional information":"", 
+        "relativ position":"24.830 km", 
+        "location":"Saas", 
+        "location number":49225, 
+        "location abreviation":"SAAS"
+    }, 
+    {
+        "id":"W3", 
+        "type":"turnout engine", 
+        "additional information":"", 
+        "relativ position":"24.832 km", 
+        "location":"Saas", 
+        "location number":49225, 
+        "location abreviation":"SAAS"
+    }, 
+    {
+        "id":"D", 
+        "type":"main signal", 
+        "additional information":"", 
+        "relativ position":"25.108 km", 
+        "location":"Saas", 
+        "location number":49225, 
+        "location abreviation":"SAAS"
+    }, 
+    {
+        "id":"B*", 
+        "type":"distant signal", 
+        "additional information":"", 
+        "relativ position":"25.108 km", 
+        "location":"Saas", 
+        "location number":49225, 
+        "location abreviation":"SAAS"
+    }, 
+    {
+        "id":"BG 08108 - 1", 
+        "type":"balise", 
+        "additional information":"", 
+        "relativ position":"25.113 km", 
+        "location":"Saas", 
+        "location number":49225, 
+        "location abreviation":"SAAS"
+    }, 
+    {
+        "id":"BG 08108 - 2", 
+        "type":"balise", 
+        "additional information":"", 
+        "relativ position":"25.113 km", 
+        "location":"Saas", 
+        "location number":49225, 
+        "location abreviation":"SAAS"
+    }, 
+    {
+        "id":"BG 08110 - 1", 
+        "type":"balise", 
+        "additional information":"", 
+        "relativ position":"25.528 km", 
+        "location":"Serneus", 
+        "location number":49228, 
+        "location abreviation":"SERN"
+    }, 
+    {
+        "id":"BG 08110 - 2", 
+        "type":"balise", 
+        "additional information":"", 
+        "relativ position":"25.528 km", 
+        "location":"Serneus", 
+        "location number":49228, 
+        "location abreviation":"SERN"
+    }, 
+    {
+        "id":"P*", 
+        "type":"distant signal", 
+        "additional information":"", 
+        "relativ position":"25.532 km", 
+        "location":"Serneus", 
+        "location number":49228, 
+        "location abreviation":"SERN"
+    }, 
+    {
+        "id":"D*", 
+        "type":"distant signal", 
+        "additional information":"", 
+        "relativ position":"25.572 km", 
+        "location":"Saas", 
+        "location number":49225, 
+        "location abreviation":"SAAS"
+    }, 
+    {
+        "id":"BG 08109 - 1", 
+        "type":"balise", 
+        "additional information":"", 
+        "relativ position":"25.576 km", 
+        "location":"Saas", 
+        "location number":49225, 
+        "location abreviation":"SAAS"
+    }, 
+    {
+        "id":"BG 08109 - 2", 
+        "type":"balise", 
+        "additional information":"", 
+        "relativ position":"25.576 km", 
+        "location":"Saas", 
+        "location number":49225, 
+        "location abreviation":"SAAS"
+    }, 
+    {
+        "id":"BG 08111 - 1", 
+        "type":"balise", 
+        "additional information":"", 
+        "relativ position":"25.967 km", 
+        "location":"Serneus", 
+        "location number":49228, 
+        "location abreviation":"SERN"
+    }, 
+    {
+        "id":"BG 08111 - 2", 
+        "type":"balise", 
+        "additional information":"", 
+        "relativ position":"25.967 km", 
+        "location":"Serneus", 
+        "location number":49228, 
+        "location abreviation":"SERN"
+    }, 
+    {
+        "id":"P", 
+        "type":"main signal", 
+        "additional information":"", 
+        "relativ position":"25.971 km", 
+        "location":"Serneus", 
+        "location number":49228, 
+        "location abreviation":"SERN"
+    }, 
+    {
+        "id":"Q", 
+        "type":"main signal", 
+        "additional information":"", 
+        "relativ position":"26.022 km", 
+        "location":"Serneus", 
+        "location number":49228, 
+        "location abreviation":"SERN"
+    }, 
+    {
+        "id":"BG 08112 - 1", 
+        "type":"balise", 
+        "additional information":"", 
+        "relativ position":"26.026 km", 
+        "location":"Serneus", 
+        "location number":49228, 
+        "location abreviation":"SERN"
+    }, 
+    {
+        "id":"BG 08112 - 2", 
+        "type":"balise", 
+        "additional information":"", 
+        "relativ position":"26.026 km", 
+        "location":"Serneus", 
+        "location number":49228, 
+        "location abreviation":"SERN"
+    }, 
+    {
+        "id":"Q*", 
+        "type":"distant signal", 
+        "additional information":"", 
+        "relativ position":"26.421 km", 
+        "location":"Serneus", 
+        "location number":49228, 
+        "location abreviation":"SERN"
+    }, 
+    {
+        "id":"BG 08113 - 1", 
+        "type":"balise", 
+        "additional information":"", 
+        "relativ position":"26.425 km", 
+        "location":"Serneus", 
+        "location number":49228, 
+        "location abreviation":"SERN"
+    }, 
+    {
+        "id":"BG 08113 - 2", 
+        "type":"balise", 
+        "additional information":"", 
+        "relativ position":"26.425 km", 
+        "location":"Serneus", 
+        "location number":49228, 
+        "location abreviation":"SERN"
+    }, 
+    {
+        "id":"BG 08114 - 1", 
+        "type":"balise", 
+        "additional information":"", 
+        "relativ position":"26.641 km", 
+        "location":"Serneus", 
+        "location number":49228, 
+        "location abreviation":"SERN"
+    }, 
+    {
+        "id":"BG 08114 - 2", 
+        "type":"balise", 
+        "additional information":"", 
+        "relativ position":"26.641 km", 
+        "location":"Serneus", 
+        "location number":49228, 
+        "location abreviation":"SERN"
+    }, 
+    {
+        "id":"A*", 
+        "type":"distant signal", 
+        "additional information":"", 
+        "relativ position":"26.646 km", 
+        "location":"Serneus", 
+        "location number":49228, 
+        "location abreviation":"SERN"
+    }, 
+    {
+        "id":"PO", 
+        "type":"position offset", 
+        "additional information":"-2m", 
+        "relativ position":"26.937 km", 
+        "location":"Serneus", 
+        "location number":49228, 
+        "location abreviation":"SERN"
+    }, 
+    {
+        "id":"BG 08115 - 1", 
+        "type":"balise", 
+        "additional information":"", 
+        "relativ position":"27.126 km", 
+        "location":"Serneus", 
+        "location number":49228, 
+        "location abreviation":"SERN"
+    }, 
+    {
+        "id":"BG 08115 - 2", 
+        "type":"balise", 
+        "additional information":"", 
+        "relativ position":"27.126 km", 
+        "location":"Serneus", 
+        "location number":49228, 
+        "location abreviation":"SERN"
+    }, 
+    {
+        "id":"A", 
+        "type":"main signal", 
+        "additional information":"", 
+        "relativ position":"27.130 km", 
+        "location":"Serneus", 
+        "location number":49228, 
+        "location abreviation":"SERN"
+    }, 
+    {
+        "id":"C*", 
+        "type":"distant signal", 
+        "additional information":"", 
+        "relativ position":"27.130 km", 
+        "location":"Serneus", 
+        "location number":49228, 
+        "location abreviation":"SERN"
+    }, 
+    {
+        "id":"W1", 
+        "type":"turnout engine", 
+        "additional information":"", 
+        "relativ position":"27.340 km", 
+        "location":"Serneus", 
+        "location number":49228, 
+        "location abreviation":"SERN"
+    }, 
+    {
+        "id":"BUe 27.38 - 1", 
+        "type":"railway crossing", 
+        "additional information":"track 1, Pagruegerweg", 
+        "relativ position":"27.385 km", 
+        "location":"Serneus", 
+        "location number":49228, 
+        "location abreviation":"SERN"
+    }, 
+    {
+        "id":"BUe 27.38 - 2", 
+        "type":"railway crossing", 
+        "additional information":"track 2, Pagruegerweg", 
+        "relativ position":"27.385 km", 
+        "location":"Serneus", 
+        "location number":49228, 
+        "location abreviation":"SERN"
+    }, 
+    {
+        "id":"B1", 
+        "type":"main signal", 
+        "additional information":"track 1", 
+        "relativ position":"27.453 km", 
+        "location":"Serneus", 
+        "location number":49228, 
+        "location abreviation":"SERN"
+    }, 
+    {
+        "id":"B2", 
+        "type":"main signal", 
+        "additional information":"track 2", 
+        "relativ position":"27.453 km", 
+        "location":"Serneus", 
+        "location number":49228, 
+        "location abreviation":"SERN"
+    }, 
+    {
+        "id":"BG 08116 - 1", 
+        "type":"balise", 
+        "additional information":"track 1", 
+        "relativ position":"27.457 km", 
+        "location":"Serneus", 
+        "location number":49228, 
+        "location abreviation":"SERN"
+    }, 
+    {
+        "id":"BG 08116 - 2", 
+        "type":"balise", 
+        "additional information":"track 1", 
+        "relativ position":"27.457 km", 
+        "location":"Serneus", 
+        "location number":49228, 
+        "location abreviation":"SERN"
+    }, 
+    {
+        "id":"BG 08117 - 1", 
+        "type":"balise", 
+        "additional information":"track 2", 
+        "relativ position":"27.457 km", 
+        "location":"Serneus", 
+        "location number":49228, 
+        "location abreviation":"SERN"
+    }, 
+    {
+        "id":"BG 08117 - 2", 
+        "type":"balise", 
+        "additional information":"track 2", 
+        "relativ position":"27.457 km", 
+        "location":"Serneus", 
+        "location number":49228, 
+        "location abreviation":"SERN"
+    }, 
+    {
+        "id":"BG 08118 - 1", 
+        "type":"balise", 
+        "additional information":"track 1", 
+        "relativ position":"27.732 km", 
+        "location":"Serneus", 
+        "location number":49228, 
+        "location abreviation":"SERN"
+    }, 
+    {
+        "id":"BG 08118 - 2", 
+        "type":"balise", 
+        "additional information":"track 1", 
+        "relativ position":"27.732 km", 
+        "location":"Serneus", 
+        "location number":49228, 
+        "location abreviation":"SERN"
+    }, 
+    {
+        "id":"BG 08119 - 1", 
+        "type":"balise", 
+        "additional information":"track 2", 
+        "relativ position":"27.732 km", 
+        "location":"Serneus", 
+        "location number":49228, 
+        "location abreviation":"SERN"
+    }, 
+    {
+        "id":"BG 08119 - 2", 
+        "type":"balise", 
+        "additional information":"track 2", 
+        "relativ position":"27.732 km", 
+        "location":"Serneus", 
+        "location number":49228, 
+        "location abreviation":"SERN"
+    }, 
+    {
+        "id":"C1", 
+        "type":"main signal", 
+        "additional information":"track 1", 
+        "relativ position":"27.736 km", 
+        "location":"Serneus", 
+        "location number":49228, 
+        "location abreviation":"SERN"
+    }, 
+    {
+        "id":"C2", 
+        "type":"main signal", 
+        "additional information":"track 2", 
+        "relativ position":"27.736 km", 
+        "location":"Serneus", 
+        "location number":49228, 
+        "location abreviation":"SERN"
+    }, 
+    {
+        "id":"W3", 
+        "type":"turnout engine", 
+        "additional information":"", 
+        "relativ position":"27.829 km", 
+        "location":"Serneus", 
+        "location number":49228, 
+        "location abreviation":"SERN"
+    }, 
+    {
+        "id":"BUe 27.84", 
+        "type":"railway crossing", 
+        "additional information":"Serneuserstrasse", 
+        "relativ position":"27.840 km", 
+        "location":"Serneus", 
+        "location number":49228, 
+        "location abreviation":"SERN"
+    }, 
+    {
+        "id":"D", 
+        "type":"main signal", 
+        "additional information":"", 
+        "relativ position":"28.160 km", 
+        "location":"Serneus", 
+        "location number":49228, 
+        "location abreviation":"SERN"
+    }, 
+    {
+        "id":"B*", 
+        "type":"distant signal", 
+        "additional information":"", 
+        "relativ position":"28.160 km", 
+        "location":"Serneus", 
+        "location number":49228, 
+        "location abreviation":"SERN"
+    }, 
+    {
+        "id":"BG 08120 - 1", 
+        "type":"balise", 
+        "additional information":"", 
+        "relativ position":"28.165 km", 
+        "location":"Serneus", 
+        "location number":49228, 
+        "location abreviation":"SERN"
+    }, 
+    {
+        "id":"BG 08120 - 2", 
+        "type":"balise", 
+        "additional information":"", 
+        "relativ position":"28.165 km", 
+        "location":"Serneus", 
+        "location number":49228, 
+        "location abreviation":"SERN"
+    }, 
+    {
+        "id":"D*", 
+        "type":"distant signal", 
+        "additional information":"", 
+        "relativ position":"28.573 km", 
+        "location":"Serneus", 
+        "location number":49228, 
+        "location abreviation":"SERN"
+    }, 
+    {
+        "id":"BG 08121 - 1", 
+        "type":"balise", 
+        "additional information":"", 
+        "relativ position":"28.577 km", 
+        "location":"Serneus", 
+        "location number":49228, 
+        "location abreviation":"SERN"
+    }, 
+    {
+        "id":"BG 08121 - 2", 
+        "type":"balise", 
+        "additional information":"", 
+        "relativ position":"28.577 km", 
+        "location":"Serneus", 
+        "location number":49228, 
+        "location abreviation":"SERN"
+    }, 
+    {
+        "id":"BG 08122 - 1", 
+        "type":"balise", 
+        "additional information":"", 
+        "relativ position":"28.790 km", 
+        "location":"Serneus", 
+        "location number":49228, 
+        "location abreviation":"SERN"
+    }, 
+    {
+        "id":"BG 08122 - 2", 
+        "type":"balise", 
+        "additional information":"", 
+        "relativ position":"28.790 km", 
+        "location":"Serneus", 
+        "location number":49228, 
+        "location abreviation":"SERN"
+    }, 
+    {
+        "id":"F*", 
+        "type":"distant signal", 
+        "additional information":"", 
+        "relativ position":"28.794 km", 
+        "location":"Serneus", 
+        "location number":49228, 
+        "location abreviation":"SERN"
+    }, 
+    {
+        "id":"E", 
+        "type":"main signal", 
+        "additional information":"track 2", 
+        "relativ position":"28.903 km", 
+        "location":"Serneus", 
+        "location number":49228, 
+        "location abreviation":"SERN"
+    }, 
+    {
+        "id":"PO", 
+        "type":"position offset", 
+        "additional information":"-8m", 
+        "relativ position":"29.000 km", 
+        "location":"Serneus", 
+        "location number":49228, 
+        "location abreviation":"SERN"
+    }, 
+    {
+        "id":"W5", 
+        "type":"turnout engine", 
+        "additional information":"", 
+        "relativ position":"29.011 km", 
+        "location":"Serneus", 
+        "location number":49228, 
+        "location abreviation":"SERN"
+    }, 
+    {
+        "id":"BG 08123 - 1", 
+        "type":"balise", 
+        "additional information":"", 
+        "relativ position":"29.196 km", 
+        "location":"Serneus", 
+        "location number":49228, 
+        "location abreviation":"SERN"
+    }, 
+    {
+        "id":"BG 08123 - 2", 
+        "type":"balise", 
+        "additional information":"", 
+        "relativ position":"29.196 km", 
+        "location":"Serneus", 
+        "location number":49228, 
+        "location abreviation":"SERN"
+    }, 
+    {
+        "id":"F", 
+        "type":"main signal", 
+        "additional information":"", 
+        "relativ position":"29.200 km", 
+        "location":"Serneus", 
+        "location number":49228, 
+        "location abreviation":"SERN"
+    }, 
+    {
+        "id":"G", 
+        "type":"main signal", 
+        "additional information":"", 
+        "relativ position":"29.346 km", 
+        "location":"Serneus", 
+        "location number":49228, 
+        "location abreviation":"SERN"
+    }, 
+    {
+        "id":"BG 08124 - 1", 
+        "type":"balise", 
+        "additional information":"", 
+        "relativ position":"29.350 km", 
+        "location":"Serneus", 
+        "location number":49228, 
+        "location abreviation":"SERN"
+    }, 
+    {
+        "id":"BG 08124 - 2", 
+        "type":"balise", 
+        "additional information":"", 
+        "relativ position":"29.350 km", 
+        "location":"Serneus", 
+        "location number":49228, 
+        "location abreviation":"SERN"
+    }, 
+    {
+        "id":"G*", 
+        "type":"distant signal", 
+        "additional information":"", 
+        "relativ position":"29.679 km", 
+        "location":"Serneus", 
+        "location number":49228, 
+        "location abreviation":"SERN"
+    }, 
+    {
+        "id":"BG 08125 - 1", 
+        "type":"balise", 
+        "additional information":"", 
+        "relativ position":"29.683 km", 
+        "location":"Serneus", 
+        "location number":49228, 
+        "location abreviation":"SERN"
+    }, 
+    {
+        "id":"BG 08125 - 2", 
+        "type":"balise", 
+        "additional information":"", 
+        "relativ position":"29.683 km", 
+        "location":"Serneus", 
+        "location number":49228, 
+        "location abreviation":"SERN"
+    }, 
+    {
+        "id":"BG 08126 - 1", 
+        "type":"balise", 
+        "additional information":"", 
+        "relativ position":"29.809 km", 
+        "location":"Klosters Dorf", 
+        "location number":49231, 
+        "location abreviation":"KLOD"
+    }, 
+    {
+        "id":"BG 08126 - 2", 
+        "type":"balise", 
+        "additional information":"", 
+        "relativ position":"29.809 km", 
+        "location":"Klosters Dorf", 
+        "location number":49231, 
+        "location abreviation":"KLOD"
+    }, 
+    {
+        "id":"A*", 
+        "type":"distant signal", 
+        "additional information":"", 
+        "relativ position":"29.813 km", 
+        "location":"Klosters Dorf", 
+        "location number":49231, 
+        "location abreviation":"KLOD"
+    }, 
+    {
+        "id":"BG 08127 - 1", 
+        "type":"balise", 
+        "additional information":"", 
+        "relativ position":"30.383 km", 
+        "location":"Klosters Dorf", 
+        "location number":49231, 
+        "location abreviation":"KLOD"
+    }, 
+    {
+        "id":"BG 08127 - 2", 
+        "type":"balise", 
+        "additional information":"", 
+        "relativ position":"30.383 km", 
+        "location":"Klosters Dorf", 
+        "location number":49231, 
+        "location abreviation":"KLOD"
+    }, 
+    {
+        "id":"A", 
+        "type":"main signal", 
+        "additional information":"", 
+        "relativ position":"30.388 km", 
+        "location":"Klosters Dorf", 
+        "location number":49231, 
+        "location abreviation":"KLOD"
+    }, 
+    {
+        "id":"C*", 
+        "type":"distant signal", 
+        "additional information":"", 
+        "relativ position":"30.388 km", 
+        "location":"Klosters Dorf", 
+        "location number":49231, 
+        "location abreviation":"KLOD"
+    }, 
+    {
+        "id":"W1", 
+        "type":"turnout engine", 
+        "additional information":"", 
+        "relativ position":"30.522 km", 
+        "location":"Klosters Dorf", 
+        "location number":49231, 
+        "location abreviation":"KLOD"
+    }, 
+    {
+        "id":"BUe 30.53", 
+        "type":"railway crossing", 
+        "additional information":"", 
+        "relativ position":"30.534 km", 
+        "location":"Klosters Dorf", 
+        "location number":49231, 
+        "location abreviation":"KLOD"
+    }, 
+    {
+        "id":"B", 
+        "type":"main signal", 
+        "additional information":"track 1 & 2", 
+        "relativ position":"30.544 km", 
+        "location":"Klosters Dorf", 
+        "location number":49231, 
+        "location abreviation":"KLOD"
+    }, 
+    {
+        "id":"BG 08128 - 1", 
+        "type":"balise", 
+        "additional information":"track 1", 
+        "relativ position":"30.572 km", 
+        "location":"Klosters Dorf", 
+        "location number":49231, 
+        "location abreviation":"KLOD"
+    }, 
+    {
+        "id":"BG 08128 - 2", 
+        "type":"balise", 
+        "additional information":"track 1", 
+        "relativ position":"30.572 km", 
+        "location":"Klosters Dorf", 
+        "location number":49231, 
+        "location abreviation":"KLOD"
+    }, 
+    {
+        "id":"BG 08129 - 1", 
+        "type":"balise", 
+        "additional information":"track 2", 
+        "relativ position":"30.573 km", 
+        "location":"Klosters Dorf", 
+        "location number":49231, 
+        "location abreviation":"KLOD"
+    }, 
+    {
+        "id":"BG 08129 - 2", 
+        "type":"balise", 
+        "additional information":"track 2", 
+        "relativ position":"30.573 km", 
+        "location":"Klosters Dorf", 
+        "location number":49231, 
+        "location abreviation":"KLOD"
+    }, 
+    {
+        "id":"W2", 
+        "type":"turnout engine", 
+        "additional information":"track 1", 
+        "relativ position":"30.634 km", 
+        "location":"Klosters Dorf", 
+        "location number":49231, 
+        "location abreviation":"KLOD"
+    }, 
+    {
+        "id":"Klosters Dorf", 
+        "type":"train station", 
+        "additional information":"", 
+        "relativ position":"30.672 km", 
+        "location":"Klosters Dorf", 
+        "location number":49231, 
+        "location abreviation":"KLOD"
+    }, 
+    {
+        "id":"BUe 30.73 - 1", 
+        "type":"railway crossing", 
+        "additional information":"track 1, Doerfistrasse", 
+        "relativ position":"30.734 km", 
+        "location":"Klosters Dorf", 
+        "location number":49231, 
+        "location abreviation":"KLOD"
+    }, 
+    {
+        "id":"BUe 30.73 - 2", 
+        "type":"railway crossing", 
+        "additional information":"track 2, Doerfistrasse", 
+        "relativ position":"30.734 km", 
+        "location":"Klosters Dorf", 
+        "location number":49231, 
+        "location abreviation":"KLOD"
+    }, 
+    {
+        "id":"C**1", 
+        "type":"distant signal", 
+        "additional information":"track 1", 
+        "relativ position":"30.744 km", 
+        "location":"Klosters Dorf", 
+        "location number":49231, 
+        "location abreviation":"KLOD"
+    }, 
+    {
+        "id":"C**2", 
+        "type":"distant signal", 
+        "additional information":"track 2", 
+        "relativ position":"30.744 km", 
+        "location":"Klosters Dorf", 
+        "location number":49231, 
+        "location abreviation":"KLOD"
+    }, 
+    {
+        "id":"BG 08130 - 1", 
+        "type":"balise", 
+        "additional information":"track 1", 
+        "relativ position":"30.782 km", 
+        "location":"Klosters Dorf", 
+        "location number":49231, 
+        "location abreviation":"KLOD"
+    }, 
+    {
+        "id":"BG 08130 - 2", 
+        "type":"balise", 
+        "additional information":"track 1", 
+        "relativ position":"30.782 km", 
+        "location":"Klosters Dorf", 
+        "location number":49231, 
+        "location abreviation":"KLOD"
+    }, 
+    {
+        "id":"BG 08131 - 1", 
+        "type":"balise", 
+        "additional information":"track 2", 
+        "relativ position":"30.782 km", 
+        "location":"Klosters Dorf", 
+        "location number":49231, 
+        "location abreviation":"KLOD"
+    }, 
+    {
+        "id":"BG 08131 - 2", 
+        "type":"balise", 
+        "additional information":"track 2", 
+        "relativ position":"30.782 km", 
+        "location":"Klosters Dorf", 
+        "location number":49231, 
+        "location abreviation":"KLOD"
+    }, 
+    {
+        "id":"C", 
+        "type":"main signal", 
+        "additional information":"track 1 & 2", 
+        "relativ position":"30.819 km", 
+        "location":"Klosters Dorf", 
+        "location number":49231, 
+        "location abreviation":"KLOD"
+    }, 
+    {
+        "id":"A*", 
+        "type":"distant signal", 
+        "additional information":"track 1 & 2", 
+        "relativ position":"30.819 km", 
+        "location":"Klosters Dorf", 
+        "location number":49231, 
+        "location abreviation":"KLOD"
+    }, 
+    {
+        "id":"W3", 
+        "type":"turnout engine", 
+        "additional information":"", 
+        "relativ position":"30.837 km", 
+        "location":"Klosters Dorf", 
+        "location number":49231, 
+        "location abreviation":"KLOD"
+    }, 
+    {
+        "id":"BUe 30.84", 
+        "type":"railway crossing", 
+        "additional information":"Silvapinaweg", 
+        "relativ position":"30.840 km", 
+        "location":"Klosters Dorf", 
+        "location number":49231, 
+        "location abreviation":"KLOD"
+    }, 
+    {
+        "id":"D", 
+        "type":"main signal", 
+        "additional information":"", 
+        "relativ position":"31.074 km", 
+        "location":"Klosters Dorf", 
+        "location number":49231, 
+        "location abreviation":"KLOD"
+    }, 
+    {
+        "id":"B*", 
+        "type":"distant signal", 
+        "additional information":"", 
+        "relativ position":"31.074 km", 
+        "location":"Klosters Dorf", 
+        "location number":49231, 
+        "location abreviation":"KLOD"
+    }, 
+    {
+        "id":"BG 08132 - 1", 
+        "type":"balise", 
+        "additional information":"", 
+        "relativ position":"31.079 km", 
+        "location":"Klosters Dorf", 
+        "location number":49231, 
+        "location abreviation":"KLOD"
+    }, 
+    {
+        "id":"BG 08132 - 2", 
+        "type":"balise", 
+        "additional information":"", 
+        "relativ position":"31.079 km", 
+        "location":"Klosters Dorf", 
+        "location number":49231, 
+        "location abreviation":"KLOD"
+    }, 
+    {
+        "id":"BG 08133 - 1", 
+        "type":"balise", 
+        "additional information":"", 
+        "relativ position":"31.174 km", 
+        "location":"Klosters", 
+        "location number":49232, 
+        "location abreviation":"KLO"
+    }, 
+    {
+        "id":"BG 08133 - 2", 
+        "type":"balise", 
+        "additional information":"", 
+        "relativ position":"31.174 km", 
+        "location":"Klosters", 
+        "location number":49232, 
+        "location abreviation":"KLO"
+    }, 
+    {
+        "id":"A", 
+        "type":"main signal", 
+        "additional information":"", 
+        "relativ position":"31.179 km", 
+        "location":"Klosters", 
+        "location number":49232, 
+        "location abreviation":"KLO"
+    }, 
+    {
+        "id":"BUe 31.22", 
+        "type":"railway crossing", 
+        "additional information":"Gaeuggeliweg", 
+        "relativ position":"31.227 km", 
+        "location":"Klosters", 
+        "location number":49232, 
+        "location abreviation":"KLO"
+    }, 
+    {
+        "id":"W11", 
+        "type":"turnout engine", 
+        "additional information":"", 
+        "relativ position":"31.231 km", 
+        "location":"Klosters", 
+        "location number":49232, 
+        "location abreviation":"KLO"
+    }, 
+    {
+        "id":"F11", 
+        "type":"main signal", 
+        "additional information":"track 11", 
+        "relativ position":"31.439 km", 
+        "location":"Klosters", 
+        "location number":49232, 
+        "location abreviation":"KLO"
+    }, 
+    {
+        "id":"D*11", 
+        "type":"distant signal", 
+        "additional information":"track 11", 
+        "relativ position":"31.439 km", 
+        "location":"Klosters", 
+        "location number":49232, 
+        "location abreviation":"KLO"
+    }, 
+    {
+        "id":"F13", 
+        "type":"main signal", 
+        "additional information":"track 13", 
+        "relativ position":"31.439 km", 
+        "location":"Klosters", 
+        "location number":49232, 
+        "location abreviation":"KLO"
+    }, 
+    {
+        "id":"D*13", 
+        "type":"distant signal", 
+        "additional information":"track 13", 
+        "relativ position":"31.439 km", 
+        "location":"Klosters", 
+        "location number":49232, 
+        "location abreviation":"KLO"
+    }, 
+    {
+        "id":"BG 08134 - 1", 
+        "type":"balise", 
+        "additional information":"track 11", 
+        "relativ position":"31.444 km", 
+        "location":"Klosters", 
+        "location number":49232, 
+        "location abreviation":"KLO"
+    }, 
+    {
+        "id":"BG 08134 - 2", 
+        "type":"balise", 
+        "additional information":"track 11", 
+        "relativ position":"31.444 km", 
+        "location":"Klosters", 
+        "location number":49232, 
+        "location abreviation":"KLO"
+    }, 
+    {
+        "id":"BG 08135 - 1", 
+        "type":"balise", 
+        "additional information":"track 13", 
+        "relativ position":"31.444 km", 
+        "location":"Klosters", 
+        "location number":49232, 
+        "location abreviation":"KLO"
+    }, 
+    {
+        "id":"BG 08135 - 2", 
+        "type":"balise", 
+        "additional information":"track 13", 
+        "relativ position":"31.444 km", 
+        "location":"Klosters", 
+        "location number":49232, 
+        "location abreviation":"KLO"
+    }, 
+    {
+        "id":"BG 08136 - 1", 
+        "type":"balise", 
+        "additional information":"track 11", 
+        "relativ position":"31.754 km", 
+        "location":"Klosters", 
+        "location number":49232, 
+        "location abreviation":"KLO"
+    }, 
+    {
+        "id":"BG 08136 - 2", 
+        "type":"balise", 
+        "additional information":"track 11", 
+        "relativ position":"31.754 km", 
+        "location":"Klosters", 
+        "location number":49232, 
+        "location abreviation":"KLO"
+    }, 
+    {
+        "id":"BG 08137 - 1", 
+        "type":"balise", 
+        "additional information":"track 13", 
+        "relativ position":"31.754 km", 
+        "location":"Klosters", 
+        "location number":49232, 
+        "location abreviation":"KLO"
+    }, 
+    {
+        "id":"BG 08137 - 2", 
+        "type":"balise", 
+        "additional information":"track 13", 
+        "relativ position":"31.754 km", 
+        "location":"Klosters", 
+        "location number":49232, 
+        "location abreviation":"KLO"
+    }, 
+    {
+        "id":"G*11", 
+        "type":"distant signal", 
+        "additional information":"track 11", 
+        "relativ position":"31.758 km", 
+        "location":"Klosters", 
+        "location number":49232, 
+        "location abreviation":"KLO"
+    }, 
+    {
+        "id":"G*13", 
+        "type":"distant signal", 
+        "additional information":"track 13", 
+        "relativ position":"31.758 km", 
+        "location":"Klosters", 
+        "location number":49232, 
+        "location abreviation":"KLO"
+    }, 
+    {
+        "id":"F*11", 
+        "type":"distant signal", 
+        "additional information":"track 11", 
+        "relativ position":"31.889 km", 
+        "location":"Klosters", 
+        "location number":49232, 
+        "location abreviation":"KLO"
+    }, 
+    {
+        "id":"F*13", 
+        "type":"distant signal", 
+        "additional information":"track 13", 
+        "relativ position":"31.889 km", 
+        "location":"Klosters", 
+        "location number":49232, 
+        "location abreviation":"KLO"
+    }, 
+    {
+        "id":"BG 08138 - 1", 
+        "type":"balise", 
+        "additional information":"track 11", 
+        "relativ position":"31.894 km", 
+        "location":"Klosters", 
+        "location number":49232, 
+        "location abreviation":"KLO"
+    }, 
+    {
+        "id":"BG 08138 - 2", 
+        "type":"balise", 
+        "additional information":"track 11", 
+        "relativ position":"31.894 km", 
+        "location":"Klosters", 
+        "location number":49232, 
+        "location abreviation":"KLO"
+    }, 
+    {
+        "id":"BG 08139 - 1", 
+        "type":"balise", 
+        "additional information":"track 13", 
+        "relativ position":"31.894 km", 
+        "location":"Klosters", 
+        "location number":49232, 
+        "location abreviation":"KLO"
+    }, 
+    {
+        "id":"BG 08139 - 2", 
+        "type":"balise", 
+        "additional information":"track 13", 
+        "relativ position":"31.894 km", 
+        "location":"Klosters", 
+        "location number":49232, 
+        "location abreviation":"KLO"
+    }, 
+    {
+        "id":"BG 08140 - 1", 
+        "type":"balise", 
+        "additional information":"track 11", 
+        "relativ position":"32.150 km", 
+        "location":"Klosters", 
+        "location number":49232, 
+        "location abreviation":"KLO"
+    }, 
+    {
+        "id":"BG 08140 - 2", 
+        "type":"balise", 
+        "additional information":"track 11", 
+        "relativ position":"32.150 km", 
+        "location":"Klosters", 
+        "location number":49232, 
+        "location abreviation":"KLO"
+    }, 
+    {
+        "id":"BG 08141 - 1", 
+        "type":"balise", 
+        "additional information":"track 13", 
+        "relativ position":"32.150 km", 
+        "location":"Klosters", 
+        "location number":49232, 
+        "location abreviation":"KLO"
+    }, 
+    {
+        "id":"BG 08141 - 2", 
+        "type":"balise", 
+        "additional information":"track 13", 
+        "relativ position":"32.150 km", 
+        "location":"Klosters", 
+        "location number":49232, 
+        "location abreviation":"KLO"
+    }, 
+    {
+        "id":"G11", 
+        "type":"main signal", 
+        "additional information":"track 11", 
+        "relativ position":"32.154 km", 
+        "location":"Klosters", 
+        "location number":49232, 
+        "location abreviation":"KLO"
+    }, 
+    {
+        "id":"C*11", 
+        "type":"distant signal", 
+        "additional information":"track 11", 
+        "relativ position":"32.154 km", 
+        "location":"Klosters", 
+        "location number":49232, 
+        "location abreviation":"KLO"
+    }, 
+    {
+        "id":"G13", 
+        "type":"main signal", 
+        "additional information":"track 13", 
+        "relativ position":"32.154 km", 
+        "location":"Klosters", 
+        "location number":49232, 
+        "location abreviation":"KLO"
+    }, 
+    {
+        "id":"C*13", 
+        "type":"distant signal", 
+        "additional information":"track 13", 
+        "relativ position":"32.154 km", 
+        "location":"Klosters", 
+        "location number":49232, 
+        "location abreviation":"KLO"
+    }, 
+    {
+        "id":"W12", 
+        "type":"turnout engine", 
+        "additional information":"track 11", 
+        "relativ position":"32.168 km", 
+        "location":"Klosters", 
+        "location number":49232, 
+        "location abreviation":"KLO"
+    }, 
+    {
+        "id":"W14", 
+        "type":"turnout engine", 
+        "additional information":"track 13", 
+        "relativ position":"32.182 km", 
+        "location":"Klosters", 
+        "location number":49232, 
+        "location abreviation":"KLO"
+    }, 
+    {
+        "id":"W15", 
+        "type":"turnout engine", 
+        "additional information":"track 3", 
+        "relativ position":"32.223 km", 
+        "location":"Klosters", 
+        "location number":49232, 
+        "location abreviation":"KLO"
+    }, 
+    {
+        "id":"W13", 
+        "type":"turnout engine", 
+        "additional information":"track 2", 
+        "relativ position":"32.253 km", 
+        "location":"Klosters", 
+        "location number":49232, 
+        "location abreviation":"KLO"
+    }, 
+    {
+        "id":"B21", 
+        "type":"main signal", 
+        "additional information":"track 1", 
+        "relativ position":"32.283 km", 
+        "location":"Klosters", 
+        "location number":49232, 
+        "location abreviation":"KLO"
+    }, 
+    {
+        "id":"B32", 
+        "type":"main signal", 
+        "additional information":"track 2", 
+        "relativ position":"32.283 km", 
+        "location":"Klosters", 
+        "location number":49232, 
+        "location abreviation":"KLO"
+    }, 
+    {
+        "id":"B33", 
+        "type":"main signal", 
+        "additional information":"track 3", 
+        "relativ position":"32.283 km", 
+        "location":"Klosters", 
+        "location number":49232, 
+        "location abreviation":"KLO"
+    }, 
+    {
+        "id":"B24", 
+        "type":"main signal", 
+        "additional information":"track 4", 
+        "relativ position":"32.285 km", 
+        "location":"Klosters", 
+        "location number":49232, 
+        "location abreviation":"KLO"
+    }, 
+    {
+        "id":"BG 08142 - 1", 
+        "type":"balise", 
+        "additional information":"track 1", 
+        "relativ position":"32.288 km", 
+        "location":"Klosters", 
+        "location number":49232, 
+        "location abreviation":"KLO"
+    }, 
+    {
+        "id":"BG 08142 - 2", 
+        "type":"balise", 
+        "additional information":"track 1", 
+        "relativ position":"32.288 km", 
+        "location":"Klosters", 
+        "location number":49232, 
+        "location abreviation":"KLO"
+    }, 
+    {
+        "id":"BG 08143 - 1", 
+        "type":"balise", 
+        "additional information":"track 2", 
+        "relativ position":"32.288 km", 
+        "location":"Klosters", 
+        "location number":49232, 
+        "location abreviation":"KLO"
+    }, 
+    {
+        "id":"BG 08143 - 2", 
+        "type":"balise", 
+        "additional information":"track 2", 
+        "relativ position":"32.288 km", 
+        "location":"Klosters", 
+        "location number":49232, 
+        "location abreviation":"KLO"
+    }, 
+    {
+        "id":"BG 08144 - 1", 
+        "type":"balise", 
+        "additional information":"track 3", 
+        "relativ position":"32.288 km", 
+        "location":"Klosters", 
+        "location number":49232, 
+        "location abreviation":"KLO"
+    }, 
+    {
+        "id":"BG 08144 - 2", 
+        "type":"balise", 
+        "additional information":"track 3", 
+        "relativ position":"32.288 km", 
+        "location":"Klosters", 
+        "location number":49232, 
+        "location abreviation":"KLO"
+    }, 
+    {
+        "id":"BG 08145 - 1", 
+        "type":"balise", 
+        "additional information":"track 4", 
+        "relativ position":"32.290 km", 
+        "location":"Klosters", 
+        "location number":49232, 
+        "location abreviation":"KLO"
+    }, 
+    {
+        "id":"BG 08145 - 2", 
+        "type":"balise", 
+        "additional information":"track 4", 
+        "relativ position":"32.290 km", 
+        "location":"Klosters", 
+        "location number":49232, 
+        "location abreviation":"KLO"
+    }, 
+    {
+        "id":"W7", 
+        "type":"turnout engine", 
+        "additional information":"track 1", 
+        "relativ position":"32.350 km", 
+        "location":"Klosters", 
+        "location number":49232, 
+        "location abreviation":"KLO"
+    }, 
+    {
+        "id":"W8", 
+        "type":"turnout engine", 
+        "additional information":"track 4", 
+        "relativ position":"32.374 km", 
+        "location":"Klosters", 
+        "location number":49232, 
+        "location abreviation":"KLO"
+    }, 
+    {
+        "id":"Klosters Platz", 
+        "type":"train station", 
+        "additional information":"", 
+        "relativ position":"32.455 km", 
+        "location":"Klosters", 
+        "location number":49232, 
+        "location abreviation":"KLO"
+    }, 
+    {
+        "id":"BG 08154", 
+        "type":"balise", 
+        "additional information":"track 1", 
+        "relativ position":"32.548 km", 
+        "location":"Klosters", 
+        "location number":49232, 
+        "location abreviation":"KLO"
+    }, 
+    {
+        "id":"BG 08155", 
+        "type":"balise", 
+        "additional information":"track 2", 
+        "relativ position":"32.549 km", 
+        "location":"Klosters", 
+        "location number":49232, 
+        "location abreviation":"KLO"
+    }, 
+    {
+        "id":"BG 08148 - 1", 
+        "type":"balise", 
+        "additional information":"track 3", 
+        "relativ position":"32.575 km", 
+        "location":"Klosters", 
+        "location number":49232, 
+        "location abreviation":"KLO"
+    }, 
+    {
+        "id":"BG 08148 - 2", 
+        "type":"balise", 
+        "additional information":"track 3", 
+        "relativ position":"32.575 km", 
+        "location":"Klosters", 
+        "location number":49232, 
+        "location abreviation":"KLO"
+    }, 
+    {
+        "id":"BG 08149 - 1", 
+        "type":"balise", 
+        "additional information":"track 4", 
+        "relativ position":"32.575 km", 
+        "location":"Klosters", 
+        "location number":49232, 
+        "location abreviation":"KLO"
+    }, 
+    {
+        "id":"BG 08149 - 2", 
+        "type":"balise", 
+        "additional information":"track 4", 
+        "relativ position":"32.575 km", 
+        "location":"Klosters", 
+        "location number":49232, 
+        "location abreviation":"KLO"
+    }, 
+    {
+        "id":"BG 08146 - 1", 
+        "type":"balise", 
+        "additional information":"track 1", 
+        "relativ position":"32.576 km", 
+        "location":"Klosters", 
+        "location number":49232, 
+        "location abreviation":"KLO"
+    }, 
+    {
+        "id":"BG 08146 - 2", 
+        "type":"balise", 
+        "additional information":"track 1", 
+        "relativ position":"32.576 km", 
+        "location":"Klosters", 
+        "location number":49232, 
+        "location abreviation":"KLO"
+    }, 
+    {
+        "id":"BG 08147 - 1", 
+        "type":"balise", 
+        "additional information":"track 2", 
+        "relativ position":"32.576 km", 
+        "location":"Klosters", 
+        "location number":49232, 
+        "location abreviation":"KLO"
+    }, 
+    {
+        "id":"BG 08147 - 2", 
+        "type":"balise", 
+        "additional information":"track 2", 
+        "relativ position":"32.576 km", 
+        "location":"Klosters", 
+        "location number":49232, 
+        "location abreviation":"KLO"
+    }, 
+    {
+        "id":"C3", 
+        "type":"main signal", 
+        "additional information":"track 3", 
+        "relativ position":"32.580 km", 
+        "location":"Klosters", 
+        "location number":49232, 
+        "location abreviation":"KLO"
+    }, 
+    {
+        "id":"C4", 
+        "type":"main signal", 
+        "additional information":"track 4", 
+        "relativ position":"32.580 km", 
+        "location":"Klosters", 
+        "location number":49232, 
+        "location abreviation":"KLO"
+    }, 
+    {
+        "id":"C2", 
+        "type":"main signal", 
+        "additional information":"track 2", 
+        "relativ position":"32.581 km", 
+        "location":"Klosters", 
+        "location number":49232, 
+        "location abreviation":"KLO"
+    }, 
+    {
+        "id":"C1", 
+        "type":"main signal", 
+        "additional information":"track 1", 
+        "relativ position":"32.583 km", 
+        "location":"Klosters", 
+        "location number":49232, 
+        "location abreviation":"KLO"
+    }, 
+    {
+        "id":"W16", 
+        "type":"turnout engine", 
+        "additional information":"track 41", 
+        "relativ position":"32.630 km", 
+        "location":"Klosters", 
+        "location number":49232, 
+        "location abreviation":"KLO"
+    }, 
+    {
+        "id":"W17", 
+        "type":"turnout engine", 
+        "additional information":"track 43", 
+        "relativ position":"32.630 km", 
+        "location":"Klosters", 
+        "location number":49232, 
+        "location abreviation":"KLO"
+    }, 
+    {
+        "id":"W18", 
+        "type":"turnout engine", 
+        "additional information":"track 41", 
+        "relativ position":"32.630 km", 
+        "location":"Klosters", 
+        "location number":49232, 
+        "location abreviation":"KLO"
+    }, 
+    {
+        "id":"W20", 
+        "type":"turnout engine", 
+        "additional information":"track 43", 
+        "relativ position":"32.630 km", 
+        "location":"Klosters", 
+        "location number":49232, 
+        "location abreviation":"KLO"
+    }, 
+    {
+        "id":"W21", 
+        "type":"turnout engine", 
+        "additional information":"track 41", 
+        "relativ position":"32.698 km", 
+        "location":"Klosters", 
+        "location number":49232, 
+        "location abreviation":"KLO"
+    }, 
+    {
+        "id":"W19", 
+        "type":"turnout engine", 
+        "additional information":"track 43", 
+        "relativ position":"32.698 km", 
+        "location":"Klosters", 
+        "location number":49232, 
+        "location abreviation":"KLO"
+    }, 
+    {
+        "id":"BG 08021 - 1", 
+        "type":"balise", 
+        "additional information":"track 41", 
+        "relativ position":"32.704 km", 
+        "location":"Klosters", 
+        "location number":49232, 
+        "location abreviation":"KLO"
+    }, 
+    {
+        "id":"BG 08021 - 2", 
+        "type":"balise", 
+        "additional information":"track 41", 
+        "relativ position":"32.704 km", 
+        "location":"Klosters", 
+        "location number":49232, 
+        "location abreviation":"KLO"
+    }, 
+    {
+        "id":"Zugwald-Tunnel - 1", 
+        "type":"tunnel portal", 
+        "additional information":"track 41", 
+        "relativ position":"32.798 km", 
+        "location":"Klosters", 
+        "location number":49232, 
+        "location abreviation":"KLO"
+    }, 
+    {
+        "id":"Klosters-Tunnel - 1", 
+        "type":"tunnel portal", 
+        "additional information":"track 43", 
+        "relativ position":"32.798 km", 
+        "location":"Klosters", 
+        "location number":49232, 
+        "location abreviation":"KLO"
+    }, 
+    {
+        "id":"E", 
+        "type":"main signal", 
+        "additional information":"track 41", 
+        "relativ position":"33.062 km", 
+        "location":"Klosters", 
+        "location number":49232, 
+        "location abreviation":"KLO"
+    }, 
+    {
+        "id":"B*", 
+        "type":"distant signal", 
+        "additional information":"track 41", 
+        "relativ position":"33.062 km", 
+        "location":"Klosters", 
+        "location number":49232, 
+        "location abreviation":"KLO"
+    }, 
+    {
+        "id":"BG 08151 - 1", 
+        "type":"balise", 
+        "additional information":"track 41", 
+        "relativ position":"33.067 km", 
+        "location":"Klosters", 
+        "location number":49232, 
+        "location abreviation":"KLO"
+    }, 
+    {
+        "id":"BG 08151 - 2", 
+        "type":"balise", 
+        "additional information":"track 41", 
+        "relativ position":"33.067 km", 
+        "location":"Klosters", 
+        "location number":49232, 
+        "location abreviation":"KLO"
+    }, 
+    {
+        "id":"PO", 
+        "type":"position offset", 
+        "additional information":"+148m, track 43", 
+        "relativ position":"33.070 km", 
+        "location":"Klosters", 
+        "location number":49232, 
+        "location abreviation":"KLO"
+    }, 
+    {
+        "id":"Klosters-Tunnel - 2", 
+        "type":"tunnel portal", 
+        "additional information":"track 43", 
+        "relativ position":"33.110 km", 
+        "location":"Klosters", 
+        "location number":49232, 
+        "location abreviation":"KLO"
+    }, 
+    {
+        "id":"D", 
+        "type":"main signal", 
+        "additional information":"track 43", 
+        "relativ position":"33.207 km", 
+        "location":"Klosters", 
+        "location number":49232, 
+        "location abreviation":"KLO"
+    }, 
+    {
+        "id":"B*", 
+        "type":"distant signal", 
+        "additional information":"track 43", 
+        "relativ position":"33.207 km", 
+        "location":"Klosters", 
+        "location number":49232, 
+        "location abreviation":"KLO"
+    }, 
+    {
+        "id":"BG 08150 - 1", 
+        "type":"balise", 
+        "additional information":"track 43", 
+        "relativ position":"33.212 km", 
+        "location":"Klosters", 
+        "location number":49232, 
+        "location abreviation":"KLO"
+    }, 
+    {
+        "id":"BG 08150 - 2", 
+        "type":"balise", 
+        "additional information":"track 43", 
+        "relativ position":"33.212 km", 
+        "location":"Klosters", 
+        "location number":49232, 
+        "location abreviation":"KLO"
+    }, 
+    {
+        "id":"D*", 
+        "type":"distant signal", 
+        "additional information":"track 43", 
+        "relativ position":"33.459 km", 
+        "location":"Klosters", 
+        "location number":49232, 
+        "location abreviation":"KLO"
+    }, 
+    {
+        "id":"BG 08152 - 1", 
+        "type":"balise", 
+        "additional information":"track 43", 
+        "relativ position":"33.464 km", 
+        "location":"Klosters", 
+        "location number":49232, 
+        "location abreviation":"KLO"
+    }, 
+    {
+        "id":"BG 08152 - 2", 
+        "type":"balise", 
+        "additional information":"track 43", 
+        "relativ position":"33.464 km", 
+        "location":"Klosters", 
+        "location number":49232, 
+        "location abreviation":"KLO"
+    }, 
+    {
+        "id":"E*", 
+        "type":"distant signal", 
+        "additional information":"track 41", 
+        "relativ position":"33.513 km", 
+        "location":"Klosters", 
+        "location number":49232, 
+        "location abreviation":"KLO"
+    }, 
+    {
+        "id":"BG 08153 - 1", 
+        "type":"balise", 
+        "additional information":"track 41", 
+        "relativ position":"33.517 km", 
+        "location":"Klosters", 
+        "location number":49232, 
+        "location abreviation":"KLO"
+    }, 
+    {
+        "id":"BG 08153 - 2", 
+        "type":"balise", 
+        "additional information":"track 41", 
+        "relativ position":"33.517 km", 
+        "location":"Klosters", 
+        "location number":49232, 
+        "location abreviation":"KLO"
+    }
+]

@@ -1,0 +1,37 @@
+html, body {
+    margin: 0;
+}
+
+main {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+}
+
+#map {
+    display: flex;
+    flex: 1 1 100%;
+}
+
+#menu {
+    display: flex;
+    flex-direction: column;
+    flex: 1 0 400px;
+    border-left: 1px solid #eee;
+}
+
+#menu .search {
+    padding: 1em;
+    border-bottom: 1px solid #eee;
+}
+
+#menu .details {
+    padding: 1em;
+    border-bottom: 1px solid #eee;
+}
+
+#map .marker-popup div.mapboxgl-popup-content {
+    height: 3.3em;
+    /*font-family: 'Consolas', 'Deja Vu Sans Mono', 'Bitstream Vera Sans Mono', monospace;*/
+}
