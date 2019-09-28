@@ -1,1 +1,3 @@
 COCO.json
+data_dir/*
+__pycache__/*
