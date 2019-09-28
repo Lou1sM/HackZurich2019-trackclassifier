@@ -13,19 +13,19 @@ total_distance = 0
 results = {}
 
 for sub_dir in sub_dirs:
-    directory_string = '/siemens/data/Trackpictures/Trackpictures_HiRes/' + \
+    directory_string = './' + \
                         sub_dir
-
     filelist = glob.glob(os.path.join(directory_string, '*'))
     past_coordinates = (-1, -1)
-    local_total = total_distance
+    print(total_distance)
 
     if sub_dir == '001_-_Landquart_-_Klosters_Platz/':
-        arr = sorted(filelist)
+        filelist.sort()
     else:
-        arr = filelist.reverse()
+        filelist.sort(reverse=True)
+        exit(1)
 
-    for infile in arr:
+    for infile in filelist:
         image_name = str(infile)
         if image_name.endswith(".JPG"):
             img = pil.open(image_name)
@@ -44,17 +44,23 @@ for sub_dir in sub_dirs:
                 (string_longitude[1][0] / string_longitude[1][1] +
                     (string_longitude[2][0] / string_longitude[2][1]) /
                     60) / 60
-
+            print(total_distance)
+            print(latitude, longitude)
             if past_coordinates[0] >= 0:
                 distance = geopy.distance.distance((latitude, longitude),
                                                    past_coordinates).km
                 if sub_dir == '001_-_Landquart_-_Klosters_Platz/':
                     results[image_name] = distance + total_distance
                     total_distance += distance
+                    print(total_distance)
                 else:
-                    results[image_name] = local_total - distance
+                    results[image_name] = total_distance - distance
+                    total_distance -= distance
             else:
-                results[image_name] = 0
+                if sub_dir == '001_-_Landquart_-_Klosters_Platz/':
+                    results[image_name] = 0
+                else:
+                    results[image_name] = total_distance
             past_coordinates = (latitude, longitude)
 
 with open('track_km.json', 'w+') as fp:
