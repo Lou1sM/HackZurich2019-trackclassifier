@@ -13,17 +13,13 @@ total_distance = 0
 results = {}
 
 for sub_dir in sub_dirs:
-    directory_string = './' + \
+    directory_string = root_dir + \
                         sub_dir
     filelist = glob.glob(os.path.join(directory_string, '*'))
     past_coordinates = (-1, -1)
-    print(total_distance)
 
-    if sub_dir == '001_-_Landquart_-_Klosters_Platz/':
-        filelist.sort()
-    else:
-        filelist.sort(reverse=True)
-        exit(1)
+    filelist.sort()
+    filelist.pop()
 
     for infile in filelist:
         image_name = str(infile)
@@ -44,8 +40,6 @@ for sub_dir in sub_dirs:
                 (string_longitude[1][0] / string_longitude[1][1] +
                     (string_longitude[2][0] / string_longitude[2][1]) /
                     60) / 60
-            print(total_distance)
-            print(latitude, longitude)
             if past_coordinates[0] >= 0:
                 distance = geopy.distance.distance((latitude, longitude),
                                                    past_coordinates).km
