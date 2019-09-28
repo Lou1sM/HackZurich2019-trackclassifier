@@ -10,20 +10,16 @@ sub_dirs = ['001_-_Landquart_-_Klosters_Platz/',
             '002_-_Klosters_Platz_-_Landquart/']
 
 total_distance = 0
-results = {}
+results = []
 
 for sub_dir in sub_dirs:
     directory_string = './' + \
                         sub_dir
     filelist = glob.glob(os.path.join(directory_string, '*'))
     past_coordinates = (-1, -1)
-    print(total_distance)
 
-    if sub_dir == '001_-_Landquart_-_Klosters_Platz/':
-        filelist.sort()
-    else:
-        filelist.sort(reverse=True)
-        exit(1)
+    filelist.sort()
+    filelist.pop()
 
     for infile in filelist:
         image_name = str(infile)
@@ -46,21 +42,26 @@ for sub_dir in sub_dirs:
                     60) / 60
             print(total_distance)
             print(latitude, longitude)
+            obj = {
+                'image': image_name,
+            }
             if past_coordinates[0] >= 0:
                 distance = geopy.distance.distance((latitude, longitude),
                                                    past_coordinates).km
                 if sub_dir == '001_-_Landquart_-_Klosters_Platz/':
-                    results[image_name] = distance + total_distance
+                    obj['relative_position'] = distance + total_distance
                     total_distance += distance
                     print(total_distance)
                 else:
-                    results[image_name] = total_distance - distance
+                    obj['relative_position'] = total_distance - distance
                     total_distance -= distance
             else:
                 if sub_dir == '001_-_Landquart_-_Klosters_Platz/':
-                    results[image_name] = 0
+                    obj['relative_position'] = 0
                 else:
-                    results[image_name] = total_distance
+                    obj['relative_position'] = total_distance
+            obj['coordinates'] = (latitude, longitude)
+            results.append(obj)
             past_coordinates = (latitude, longitude)
 
 with open('track_km.json', 'w+') as fp:
