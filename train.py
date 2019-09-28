@@ -67,20 +67,25 @@ class CNNClassifier(nn.Module):
       
     
 def train():
-    criterion = nn.BCEWithLogitsLoss() 
-    train_generator = load_data('data_dir', batch_size=10, shuffle=True) 
+    criterion = nn.CrossEntropyLoss() 
+    train_generator = load_data('../data_dir', batch_size=10, shuffle=False) 
     model = CNNClassifier(4, 'cuda')
-    print(torch.cuda.is_available())
     optimizer = optim.Adam(params=model.parameters(), lr=1e-3, weight_decay=0.1)
-    for x,y in train_generator:
-        #print(x.shape)
-        #print(y.shape)
-        pred = model(x)
-        print(pred)
-        #loss = criterion(pred,y)
-        #print(loss)
-        #loss.backward()
-        #optimizer.step()
+    num_epochs = 100
+    for epoch in range(num_epochs):
+        print("Epoch:", epoch)
+        for x,y in train_generator:
+            #print(x.shape)
+            #print(y.shape)
+            pred = model(x)
+            #print(pred)
+            print(y)
+            loss = criterion(pred,y)
+            print(pred)
+            print(y)
+            print(loss)
+            loss.backward()
+            optimizer.step()
     
    
 if __name__ == "__main__":
