@@ -40,5 +40,5 @@ class EarlyStopper:
             torch.save(model_dict,checkpoint_path)
         except FileNotFoundError:
             print("Can't save file to {} because the directory doesn't exist.".format(filename))
-        self.max_acc=acc 
+        self.max_acc = acc 
         

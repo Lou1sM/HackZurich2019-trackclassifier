@@ -55,16 +55,19 @@ class CNNClassifier(nn.Module):
         return x
       
     
-def train():
+def train(restore=None):
+    if restore:
+        model = torch.load(restore)['model']
+    else:
+        model = CNNClassifier(num_classes=4, device='cuda')
     criterion = nn.CrossEntropyLoss() 
     train_generator = load_data('../data_dir', batch_size=6, shuffle=True) 
-    model = CNNClassifier(num_classes=4, device='cuda')
     model.cuda()
     earlystopper = EarlyStopper(patience=5)
     #for param in model.pretrained_cnn.parameters():
         #param.requires_grad = False
     optimizer = optim.Adam(params=model.parameters(), lr=1e-6)
-    num_epochs = 1
+    num_epochs = 10
     batch_idx = 0
     save_dict = {'model': model}
     remembered_accs = []
@@ -83,11 +86,10 @@ def train():
             remembered_accs.append(batch_acc)
             #print(y)
             #print(batch_idx, loss.item())
-            if batch_idx % 10 == 0:
-                chunk_acc = sum(remembered_accs[-10:])/10
+            if batch_idx % 100 == 0:
+                chunk_acc = sum(remembered_accs[-100:])/100
                 checkpoint_path = 'checkpoints/{}.pt'.format(int(batch_idx/100))
                 earlystopper(chunk_acc, save_dict, checkpoint_path=checkpoint_path)
-                return checkpoint_path
                 if earlystopper.early_stop:
                     return checkpoint_path
             loss.backward()
@@ -95,7 +97,7 @@ def train():
    
 def test(model, img, label, thresh):
     a = img.shape[0]
-    b = img.shape[2]
+    b = img.shape[1]
     img_ohe_pred = torch.tensor([0,0,0,0])
     for i in range(0, a-256, 256):
         for j in range(0, b-256, 256):
@@ -126,6 +128,32 @@ def dev_id_from_img_path(img_file_name, annot_data):
     else:
         return dev_id_list[0]
 
+
+def annotate_new_img(model, img_file_path, thresh=1):
+    model.batch_size = 1
+    img = torch.tensor(np.asarray(Image.open(img_file_path))).float().transpose(0,2).unsqueeze(0).cuda()
+    a = img.shape[2]
+    b = img.shape[3]
+    print(a,b)
+    for i in range(0, a-256, 256):
+        for j in range(0, b-256, 256):
+            img_patch = img[:, :, i:i+256, j:j+256]
+            #pred = model(img_patch).cpu().detach().numpy()
+            pred = model(img_patch)
+            pred = torch.argmax(pred)
+            if pred <= 3:
+                return list(np.eye(4)[pred])
+            #ohe_pred = np.eye(4)[pred]
+            #img_ohe_pred += ohe_pred
+    #object_preds = img_ohe_pred[:-1]
+    #object_confidence = np.max(object_preds)
+    #if object_confidence > thresh:
+        #img_pred = int(np.argmax(object_preds).item())
+    #else:
+        #img_pred = 3
+    return [0,0,0,1]
+    
+
     
    
 if __name__ == "__main__":
@@ -136,17 +164,22 @@ if __name__ == "__main__":
     #test_img_window = test_img_window.unsqueeze(0)
     #print(test_img_window.shape)
     best_checkpoint_path = train()
-    model = torch.load(best_checkpoint_path)
+    model = torch.load(best_checkpoint_path)['model']
+    model.cuda()
 
     #img_paths = [os.path.join('test_imgs', fname) for fname in os.listdir('test_imgs')]
     with open('COCO.json') as f:
         annot_data = json.load(f)
     imgs = [(np.asarray(Image.open(os.path.join('test_imgs', img_file_name))), dev_id_from_img_path(img_file_name, annot_data)) for img_file_name in os.listdir('test_imgs')]
-    print(type(imgs))
-    print(imgs)
-    print([img[1] for img in imgs])
     imgs = list(filter(lambda img: img[1] != None, imgs))
 
+    unannotated_imgs = [os.path.join('test_imgs', img_file_name) for img_file_name in os.listdir('test_imgs')]
+    annotated_imgs = [{'name': os.path.abspath(img_file_name), 'object' : annotate_new_img(model, os.path.abspath(img_file_name))} for img_file_name in unannotated_imgs]  
+
+    with open('annotated.json', 'w') as f:
+        json.dump(annotated_imgs, f)
+
+    """
     best_thresh_acc = 0
     best_thresh = -1
     thresh_results = []
@@ -160,6 +193,7 @@ if __name__ == "__main__":
             best_thresh = thresh
     print('Best thresh:', best_thresh)
     print('Best thresh acc:', best_thresh_acc)
+    """
     
     
     #model = CNNClassifier(4, 'cuda')
