@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Siemens @ HackZurich</title>
+  <link rel="icon" href="/static/img/favicon.png">
+  <link rel='stylesheet' type='text/css' href='/static/tomtom-web-sdk/maps.css'>
+  <script src='/static/tomtom-web-sdk/maps-web.min.js'></script>
+</head>
+<body>
+<div id='map' style='height:500px;width:500px'></div>
+<script>
+    tt.setProductInfo('Siemens@HackZurich', '0.0.1');
+    const map = tt.map({
+        key: 'YfDvbejIBGGLsoXT4fx1OWIxjCr5huoQ',
+        container: 'map',
+        center: new tt.LngLat(8.55, 47.3673),
+        zoom: 10,
+    });
+</script>
+</body>
+</html>
