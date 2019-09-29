@@ -1,6 +1,7 @@
 function Map() {
     var map = undefined;
     var initialized = false;
+    var selectedId = undefined;
     var selectElement = undefined;
 
     function fitLine(line) {
@@ -67,18 +68,27 @@ function Map() {
             }), 'top-left');
         },
         onupdate: function (vnode) {
-            if (initialized) {
-                return;
+            // initialize data if the case
+            if (!initialized) {
+                const line = vnode.attrs.line;
+                const elements = vnode.attrs.elements;
+
+                fitLine(line);
+                drawLine(line);
+                drawMarkers(elements);
+
+                initialized = true;
             }
 
-            const line = vnode.attrs.line;
-            const elements = vnode.attrs.elements;
-
-            fitLine(line);
-            drawLine(line);
-            drawMarkers(elements);
-
-            initialized = true;
+            // fly to newly selected element if the case
+            const selected = vnode.attrs.selected;
+            if (selected && (selected.id !== selectedId)) {
+                selectedId = selected.id;
+                map.flyTo({
+                    center: selected.coords,
+                    zoom: 13,
+                });
+            }
         },
         view: function () {
             return m("#map");
@@ -87,14 +97,21 @@ function Map() {
 }
 
 const Search = {
-    view: function () {
-        return m(".search", [
+    view: function (vnode) {
+        const selectElement = vnode.attrs.selectElement;
+
+        return m("form.search", {
+            onsubmit: function (e) {
+                e.preventDefault();
+                selectElement(e.target.id.value);
+            }
+        }, [
             m(".field.has-addons", [
                 m("p.control.is-expanded", [
-                    m("input.input.is-family-monospace", {type: "text", placeholder: "Element ID"}),
+                    m("input.input.is-family-monospace", {type: "text", name: "id", placeholder: "Element ID"}),
                 ]),
                 m("p.control", [
-                    m("a.button", "Find"),
+                    m("button.button.input.is-family-monospace", {type: "submit"}, "Find"),
                 ]),
             ]),
         ]);
@@ -113,14 +130,29 @@ const Details = {
                     ]),
                     m("tr", [
                         m("td", "latitude"),
-                        m("td", element.coords[1]),
+                        m("td", element.coords[1].toFixed(6)),
                     ]),
                     m("tr", [
                         m("td", "longitude"),
-                        m("td", element.coords[0]),
+                        m("td", element.coords[0].toFixed(6)),
+                    ]),
+                    m("tr", [
+                        m("td", "relative"),
+                        m("td", `${element.relative_position.toFixed(3)} km`),
+                    ]),
+                    m("tr", [
+                        m("td", "datasheet"),
+                        m("td", {style: "word-wrap: anywhere"}, [
+                            m("a", {
+                                href: "http://51.136.17.19/Trackdata/" + element.pdf_file,
+                                target: "_blank",
+                                rel: "noopener noreferrer",
+                            }, element.pdf_file),
+                        ]),
                     ]),
                 ]),
             ]),
+            m("img", {src: "http://51.136.17.19/Trackpictures/Trackpictures_LoRes/" + element.image}),
         ]);
     },
 };
@@ -130,7 +162,7 @@ const Menu = {
         const selected = vnode.attrs.selected;
 
         return m("#menu.is-family-monospace", [
-            m(Search),
+            m(Search, {selectElement: vnode.attrs.selectElement}),
             selected && m(Details, {element: selected}),
         ]);
     },
@@ -143,9 +175,7 @@ function App() {
     var selectedId;
 
     function selectElement(id) {
-        console.log("selected " + id);
         selectedId = id;
-        console.log(elementsById[selectedId]);
         m.redraw();
     }
 
@@ -164,8 +194,16 @@ function App() {
         },
         view: function () {
             return [
-                m(Map, {line: line, elements: elements, selectElement: selectElement}),
-                m(Menu, {selected: selectedId ? elementsById[selectedId] : null}),
+                m(Map, {
+                    line: line,
+                    elements: elements,
+                    selected: selectedId ? elementsById[selectedId] : null,
+                    selectElement: selectElement,
+                }),
+                m(Menu, {
+                    selected: selectedId ? elementsById[selectedId] : null,
+                    selectElement: selectElement,
+                }),
             ];
         },
     };

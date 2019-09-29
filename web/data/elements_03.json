@@ -1,0 +1,614 @@
+[
+  {
+    "id": "B6",
+    "latitude": 46.96767057880341,
+    "longitude": 9.554102755939201,
+    "type": "main signal",
+    "relative_position": 0.04752145064334448,
+    "pdf_file": "49600_LQ_Landquart_situation_plan.pdf",
+    "image": "001_-_Landquart_-_Klosters_Platz/VIRB0022-0155.JPG"
+  },
+  {
+    "id": "B5",
+    "latitude": 46.96798593190477,
+    "longitude": 9.554111922838937,
+    "type": "main signal",
+    "relative_position": 0.10275398443902566,
+    "pdf_file": "49600_LQ_Landquart_situation_plan.pdf",
+    "image": "001_-_Landquart_-_Klosters_Platz/VIRB0022-0170.JPG"
+  },
+  {
+    "id": "BG 08000 - 1",
+    "latitude": 46.97342623,
+    "longitude": 9.560464806666667,
+    "type": "balise",
+    "relative_position": 1.0047782476490306,
+    "pdf_file": "49202_MALA_Malans_situation_plan.pdf",
+    "image": "001_-_Landquart_-_Klosters_Platz/VIRB0022-0283.JPG"
+  },
+  {
+    "id": "A*",
+    "latitude": 46.973569108,
+    "longitude": 9.560871496666666,
+    "type": "distant signal",
+    "relative_position": 1.03956478156536,
+    "pdf_file": "49202_MALA_Malans_situation_plan.pdf",
+    "image": "001_-_Landquart_-_Klosters_Platz/VIRB0022-0287.JPG"
+  },
+  {
+    "id": "BG 08000 - 2",
+    "latitude": 46.97365061361111,
+    "longitude": 9.561096969722222,
+    "type": "balise",
+    "relative_position": 1.0589679003136019,
+    "pdf_file": "49202_MALA_Malans_situation_plan.pdf",
+    "image": "001_-_Landquart_-_Klosters_Platz/VIRB0022-0288.JPG"
+  },
+  {
+    "id": "C*",
+    "latitude": 46.97617909861111,
+    "longitude": 9.568037353333333,
+    "type": "distant signal",
+    "relative_position": 1.657408012334431,
+    "pdf_file": "49202_MALA_Malans_situation_plan.pdf",
+    "image": "001_-_Landquart_-_Klosters_Platz/VIRB0022-0358.JPG"
+  },
+  {
+    "id": "A ",
+    "latitude": 46.97619779027778,
+    "longitude": 9.568086010277778,
+    "type": "main signal",
+    "relative_position": 1.6616535875696696,
+    "pdf_file": "49202_MALA_Malans_situation_plan.pdf",
+    "image": "001_-_Landquart_-_Klosters_Platz/VIRB0022-0359.JPG"
+  },
+  {
+    "id": "A*",
+    "latitude": 46.97623513166667,
+    "longitude": 9.568181815416667,
+    "type": "distant signal",
+    "relative_position": 1.6700426713204808,
+    "pdf_file": "49600_LQ_Landquart_situation_plan.pdf",
+    "image": "001_-_Landquart_-_Klosters_Platz/VIRB0022-0360.JPG"
+  },
+  {
+    "id": "B1",
+    "latitude": 46.976271634861114,
+    "longitude": 9.568275860416666,
+    "type": "main signal",
+    "relative_position": 1.6782693831372861,
+    "pdf_file": "49202_MALA_Malans_situation_plan.pdf",
+    "image": "001_-_Landquart_-_Klosters_Platz/VIRB0022-0361.JPG"
+  },
+  {
+    "id": "B*",
+    "latitude": 46.976307509444446,
+    "longitude": 9.568370953055556,
+    "type": "distant signal",
+    "relative_position": 1.686531346929319,
+    "pdf_file": "49202_MALA_Malans_situation_plan.pdf",
+    "image": "001_-_Landquart_-_Klosters_Platz/VIRB0022-0362.JPG"
+  },
+  {
+    "id": "B2",
+    "latitude": 46.97635474138889,
+    "longitude": 9.568499028472221,
+    "type": "main signal",
+    "relative_position": 1.6976012300929209,
+    "pdf_file": "49202_MALA_Malans_situation_plan.pdf",
+    "image": "001_-_Landquart_-_Klosters_Platz/VIRB0022-0363.JPG"
+  },
+  {
+    "id": "C*",
+    "latitude": 46.97638395222222,
+    "longitude": 9.568578908055555,
+    "type": "distant signal",
+    "relative_position": 1.7044923527657234,
+    "pdf_file": "49600_LQ_Landquart_situation_plan.pdf",
+    "image": "001_-_Landquart_-_Klosters_Platz/VIRB0022-0363.JPG"
+  },
+  {
+    "id": "BG 08001 - 1",
+    "latitude": 46.97638395222222,
+    "longitude": 9.568578908055555,
+    "type": "balise",
+    "relative_position": 1.7044923527657234,
+    "pdf_file": "49202_MALA_Malans_situation_plan.pdf",
+    "image": "001_-_Landquart_-_Klosters_Platz/VIRB0022-0364.JPG"
+  },
+  {
+    "id": "D*",
+    "latitude": 46.97641387555556,
+    "longitude": 9.568662559444444,
+    "type": "distant signal",
+    "relative_position": 1.7116742257470807,
+    "pdf_file": "49202_MALA_Malans_situation_plan.pdf",
+    "image": "001_-_Landquart_-_Klosters_Platz/VIRB0022-0365.JPG"
+  },
+  {
+    "id": "BG 08002 - 1",
+    "latitude": 46.97778825638889,
+    "longitude": 9.573485338888888,
+    "type": "balise",
+    "relative_position": 2.113874367900065,
+    "pdf_file": "49202_MALA_Malans_situation_plan.pdf",
+    "image": "001_-_Landquart_-_Klosters_Platz/VIRB0022-0412.JPG"
+  },
+  {
+    "id": "C1",
+    "latitude": 46.977851791106396,
+    "longitude": 9.575971662858537,
+    "type": "main signal",
+    "relative_position": 2.3032289054806014,
+    "pdf_file": "49202_MALA_Malans_situation_plan.pdf",
+    "image": "001_-_Landquart_-_Klosters_Platz/VIRB0022-0433.JPG"
+  },
+  {
+    "id": "BG 08004 - 1",
+    "latitude": 46.97784340913292,
+    "longitude": 9.576229993041057,
+    "type": "balise",
+    "relative_position": 2.3229334717104906,
+    "pdf_file": "49202_MALA_Malans_situation_plan.pdf",
+    "image": "001_-_Landquart_-_Klosters_Platz/VIRB0022-0433.JPG"
+  },
+  {
+    "id": "C2",
+    "latitude": 46.97784340913292,
+    "longitude": 9.576229993041057,
+    "type": "main signal",
+    "relative_position": 2.3229334717104906,
+    "pdf_file": "49202_MALA_Malans_situation_plan.pdf",
+    "image": "001_-_Landquart_-_Klosters_Platz/VIRB0022-0434.JPG"
+  },
+  {
+    "id": "BG 08006 - 1",
+    "latitude": 46.977072944722224,
+    "longitude": 9.579160976944445,
+    "type": "balise",
+    "relative_position": 2.563412428649349,
+    "pdf_file": "49202_MALA_Malans_situation_plan.pdf",
+    "image": "001_-_Landquart_-_Klosters_Platz/VIRB0022-0457.JPG"
+  },
+  {
+    "id": "BG 08006 - 2",
+    "latitude": 46.976426196944445,
+    "longitude": 9.581116223611112,
+    "type": "balise",
+    "relative_position": 2.7286910867085865,
+    "pdf_file": "49202_MALA_Malans_situation_plan.pdf",
+    "image": "001_-_Landquart_-_Klosters_Platz/VIRB0022-0472.JPG"
+  },
+  {
+    "id": "BG 08008 - 1",
+    "latitude": 46.97404431166667,
+    "longitude": 9.588449802222222,
+    "type": "balise",
+    "relative_position": 3.3464562773857853,
+    "pdf_file": "49203_SAGE_Malans_Alte_Saege_situation_plan.pdf",
+    "image": "001_-_Landquart_-_Klosters_Platz/VIRB0022-0526.JPG"
+  },
+  {
+    "id": "E*",
+    "latitude": 46.97397889090278,
+    "longitude": 9.588637116666666,
+    "type": "distant signal",
+    "relative_position": 3.3624722238164617,
+    "pdf_file": "49203_SAGE_Malans_Alte_Saege_situation_plan.pdf",
+    "image": "001_-_Landquart_-_Klosters_Platz/VIRB0022-0529.JPG"
+  },
+  {
+    "id": "BG 08008 - 2",
+    "latitude": 46.97390944694445,
+    "longitude": 9.588817851388889,
+    "type": "balise",
+    "relative_position": 3.378265925488189,
+    "pdf_file": "49203_SAGE_Malans_Alte_Saege_situation_plan.pdf",
+    "image": "001_-_Landquart_-_Klosters_Platz/VIRB0022-0530.JPG"
+  },
+  {
+    "id": "BG 08009 - 1",
+    "latitude": 46.974227875277776,
+    "longitude": 9.596780072777777,
+    "type": "balise",
+    "relative_position": 3.9959447673807307,
+    "pdf_file": "49203_SAGE_Malans_Alte_Saege_situation_plan.pdf",
+    "image": "001_-_Landquart_-_Klosters_Platz/VIRB0022-0583.JPG"
+  },
+  {
+    "id": "BG 08010 - 1",
+    "latitude": 46.97515533287037,
+    "longitude": 9.60009262888889,
+    "type": "balise",
+    "relative_position": 4.2683609970596486,
+    "pdf_file": "49203_SAGE_Malans_Alte_Saege_situation_plan.pdf",
+    "image": "001_-_Landquart_-_Klosters_Platz/VIRB0022-0606.JPG"
+  },
+  {
+    "id": "BG 08069 - 1",
+    "latitude": 46.97527519416667,
+    "longitude": 9.601821116944445,
+    "type": "balise",
+    "relative_position": 4.40102477893874,
+    "pdf_file": "49203_SAGE_Malans_Alte_Saege_situation_plan.pdf",
+    "image": "001_-_Landquart_-_Klosters_Platz/VIRB0022-0616.JPG"
+  },
+  {
+    "id": "H",
+    "latitude": 46.97648808351852,
+    "longitude": 9.622673224444446,
+    "type": "main signal",
+    "relative_position": 6.164554141306309,
+    "pdf_file": "49208_GRUS_Gruesch_situation_plan.pdf",
+    "image": "001_-_Landquart_-_Klosters_Platz/VIRB0022-0742.JPG"
+  },
+  {
+    "id": "BG 08014 - 1",
+    "latitude": 46.976475818055555,
+    "longitude": 9.622822981111112,
+    "type": "balise",
+    "relative_position": 6.176034217642389,
+    "pdf_file": "49208_GRUS_Gruesch_situation_plan.pdf",
+    "image": "001_-_Landquart_-_Klosters_Platz/VIRB0022-0743.JPG"
+  },
+  {
+    "id": "BG 08014 - 2",
+    "latitude": 46.97645327055555,
+    "longitude": 9.623120873888888,
+    "type": "balise",
+    "relative_position": 6.198859092647923,
+    "pdf_file": "49208_GRUS_Gruesch_situation_plan.pdf",
+    "image": "001_-_Landquart_-_Klosters_Platz/VIRB0022-0745.JPG"
+  },
+  {
+    "id": "A*",
+    "latitude": 46.977118123194444,
+    "longitude": 9.633607452083332,
+    "type": "distant signal",
+    "relative_position": 7.005763318434125,
+    "pdf_file": "49208_GRUS_Gruesch_situation_plan.pdf",
+    "image": "001_-_Landquart_-_Klosters_Platz/VIRB0022-0818.JPG"
+  },
+  {
+    "id": "BG 08016 - 1",
+    "latitude": 46.97714234694445,
+    "longitude": 9.633775530277777,
+    "type": "balise",
+    "relative_position": 7.018832631312463,
+    "pdf_file": "49208_GRUS_Gruesch_situation_plan.pdf",
+    "image": "001_-_Landquart_-_Klosters_Platz/VIRB0022-0819.JPG"
+  },
+  {
+    "id": "H*",
+    "latitude": 46.97715802111111,
+    "longitude": 9.633887093333334,
+    "type": "distant signal",
+    "relative_position": 7.02749828787245,
+    "pdf_file": "49208_GRUS_Gruesch_situation_plan.pdf",
+    "image": "001_-_Landquart_-_Klosters_Platz/VIRB0022-0820.JPG"
+  },
+  {
+    "id": "C*",
+    "latitude": 46.97960830275853,
+    "longitude": 9.640098838086615,
+    "type": "distant signal",
+    "relative_position": 7.580538097526355,
+    "pdf_file": "49208_GRUS_Gruesch_situation_plan.pdf",
+    "image": "001_-_Landquart_-_Klosters_Platz/VIRB0022-0885.JPG"
+  },
+  {
+    "id": "A",
+    "latitude": 46.97962812595435,
+    "longitude": 9.640140202804893,
+    "type": "main signal",
+    "relative_position": 7.584380178924773,
+    "pdf_file": "49208_GRUS_Gruesch_situation_plan.pdf",
+    "image": "001_-_Landquart_-_Klosters_Platz/VIRB0022-0886.JPG"
+  },
+  {
+    "id": "G*",
+    "latitude": 46.97966869446955,
+    "longitude": 9.640223057927646,
+    "type": "distant signal",
+    "relative_position": 7.592131760788016,
+    "pdf_file": "49208_GRUS_Gruesch_situation_plan.pdf",
+    "image": "001_-_Landquart_-_Klosters_Platz/VIRB0022-0887.JPG"
+  },
+  {
+    "id": "G",
+    "latitude": 46.9797094723947,
+    "longitude": 9.640304990975814,
+    "type": "main signal",
+    "relative_position": 7.59983968703491,
+    "pdf_file": "49208_GRUS_Gruesch_situation_plan.pdf",
+    "image": "001_-_Landquart_-_Klosters_Platz/VIRB0022-0888.JPG"
+  },
+  {
+    "id": "F*",
+    "latitude": 46.97975050167169,
+    "longitude": 9.6403875945857,
+    "type": "distant signal",
+    "relative_position": 7.607605296994917,
+    "pdf_file": "49203_SAGE_Malans_Alte_Saege_situation_plan.pdf",
+    "image": "001_-_Landquart_-_Klosters_Platz/VIRB0022-0889.JPG"
+  },
+  {
+    "id": "F",
+    "latitude": 46.97977149834293,
+    "longitude": 9.640429755551889,
+    "type": "main signal",
+    "relative_position": 7.611572481172857,
+    "pdf_file": "49203_SAGE_Malans_Alte_Saege_situation_plan.pdf",
+    "image": "001_-_Landquart_-_Klosters_Platz/VIRB0022-0889.JPG"
+  },
+  {
+    "id": "BG 08017 - 1",
+    "latitude": 46.97977149834293,
+    "longitude": 9.640429755551889,
+    "type": "balise",
+    "relative_position": 7.611572481172857,
+    "pdf_file": "49208_GRUS_Gruesch_situation_plan.pdf",
+    "image": "001_-_Landquart_-_Klosters_Platz/VIRB0022-0890.JPG"
+  },
+  {
+    "id": "BG 08017 - 2",
+    "latitude": 46.98110416517353,
+    "longitude": 9.64342910772861,
+    "type": "balise",
+    "relative_position": 7.8856271799276305,
+    "pdf_file": "49208_GRUS_Gruesch_situation_plan.pdf",
+    "image": "001_-_Landquart_-_Klosters_Platz/VIRB0022-0927.JPG"
+  },
+  {
+    "id": "E",
+    "latitude": 46.98024809333333,
+    "longitude": 9.646370429444444,
+    "type": "main signal",
+    "relative_position": 8.135122719698842,
+    "pdf_file": "49203_SAGE_Malans_Alte_Saege_situation_plan.pdf",
+    "image": "001_-_Landquart_-_Klosters_Platz/VIRB0022-0990.JPG"
+  },
+  {
+    "id": "D",
+    "latitude": 46.98024884777778,
+    "longitude": 9.6463680825,
+    "type": "main signal",
+    "relative_position": 8.135320001098501,
+    "pdf_file": "49202_MALA_Malans_situation_plan.pdf",
+    "image": "001_-_Landquart_-_Klosters_Platz/VIRB0022-0991.JPG"
+  },
+  {
+    "id": "A",
+    "latitude": 46.98024926694445,
+    "longitude": 9.646367411944444,
+    "type": "main signal",
+    "relative_position": 8.135389097812892,
+    "pdf_file": "49600_LQ_Landquart_situation_plan.pdf",
+    "image": "001_-_Landquart_-_Klosters_Platz/VIRB0022-0992.JPG"
+  },
+  {
+    "id": "B7",
+    "latitude": 46.980250524166664,
+    "longitude": 9.646367998611112,
+    "type": "main signal",
+    "relative_position": 8.135535818276391,
+    "pdf_file": "49600_LQ_Landquart_situation_plan.pdf",
+    "image": "001_-_Landquart_-_Klosters_Platz/VIRB0022-0993.JPG"
+  },
+  {
+    "id": "B8",
+    "latitude": 46.980251027222224,
+    "longitude": 9.64636816638889,
+    "type": "main signal",
+    "relative_position": 8.135593181564149,
+    "pdf_file": "49600_LQ_Landquart_situation_plan.pdf",
+    "image": "001_-_Landquart_-_Klosters_Platz/VIRB0022-0994.JPG"
+  },
+  {
+    "id": "BG 08016 - 2",
+    "latitude": 46.976856440303074,
+    "longitude": 9.660066543057273,
+    "type": "balise",
+    "relative_position": 9.260878538074913,
+    "pdf_file": "49208_GRUS_Gruesch_situation_plan.pdf",
+    "image": "001_-_Landquart_-_Klosters_Platz/VIRB0022-1179.JPG"
+  },
+  {
+    "id": "BG 08015 - 1",
+    "latitude": 46.974535994166665,
+    "longitude": 9.668531175555556,
+    "type": "balise",
+    "relative_position": 9.954858121710782,
+    "pdf_file": "49208_GRUS_Gruesch_situation_plan.pdf",
+    "image": "001_-_Landquart_-_Klosters_Platz/VIRB0022-1235.JPG"
+  },
+  {
+    "id": "BG 08015 - 2",
+    "latitude": 46.97336068361121,
+    "longitude": 9.67304910528506,
+    "type": "balise",
+    "relative_position": 10.322653649548718,
+    "pdf_file": "49208_GRUS_Gruesch_situation_plan.pdf",
+    "image": "001_-_Landquart_-_Klosters_Platz/VIRB0022-1265.JPG"
+  },
+  {
+    "id": "BG 08013 - 1",
+    "latitude": 46.97173099027778,
+    "longitude": 9.679138557777778,
+    "type": "balise",
+    "relative_position": 10.82027033470803,
+    "pdf_file": "49208_GRUS_Gruesch_situation_plan.pdf",
+    "image": "001_-_Landquart_-_Klosters_Platz/VIRB0022-1305.JPG"
+  },
+  {
+    "id": "BG 08013 - 2",
+    "latitude": 46.96820663455556,
+    "longitude": 9.686943668722222,
+    "type": "balise",
+    "relative_position": 11.543298861147926,
+    "pdf_file": "49208_GRUS_Gruesch_situation_plan.pdf",
+    "image": "001_-_Landquart_-_Klosters_Platz/VIRB0022-1374.JPG"
+  },
+  {
+    "id": "BG 08012 - 1",
+    "latitude": 46.96748790305428,
+    "longitude": 9.689812241054614,
+    "type": "balise",
+    "relative_position": 11.781959552730061,
+    "pdf_file": "49208_GRUS_Gruesch_situation_plan.pdf",
+    "image": "001_-_Landquart_-_Klosters_Platz/VIRB0022-1528.JPG"
+  },
+  {
+    "id": "BG 08012 - 2",
+    "latitude": 46.96579333379629,
+    "longitude": 9.694039458333334,
+    "type": "balise",
+    "relative_position": 12.154833155165505,
+    "pdf_file": "49208_GRUS_Gruesch_situation_plan.pdf",
+    "image": "001_-_Landquart_-_Klosters_Platz/VIRB0022-1580.JPG"
+  },
+  {
+    "id": "BG 08011 - 1",
+    "latitude": 46.96504491361111,
+    "longitude": 9.695889120833334,
+    "type": "balise",
+    "relative_position": 12.318367405832063,
+    "pdf_file": "49203_SAGE_Malans_Alte_Saege_situation_plan.pdf",
+    "image": "001_-_Landquart_-_Klosters_Platz/VIRB0022-1605.JPG"
+  },
+  {
+    "id": "BG 08011 - 2",
+    "latitude": 46.965018845833335,
+    "longitude": 9.695953829166667,
+    "type": "balise",
+    "relative_position": 12.324081468333713,
+    "pdf_file": "49203_SAGE_Malans_Alte_Saege_situation_plan.pdf",
+    "image": "001_-_Landquart_-_Klosters_Platz/VIRB0022-1606.JPG"
+  },
+  {
+    "id": "BG 08069 - 2",
+    "latitude": 46.96230243878688,
+    "longitude": 9.700289267889152,
+    "type": "balise",
+    "relative_position": 12.775061531312385,
+    "pdf_file": "49203_SAGE_Malans_Alte_Saege_situation_plan.pdf",
+    "image": "001_-_Landquart_-_Klosters_Platz/VIRB0022-1696.JPG"
+  },
+  {
+    "id": "BG 08010 - 2",
+    "latitude": 46.960725635277775,
+    "longitude": 9.701616056111112,
+    "type": "balise",
+    "relative_position": 12.977429362694963,
+    "pdf_file": "49203_SAGE_Malans_Alte_Saege_situation_plan.pdf",
+    "image": "001_-_Landquart_-_Klosters_Platz/VIRB0022-1718.JPG"
+  },
+  {
+    "id": "BG 08009 - 2",
+    "latitude": 46.957837315,
+    "longitude": 9.702769154444445,
+    "type": "balise",
+    "relative_position": 13.314267053243473,
+    "pdf_file": "49203_SAGE_Malans_Alte_Saege_situation_plan.pdf",
+    "image": "001_-_Landquart_-_Klosters_Platz/VIRB0022-1748.JPG"
+  },
+  {
+    "id": "BG 08007 - 1",
+    "latitude": 46.949819354166664,
+    "longitude": 9.704467244444444,
+    "type": "balise",
+    "relative_position": 14.229954790388913,
+    "pdf_file": "49202_MALA_Malans_situation_plan.pdf",
+    "image": "001_-_Landquart_-_Klosters_Platz/VIRB0022-1820.JPG"
+  },
+  {
+    "id": "BG 08007 - 2",
+    "latitude": 46.94972799138889,
+    "longitude": 9.704512590277778,
+    "type": "balise",
+    "relative_position": 14.240682185285884,
+    "pdf_file": "49202_MALA_Malans_situation_plan.pdf",
+    "image": "001_-_Landquart_-_Klosters_Platz/VIRB0022-1821.JPG"
+  },
+  {
+    "id": "BG 08004 - 2",
+    "latitude": 46.946947127525256,
+    "longitude": 9.704686347237423,
+    "type": "balise",
+    "relative_position": 14.554061759745966,
+    "pdf_file": "49202_MALA_Malans_situation_plan.pdf",
+    "image": "001_-_Landquart_-_Klosters_Platz/VIRB0022-1850.JPG"
+  },
+  {
+    "id": "BG 08005 - 1",
+    "latitude": 46.94367927472222,
+    "longitude": 9.705499643333333,
+    "type": "balise",
+    "relative_position": 14.931291749722591,
+    "pdf_file": "49202_MALA_Malans_situation_plan.pdf",
+    "image": "001_-_Landquart_-_Klosters_Platz/VIRB0022-1881.JPG"
+  },
+  {
+    "id": "BG 08005 - 2",
+    "latitude": 46.937944544454446,
+    "longitude": 9.709514574948164,
+    "type": "balise",
+    "relative_position": 15.651430769575594,
+    "pdf_file": "49202_MALA_Malans_situation_plan.pdf",
+    "image": "001_-_Landquart_-_Klosters_Platz/VIRB0022-1937.JPG"
+  },
+  {
+    "id": "BG 08002 - 2",
+    "latitude": 46.93783524446568,
+    "longitude": 9.709543241091914,
+    "type": "balise",
+    "relative_position": 15.663776105767516,
+    "pdf_file": "49202_MALA_Malans_situation_plan.pdf",
+    "image": "001_-_Landquart_-_Klosters_Platz/VIRB0022-1938.JPG"
+  },
+  {
+    "id": "BG 08003 - 1",
+    "latitude": 46.935020475555554,
+    "longitude": 9.710928560138889,
+    "type": "balise",
+    "relative_position": 15.995555572240454,
+    "pdf_file": "49202_MALA_Malans_situation_plan.pdf",
+    "image": "001_-_Landquart_-_Klosters_Platz/VIRB0022-1966.JPG"
+  },
+  {
+    "id": "BG 08003 - 2",
+    "latitude": 46.9328258,
+    "longitude": 9.713326413055556,
+    "type": "balise",
+    "relative_position": 16.301396393706128,
+    "pdf_file": "49202_MALA_Malans_situation_plan.pdf",
+    "image": "001_-_Landquart_-_Klosters_Platz/VIRB0022-1990.JPG"
+  },
+  {
+    "id": "BG 08001 - 2",
+    "latitude": 46.93275069805556,
+    "longitude": 9.713437892222222,
+    "type": "balise",
+    "relative_position": 16.31330330665749,
+    "pdf_file": "49202_MALA_Malans_situation_plan.pdf",
+    "image": "001_-_Landquart_-_Klosters_Platz/VIRB0022-1991.JPG"
+  },
+  {
+    "id": "BG 09997 - 1",
+    "latitude": 46.93111396377122,
+    "longitude": 9.716225629377249,
+    "type": "balise",
+    "relative_position": 16.59300491615071,
+    "pdf_file": "49202_MALA_Malans_situation_plan.pdf",
+    "image": "001_-_Landquart_-_Klosters_Platz/VIRB0022-2014.JPG"
+  },
+  {
+    "id": "BG 09997 - 2",
+    "latitude": 46.92937932888889,
+    "longitude": 9.719125768055555,
+    "type": "balise",
+    "relative_position": 16.886261176574664,
+    "pdf_file": "49202_MALA_Malans_situation_plan.pdf",
+    "image": "001_-_Landquart_-_Klosters_Platz/VIRB0022-2036.JPG"
+  }
+]
