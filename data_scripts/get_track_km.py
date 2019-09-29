@@ -6,6 +6,7 @@ import PIL.Image as pil
 import geopy.distance
 
 root_dir = '/siemens/data/Trackpictures/Trackpictures_HiRes/'
+root_dir = './Trackpictures_LoRes/'
 sub_dirs = ['001_-_Landquart_-_Klosters_Platz/',
             '002_-_Klosters_Platz_-_Landquart/']
 
@@ -49,7 +50,6 @@ for sub_dir in sub_dirs:
                 if sub_dir == '001_-_Landquart_-_Klosters_Platz/':
                     obj['relative_position'] = distance + total_distance
                     total_distance += distance
-                    print(total_distance)
                 else:
                     obj['relative_position'] = total_distance - distance
                     total_distance -= distance

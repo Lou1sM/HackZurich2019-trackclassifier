@@ -44,7 +44,6 @@ with open('objects.json') as devices_json:
             print(image)
             coordinates = image['coordinates']
             for idx, is_object_present in enumerate(image['objects']):
-                print(idx, is_object_present)
                 if idx != 3:
                     coord_avg = GLOBAL_TMP_AVERAGES[idx]['coord_tmp_average']
                     rel_avg = \
@@ -56,8 +55,9 @@ with open('objects.json') as devices_json:
                                 coordinates[1]]
                         GLOBAL_TMP_AVERAGES[idx]['relative_position_average'] \
                             = rel_avg + image['relative_position']
-                    elif idx != 3 and is_object_present == 0 and coord_avg[0] \
-                            != 0:
+                    elif idx != 3 and (is_object_present == 0 or idx ==
+                                       len(image['objects']) - 1) and \
+                            coord_avg[0] != 0:
                         latitude = coord_avg[0] / \
                             GLOBAL_TMP_AVERAGES[idx]['elements']
                         longitude = coord_avg[1] / \
@@ -77,4 +77,6 @@ with open('objects.json') as devices_json:
                             'type': OBJECT_CLASSES[idx],
                             'relative_position': relative_position
                         })
-print(result)
+                        with open('feed_results.json', 'w+') as ff:
+                            json.dump(result, ff)
+
