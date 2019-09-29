@@ -1,6 +1,7 @@
 function Map() {
     var map = undefined;
     var initialized = false;
+    var markersById = undefined;
     var selectedId = undefined;
     var selectElement = undefined;
 
@@ -37,6 +38,7 @@ function Map() {
     }
 
     function drawMarkers(elements) {
+        markersById = {};
         elements.forEach(function (element) {
             const popup = new tt.Popup({
                 offset: [0, -10],
@@ -46,7 +48,7 @@ function Map() {
                 selectElement(element.id);
             });
 
-            new tt.Marker({
+            markersById[element.id] = new tt.Marker({
                 element: document.getElementById(element.type).cloneNode(true),
             }).setLngLat(element.coords).setPopup(popup).addTo(map);
         });
@@ -83,11 +85,19 @@ function Map() {
             // fly to newly selected element if the case
             const selected = vnode.attrs.selected;
             if (selected && (selected.id !== selectedId)) {
+                // close old popup
+                // if (markersById[selectedId].getPopup().isOpen()) {
+                //     markersById[selectedId].togglePopup();
+                // }
                 selectedId = selected.id;
                 map.flyTo({
                     center: selected.coords,
-                    zoom: 13,
+                    zoom: 14,
                 });
+                // open new popup
+                if (!markersById[selected.id].getPopup().isOpen()) {
+                    markersById[selected.id].togglePopup();
+                }
             }
         },
         view: function () {
@@ -152,7 +162,13 @@ const Details = {
                     ]),
                 ]),
             ]),
-            m("img", {src: "http://51.136.17.19/Trackpictures/Trackpictures_LoRes/" + element.image}),
+            m("a", {
+                href: "http://51.136.17.19/Trackpictures/Trackpictures_LoRes/" + element.image,
+                target: "_blank",
+                rel: "noopener noreferrer",
+            }, [
+                m("img", {src: "http://51.136.17.19/Trackpictures/Trackpictures_LoRes/" + element.image}),
+            ]),
         ]);
     },
 };
