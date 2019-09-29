@@ -1,11 +1,12 @@
+"""Script to load the data from (input,output) tuples stored as .npz
+files. The load_data() function is designed for export. It returns a
+generator object that can define a training loop.
+"""
+
 import os
 import numpy as np
 import torch
-import torchvision.transforms as transforms
 from torch.utils import data
-import h5py as h5
-import json
-from skimage import img_as_float
 import matplotlib.pyplot as plt
 
 
@@ -26,7 +27,9 @@ class VideoDataset(data.Dataset):
         return torch.tensor(img).float().cuda(), torch.tensor(int_target).cuda()
 
     def __len__(self):
-        return 17917
+        # Hard code the size of dataset because some files 
+        # beyond this point are missing
+        return 17917 
         return len(self.file_list)
 
     def close(self):
