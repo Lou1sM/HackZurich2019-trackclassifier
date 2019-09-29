@@ -1,3 +1,9 @@
+"""Script to build the negative examples for training. Specifically, 
+these examples are image patches from the 4000*3000 .png files. A 
+single patch is sampled from each image that is known not to contain 
+any object. 
+"""
+
 import os
 from PIL import Image
 from PIL import ExifTags

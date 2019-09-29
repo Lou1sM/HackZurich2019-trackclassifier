@@ -20,7 +20,7 @@ class EarlyStopper:
         self.best_model = None
 
     def __call__(self, acc, model, checkpoint_path):
-
+        """Check if accuracy has improved, and save if appropriate."""
         if acc > self.max_acc:
             print('Accuracy increased from {} to {}, saving to {}'.format(self.max_acc, acc, checkpoint_path))
             self.save_checkpoint(acc, model, checkpoint_path)

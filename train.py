@@ -1,3 +1,10 @@
+"""Script containing the functions for building, training and testing
+the prediction CNN. This CNN is trained to predict whether image pat-
+ches contain one of three railway devices. At test time it examines
+all patches in the image separately to determine a classification for
+the overall image.
+"""
+
 import json
 import os
 import math
@@ -21,7 +28,7 @@ from data_loader import load_data
 
 
 class CNNClassifier(nn.Module):
-    
+    """Class containing the classifier CNN."""
     def __init__(self, num_classes, device):
         super(CNNClassifier, self).__init__()
         self.device = device
@@ -29,7 +36,6 @@ class CNNClassifier(nn.Module):
         self.avgpool = nn.AdaptiveAvgPool2d((7,7))
         self.classifier = nn.Sequential(
             nn.Linear(512 * 7 * 7, 4096),
-            #nn.Linear(512 * 7 * 7, 1024),
             nn.ReLU(True),
             nn.Dropout(),
             nn.Linear(4096,1024),
@@ -40,22 +46,19 @@ class CNNClassifier(nn.Module):
 
     def forward(self, input_):
         x = self.pretrained_cnn.features(input_)
-        #print(x.device)
-        #print(x.shape)
         x = self.avgpool(x)
-        #print(x.shape)
-        #print(x.device)
         x = torch.flatten(x,1)
-        #print(x.shape)
-        #print(x.device)
         x = self.classifier(x)
-        #print(x.shape)
-        #print(x.device)
 
         return x
       
     
 def train(restore=None):
+    """Train the network on a dataset of 256*256
+    image patches, which are annotated with classes
+    from 1-4.
+    """
+
     if restore:
         model = torch.load(restore)['model']
     else:
@@ -64,8 +67,6 @@ def train(restore=None):
     train_generator = load_data('../data_dir', batch_size=6, shuffle=True) 
     model.cuda()
     earlystopper = EarlyStopper(patience=5)
-    #for param in model.pretrained_cnn.parameters():
-        #param.requires_grad = False
     optimizer = optim.Adam(params=model.parameters(), lr=1e-6)
     num_epochs = 10
     batch_idx = 0
@@ -75,17 +76,11 @@ def train(restore=None):
         print("Epoch:", epoch)
         for x,y in train_generator:
             batch_idx += 1
-            #print('f', x.device)
-            #print(x.shape)
-            #print(y.shape)
             pred = model(x)
-            #print(pred[0,:])
             loss = criterion(pred,y)
             int_pred = torch.argmax(pred, dim=-1)
             batch_acc = torch.sum(int_pred == y).item()/6
             remembered_accs.append(batch_acc)
-            #print(y)
-            #print(batch_idx, loss.item())
             if batch_idx % 100 == 0:
                 chunk_acc = sum(remembered_accs[-100:])/100
                 checkpoint_path = 'checkpoints/{}.pt'.format(int(batch_idx/100))
@@ -96,6 +91,20 @@ def train(restore=None):
             optimizer.step()
    
 def test(model, img, label, thresh):
+    """Test whether the model correctly classifies a 
+    single img. Each patch is examined separately, and
+    if any devices are found, to a given threshold of 
+    confidence, then the most commonly predicted one 
+    is returned as the prediction for the whole image. 
+
+    ARGS:
+        model: CNN to be tested
+        img: img to be tested on
+        label: ground truth label for the image
+        threshold: confidence above which classificat-
+                    ion is made
+    """
+
     a = img.shape[0]
     b = img.shape[1]
     img_ohe_pred = torch.tensor([0,0,0,0])
@@ -105,7 +114,6 @@ def test(model, img, label, thresh):
             ohe_pred = model(img_patch)
             pred = np.where(ohe_pred==1)[0][0]
             img_ohe_pred += ohe_pred
-            print(i,j,pred)
     object_preds = img_ohe_pred[:-1]
     object_confidence = torch.max(object_preds)
     if object_confidence > thresh:
@@ -116,59 +124,45 @@ def test(model, img, label, thresh):
 
 
 def dev_id_from_img_path(img_file_name, annot_data):
+    """Find the device id (ie the classification) for an 
+    image, given its file_name.
+
+    ARGS:
+        img_file_name (str): the given filename
+        annot_data: json object containing device id info
+    """
+    
     img_id_list = [img['id'] for img in annot_data['images'] if img['file_name'].split('/')[1]  == img_file_name]
     if len(img_id_list) == 0:
         return 3
     elif len(img_id_list)==1:
         img_id = img_id_list[0]
         dev_id_list = [annot['category_id'] for annot in annot_data['annotations'] if annot['image_id'] == img_id]
-        assert(len(dev_id_list) >= 1)
-    if len(dev_id_list) > 1:
-        return None
-    else:
         return dev_id_list[0]
+    else:
+        return None #Ignore images with multiple objects for now
 
 
 def annotate_new_img(model, img_file_path, thresh=1):
     model.batch_size = 1
     img = torch.tensor(np.asarray(Image.open(img_file_path))).float().transpose(0,2).unsqueeze(0).cuda()
-    print(img_file_path)
     img = img[:,:,1000:-1000,750:-750]
     a = img.shape[2]
     b = img.shape[3]
-    print(a,b)
     for i in range(0, a-256, 256):
         for j in range(0, b-256, 256):
             img_patch = img[:, :, i:i+256, j:j+256]
             #pred = model(img_patch).cpu().detach().numpy()
             pred = model(img_patch)
             pred = torch.argmax(pred)
-            if pred < 3:
-                if torch.max(pred) > 0.4:
-                    print('in')
-                    return list(np.eye(4)[pred])
-                else:
-                    print('out')
-            #ohe_pred = np.eye(4)[pred]
-            #img_ohe_pred += ohe_pred
-    #object_preds = img_ohe_pred[:-1]
-    #object_confidence = np.max(object_preds)
-    #if object_confidence > thresh:
-        #img_pred = int(np.argmax(object_preds).item())
-    #else:
-        #img_pred = 3
+            if pred < 3 and torch.max(pred) > 0.4::
+                return list(np.eye(4)[pred])
     return [0,0,0,1]
     
 
     
    
 if __name__ == "__main__":
-    #test_img_file = Image.open("/siemens/data/Trackpictures/Trackpictures_HiRes/001_-_Landquart_-_Klosters_Platz/VIRB0022-1000.JPG")
-    #test_img = np.asarray(test_img_file)
-    #test_img = torch.tensor(test_img).float()
-    #test_img_window = test_img[:256, :256, :].transpose(0,2)
-    #test_img_window = test_img_window.unsqueeze(0)
-    #print(test_img_window.shape)
     #best_checkpoint_path = train()
     #model = torch.load(best_checkpoint_path)['model']
     model = torch.load('checkpoints/38.pt')['model']
@@ -181,7 +175,7 @@ if __name__ == "__main__":
     #imgs = list(filter(lambda img: img[1] != None, imgs))
 
     #unannotated_imgs = [os.path.join('test_imgs', img_file_name) for img_file_name in os.listdir('test_imgs')]
-    unannotated_imgs = [os.path.join('Trackpictures_HiRes', '010_-_Klosters_Platz_-_Landquart', img_file_name) for img_file_name in os.listdir('Trackpictures_HiRes/010_-_Klosters_Platz_-_Landquart')]
+    unannotated_imgs = [os.path.join('Trackpictures_HiRes', '006_-_Klosters_Platz_-_Landquart', img_file_name) for img_file_name in os.listdir('Trackpictures_HiRes/006_-_Klosters_Platz_-_Landquart')]
     json_list = []
     for img_file_name in unannotated_imgs:
         annotation = annotate_new_img(model, os.path.abspath(img_file_name))
@@ -192,6 +186,8 @@ if __name__ == "__main__":
     with open('annotated.json', 'w') as f:
         json.dump(annotated_imgs, f)
 
+
+    # TODO: continue code for searching for a prediction threshold
     """
     best_thresh_acc = 0
     best_thresh = -1
@@ -209,6 +205,3 @@ if __name__ == "__main__":
     """
     
     
-    #model = CNNClassifier(4, 'cuda')
-    #prediction = model(test_img_window)
-    #print(prediction)

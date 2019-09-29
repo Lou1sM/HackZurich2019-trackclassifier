@@ -3,19 +3,25 @@
 <head>
   <title>Siemens @ HackZurich</title>
   <link rel="icon" href="/static/img/favicon.png">
-  <link rel='stylesheet' type='text/css' href='/static/tomtom-web-sdk/maps.css'>
-  <script src='/static/tomtom-web-sdk/maps-web.min.js'></script>
+  <link rel="stylesheet" type="text/css" href="/static/bulma/css/bulma.min.css">
+  <link rel="stylesheet" type="text/css" href="/static/tomtom-web-sdk/maps.css">
+  <link rel="stylesheet" type="text/css" href="/static/tomtom-web-plugins/ZoomControls/ZoomControls.css">
+  <link rel="stylesheet" type="text/css" href="/static/css/styles.css">
+  <script src="https://unpkg.com/mithril/mithril.js"></script>
+  <script src="/static/tomtom-web-sdk/maps-web.min.js"></script>
+  <script src="/static/tomtom-web-plugins/ZoomControls/ZoomControls-web.js"></script>
 </head>
 <body>
-<div id='map' style='height:500px;width:500px'></div>
-<script>
-    tt.setProductInfo('Siemens@HackZurich', '0.0.1');
-    const map = tt.map({
-        key: 'YfDvbejIBGGLsoXT4fx1OWIxjCr5huoQ',
-        container: 'map',
-        center: new tt.LngLat(8.55, 47.3673),
-        zoom: 10,
-    });
-</script>
+<main id="root"></main>
+
+<div class="is-hidden">
+  <div id="balise" style="background-color: yellow; font-size: .6rem; line-height: .6rem">BLS</div>
+  <div id="main_signal" style="background-color: red; color: white; font-size: .6rem; line-height: .6rem">M<br/>S
+  </div>
+  <div id="distant_signal" style="background-color: darkorange; color: white; font-size: .6rem; line-height: .6rem">
+    D<br/>S
+  </div>
+</div>
+<script src="/static/js/main.js"></script>
 </body>
 </html>
